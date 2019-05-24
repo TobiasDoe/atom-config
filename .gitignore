@@ -5,3 +5,6 @@ dev
 .node-gyp
 .DS_Store
 split-diff
+
+blob-store
+.atom-socket-secret-*
