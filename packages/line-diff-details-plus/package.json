@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+        "spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-118229-3413-x9n3kx.vxz4yam7vi"
+    ]
+  ],
+  "_from": "../d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+  "_id": "line-diff-details-plus@1.9.1",
+  "_inCache": true,
+  "_location": "/line-diff-details-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+    "spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+  "_shasum": "25516b1a97f754143ae3f61ab67ffdcbe2de44fd",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118229-3413-xihnf9.6t0vrc0udi/package.tgz",
+  "_where": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-118229-3413-x9n3kx.vxz4yam7vi",
+  "activationCommands": {},
+  "atomTranspilers": [
+    {
+      "transpiler": "atom-ts-transpiler",
+      "glob": "{!(node_modules)/**/,}*.ts?(x)"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/stelonix/line-diff-details/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "atom-ts-transpiler": "^1.4.3",
+    "typescript": "^2.7.2"
+  },
+  "description": "Review/revert individual line changes.",
+  "devDependencies": {
+    "coffeelint": "1.16.0"
+  },
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/stelonix/line-diff-details#readme",
+  "keywords": [
+    "diff",
+    "line",
+    "revert",
+    "git"
+  ],
+  "license": "MIT",
+  "main": "./lib/line-diff-details",
+  "name": "line-diff-details-plus",
+  "optionalDependencies": {},
+  "readme": "# Line Diff Details [![Build Status](https://travis-ci.org/jakesankey/line-diff-details.svg?style=flat)](https://travis-ci.org/jakesankey/line-diff-details)\n\nView the git diff for a line by clicking the line number. Optionally revert to or copy original content.\n\n![](https://raw.githubusercontent.com/jakesankey/line-diff-details/master/resources/demo.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stelonix/line-diff-details.git"
+  },
+  "scripts": {
+    "test": "apm test"
+  },
+  "version": "1.9.1"
+}

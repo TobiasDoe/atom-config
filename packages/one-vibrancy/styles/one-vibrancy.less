@@ -1,0 +1,149 @@
+
+@import "ui-variables";
+@import "syntax-variables";
+
+.one-vibrancy {
+
+	// One themes ----------------------------------
+
+	// Transparent background
+	html&,
+	atom-workspace,
+	atom-text-editor,
+	atom-dock .item-views,
+	atom-dock .tab-bar .tab.active,
+	atom-pane-container atom-pane .item-views .pane-item,
+	.atom-dock-mask,
+	.title-bar,
+	.status-bar,
+	.tool-panel,
+	.tab-bar,
+	.tab-bar .tab.tab,
+	.settings-view .config-menu,
+	.settings-view > .panels {
+		background-color: transparent;
+	}
+
+	// Semi transparent background
+	.item-views,
+	.github-CommitView-editor,
+	.tab-bar .tab.active[data-type$="Editor"],
+	.tab-bar .tab.active[data-type$="AboutView"],
+	.tab-bar .tab.active[data-type$="TimecopView"],
+	.tab-bar .tab.active[data-type$="StyleguideView"],
+	.tab-bar .tab.active[data-type="MarkdownPreviewView"],
+	.tab-bar .tab.active {
+		background-color: fade(@syntax-background-color, 80%);
+	}
+
+	// Cursor line
+	atom-text-editor .gutter .line-number.cursor-line,
+	atom-text-editor .line.cursor-line {
+		background-color: fade(@text-color-selected, 4%);
+	}
+
+	// Selected background
+	atom-text-editor .selection .region,
+	.github-StagingView-group.is-focused .is-selected,
+	.tree-view .selected:before {
+		background-color: fade(@text-color-selected, 8%);
+	}
+
+	// Text color
+	.github-Panel,
+	status-bar a, status-bar a:hover,
+	atom-panel {
+		color: fade(@text-color-selected, 50%);
+	}
+
+	// Borders
+	* {
+		border-color: fade(@text-color-selected, 8%) !important;
+	}
+
+
+	// More overrides ----------------------------------
+
+	atom-text-editor .cursor {
+		border-color: @text-color-selected !important;
+	}
+	atom-text-editor .indent-guide {
+		color: fade(@text-color-selected, 8%);
+	}
+
+	// Tabs
+	.tab-bar .tab.tab.tab,
+	.tab-bar {
+		border: none;
+		box-shadow: none;
+	}
+
+	.tool-bar,
+	.tool-bar button.tool-bar-btn {
+		background-color: transparent;
+	}
+	.tool-bar button.tool-bar-btn {
+		border-color: transparent !important;
+	}
+
+	// Git gutter
+	atom-text-editor .gutter .line-number {
+		&.git-line-modified {
+			border-left-color: @syntax-color-modified !important;
+		}
+		&.git-line-added {
+			border-left-color: @syntax-color-added !important;
+		}
+	}
+
+	.list-group li:not(.list-nested-item), .list-tree li:not(.list-nested-item), .list-group li.list-nested-item > .list-item, .list-tree li.list-nested-item > .list-item {
+		font-weight: normal;
+		color: #E3E3E3;
+	}
+
+	// .custom-inset-title-bar {
+
+		.title-bar {
+			height: 0px !important;
+
+		}
+
+		atom-panel.header.tool-panel.panel-header {
+			border-bottom: none;
+		}
+
+		.tab-bar {
+			height: 3em !important;
+
+			.tab {
+				color: color: #E3E3E3;
+
+				.close-icon {
+					top: .8em;
+
+					&:hover{
+						background-color: rgba(251, 251, 251, 0.34);
+					}
+				}
+
+				.title {
+					padding: 0.3rem 0;
+				}
+
+				&.active {
+
+				}
+			}
+		}
+
+		ul.list-inline.tab-bar.inset-panel {
+			-webkit-app-region: drag;
+
+			li.tab.sortable {
+				-webkit-app-region: no-drag;
+			}
+		}
+
+	// }
+
+}

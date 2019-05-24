@@ -1,0 +1,34 @@
+{
+  "name": "robin-language-php",
+  "version": "0.9.0",
+  "description": "PHP language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://github.com/robinae/language-php",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinae/language-php"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinae/language-php/issues"
+  },
+  "readme": "# PHP language support in Atom\n\nAdds syntax highlighting and snippets to PHP files in Atom.\n\nOriginally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)\nfrom the [PHP TextMate bundle](https://github.com/textmate/php.tmbundle).\n\nContributions are greatly appreciated. Please fork this repository and open a\npull request to add snippets, make grammar tweaks, etc.\n",
+  "readmeFilename": "README.md",
+  "_id": "robin-language-php@0.9.0",
+  "_shasum": "3e252d37c11e0eb62d62d6aa34dfdca88497a04e",
+  "_resolved": "file:../d-11575-11441-1v29dz7/package.tgz",
+  "_from": "../d-11575-11441-1v29dz7/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

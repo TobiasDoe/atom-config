@@ -1,0 +1,87 @@
+'.source.js':
+
+  'axios-> get':
+    'prefix': 'ax-g',
+    'body': """
+    axios.get('/user?ID=12345')
+      .then(function (response){
+        // Getting Data from response
+      })
+      .catch(function (error){
+        console.log(error);
+      });
+    """
+
+  'axios->get + param':
+    'prefix': 'ax-gp',
+    'body': """
+    axios.get('/user',{
+      params:{
+        ID: 12345,
+      }
+    })
+      .then(function (response){
+       //Getting data from response
+      })
+      .catch( function (error){
+        console.log(error);
+      });
+    """
+
+  'axios->axios.get':
+    'prefix': 'ax-get',
+    'body': """
+    axios.get('/user',{
+      params:{
+        ID:12345
+      }
+    })
+    """
+
+  'axios->.then':
+    'prefix': 'ax-then',
+    'body': """
+    .then(function (response){
+     //Getting data from response
+    })
+    """
+
+  'axios->.catch':
+    'prefix': 'ax-catch',
+    'body': """
+    .catch(function (error){
+      console.log(error)
+    })
+    """
+
+  'axios->axios.post':
+    'prefix': 'ax-p',
+    'body': """
+    axios.post('/user',{
+      firstName: 'code4mk',
+      lastName: 'Hello-laravel'
+    })
+      .then(function (response){
+       //Getting data from response
+      })
+      .catch( function (error){
+        // Describe error!
+      });
+    """
+
+  'axios->multi get':
+    'prefix': 'ax-mg',
+    'body': """
+    function getUserAccount() {
+      return axios.get('/user/12345');
+    }
+
+    function getUserPermissions() {
+      return axios.get('/user/12345/permissions');
+    }
+
+    axios.all([getUserAccount(), getUserPermissions()])
+      .then(axios.spread(function (acct, perms) {
+        // Both requests are now complete
+      }));
+    """

@@ -1,0 +1,150 @@
+{
+  "_from": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
+  "_id": "wakatime@7.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-8Pnrs0Pmc0g1/Vd+eGtA7nI2qq8ZYNpULUqEkcTLWXx+hyO4qbCNxbrBpJ5Mh7pn/igQc1aOb+AR/+eSHgqtjw==",
+  "_location": "/wakatime",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
+  "_shasum": "ca2efe0628eaa15d7118f1b2d6b0bc4062afec27",
+  "_spec": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
+  "_where": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-119421-71820-1gpouf0.v27q",
+  "author": {
+    "name": "WakaTime",
+    "email": "support@wakatime.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wakatime/atom-wakatime/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "apikey": {
+      "title": "Api Key",
+      "description": "Your secret key from https://wakatime.com/settings.",
+      "type": "string",
+      "default": "",
+      "order": 1
+    },
+    "ignore": {
+      "title": "Exclude File Paths",
+      "description": "Exclude these file paths from logging; POSIX regex patterns",
+      "type": "array",
+      "default": [
+        "^/var/(?!www/).*",
+        "^/tmp/",
+        "^/private/",
+        "COMMIT_EDITMSG$",
+        "PULLREQ_EDITMSG$",
+        "MERGE_MSG$"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "order": 2
+    },
+    "showStatusBarIcon": {
+      "title": "Show WakaTime in Atom status bar",
+      "description": "Add an icon to Atom's status bar with WakaTime info. Hovering over the icon shows current WakaTime status or error message.",
+      "type": "boolean",
+      "default": true,
+      "order": 3
+    },
+    "debug": {
+      "title": "Debug",
+      "description": "Logs verbose debug messages to the Atom developer console and ~/.wakatime.log file.",
+      "type": "boolean",
+      "default": false,
+      "order": 4
+    },
+    "disableSSLCertVerify": {
+      "title": "Disable SSL Cert Verify",
+      "description": "Disables verifying SSL Certificates for HTTPS requests. By default, SSL verification is enabled.",
+      "type": "boolean",
+      "default": false,
+      "order": 5
+    }
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "contributors": [
+    {
+      "name": "WakaTime is written and maintained by Alan Hamlett and"
+    },
+    {
+      "name": "various contributors:"
+    },
+    {
+      "name": "Development Lead"
+    },
+    {
+      "name": "----------------"
+    },
+    {
+      "name": "- Alan Hamlett",
+      "email": "alan.hamlett@gmail.com"
+    },
+    {
+      "name": "Patches and Suggestions"
+    },
+    {
+      "name": "-----------------------"
+    },
+    {
+      "name": "- Vernon Grant",
+      "email": "vernongrantt@gmail.com"
+    },
+    {
+      "name": "- Brad Zacher",
+      "email": "brad.zacher@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "adm-zip": "0.4.11",
+    "ini": "^1.3.4",
+    "request": "2.88.0",
+    "rimraf": "2.6.2"
+  },
+  "deprecated": false,
+  "description": "Fitbit for programmers. Get automated time tracking and metrics about your programming.",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/wakatime/atom-wakatime#readme",
+  "keywords": [
+    "productivity",
+    "time tracking",
+    "analytics",
+    "coding activity",
+    "project",
+    "goals",
+    "pomodoro",
+    "timer",
+    "time",
+    "stats",
+    "git"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./lib/wakatime",
+  "name": "wakatime",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakatime/atom-wakatime.git"
+  },
+  "version": "7.1.1"
+}

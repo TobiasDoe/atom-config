@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+        "spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-118728-3815-updqtd.vyjve7b9"
+    ]
+  ],
+  "_from": "../d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+  "_id": "blade-spacer@0.4.2",
+  "_inCache": true,
+  "_location": "/blade-spacer",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+    "spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+  "_shasum": "51d97a12e4a641c599af9352133affec50fbd5db",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-118728-3815-tbb4ob.s055mqjjor/package.tgz",
+  "_where": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-118728-3815-updqtd.vyjve7b9",
+  "bugs": {
+    "url": "https://github.com/ishanray/blade-spacer/issues"
+  },
+  "dependencies": {},
+  "description": "Automatically adds spaces to laravel blade syntax for readability.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ishanray/blade-spacer#readme",
+  "keywords": [
+    "blade spacer",
+    "blade",
+    "laravel"
+  ],
+  "license": "MIT",
+  "main": "./lib/blade-spacer",
+  "name": "blade-spacer",
+  "optionalDependencies": {},
+  "readme": "# blade-spacer package\n\nInsert spaces between Laravel Blade template tags. {{}} => {{  }}\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishanray/blade-spacer.git"
+  },
+  "version": "0.4.2"
+}

@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-117030-8787-ihdzd1/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-117030-8787-ihdzd1/package.tgz",
+        "spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-117030-8787-ihdzd1/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-117030-8787-1d2m0ko"
+    ]
+  ],
+  "_from": "../d-117030-8787-ihdzd1/package.tgz",
+  "_id": "browser-refresh@0.9.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/browser-refresh",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-117030-8787-ihdzd1/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-117030-8787-ihdzd1/package.tgz",
+    "spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-117030-8787-ihdzd1/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117030-8787-ihdzd1/package.tgz",
+  "_shasum": "76203f36361084d65f780dd136b735c2db972246",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/d-117030-8787-ihdzd1/package.tgz",
+  "_where": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-117030-8787-1d2m0ko",
+  "bugs": {
+    "url": "https://github.com/raviraa/browser-refresh/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5"
+  },
+  "description": "Refresh browser from atom editor",
+  "devDependencies": {},
+  "dist": {
+    "shasum": "7162bc46a64a5c52616ac006aced47e7a1a85080"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/raviraa/browser-refresh",
+  "license": "MIT",
+  "main": "./lib/browser-refresh",
+  "name": "browser-refresh",
+  "optionalDependencies": {},
+  "readme": "# browser-refresh package\n\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raviraa/browser-refresh.git"
+  },
+  "version": "0.9.0"
+}

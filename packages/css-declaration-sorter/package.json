@@ -1,0 +1,74 @@
+{
+  "_from": "https://www.atom.io/api/packages/css-declaration-sorter/versions/1.2.3/tarball",
+  "_id": "css-declaration-sorter@1.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-8HzsMMqruNbe3xUadz1CUVsNb4Y2KEZ4khkJRmV1AZZQ3e9BB9IB2bdjXJ1SWE7kSurAlf4CL0PlaSM1QAeLBw==",
+  "_location": "/css-declaration-sorter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/css-declaration-sorter/versions/1.2.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/css-declaration-sorter/versions/1.2.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/css-declaration-sorter/versions/1.2.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/css-declaration-sorter/versions/1.2.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/css-declaration-sorter/versions/1.2.3/tarball",
+  "_shasum": "d6a74916a1444ebc1000f719e01e58161d1cabf2",
+  "_spec": "https://www.atom.io/api/packages/css-declaration-sorter/versions/1.2.3/tarball",
+  "_where": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-11895-606-1oi9n97.s4fs",
+  "author": {
+    "name": "Selwyn",
+    "email": "talk@selwyn.cc",
+    "url": "https://selwyn.cc/"
+  },
+  "bugs": {
+    "url": "https://github.com/Siilwyn/css-declaration-sorter-atom/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "css-declaration-sorter": "^4.0.0",
+    "import-lazy": "^3.1.0",
+    "postcss": "^7.0.5",
+    "postcss-less": "^3.0.2",
+    "postcss-scss": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Sorts CSS declarations fast and automatically in a certain order.",
+  "devDependencies": {
+    "eslint": "^5.6.1"
+  },
+  "engines": {
+    "atom": ">=1.5.0 <2.0.0"
+  },
+  "files": [
+    "keymaps",
+    "lib",
+    "menus"
+  ],
+  "homepage": "https://github.com/Siilwyn/css-declaration-sorter-atom#readme",
+  "keywords": [
+    "postcss",
+    "css",
+    "declaration",
+    "sorter",
+    "property",
+    "order"
+  ],
+  "license": "MIT",
+  "main": "./lib/css-declaration-sorter",
+  "name": "css-declaration-sorter",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Siilwyn/css-declaration-sorter-atom.git"
+  },
+  "scripts": {
+    "lint": "eslint lib/*.js spec/*.js",
+    "start": "atom .",
+    "test": "atom --test ./spec/main-spec.js"
+  },
+  "version": "1.2.3"
+}
