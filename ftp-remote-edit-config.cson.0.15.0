@@ -1,0 +1,287 @@
+"*":
+  "Remote-FTP":
+    hideLocalWhenDisplayed: true
+    showViewOnStartup: false
+  "SFTP-deployment": {}
+  "Sublime-Style-Column-Selection": {}
+  artisan: {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "051c98be-7e44-46c9-bd07-9d31f0a13dd9"
+      analytics: false
+      beautifyEntireFileOnSave: false
+    js:
+      indent_with_tabs: true
+      keep_array_indentation: true
+      keep_function_indentation: true
+    php: {}
+  "atom-css-class-checker": {}
+  "atom-material-ui":
+    accentColor: "Cyan"
+    compactTreeView: true
+    depth: true
+    fontSize: "Big"
+    panelContrast: true
+    rippleAccentColor: true
+    showTabIcons: "Show on all tabs"
+    tabSize: "Small"
+    themeSyle: "Darker"
+  "atom-minify":
+    checkOutputFileAlreadyExists: true
+  "atom-package-deps":
+    ignored: []
+  "autoclose-html": {}
+  "autocomplete-modules":
+    includeExtension: true
+  "autocomplete-paths":
+    enableHtmlSupport: true
+    ignoreSubmodules: true
+    ignoredPatterns: [
+      "wp-admin"
+      "wp-includes"
+      "node_modules"
+      "cache"
+      "vendor"
+      "log"
+      "recovery"
+    ]
+    maxFileCount: 4000
+  "autocomplete-plus": {}
+  "autohide-tree-view":
+    pushEditor: true
+    showOn: "hover + click + touch"
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
+  "browser-plus": {}
+  "browser-refresh":
+    googleChromeCanary: true
+  "city-lights-ui": {}
+  clock:
+    icon: true
+    seconds: false
+  "color-picker":
+    preferredFormat: "HEX"
+    uppercaseColorValues: true
+  core:
+    allowPendingPaneItems: false
+    disabledPackages: [
+      "highlight-line"
+      "swackets"
+      "css-declaration-sorter"
+      "atom-css-class-checker"
+      "save-commands-plus"
+      "linter-twig"
+      "linter-sass-lint"
+      "autocomplete-paths"
+      "quick-highlight"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".sass-cache"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/tobias/Developer/web/gitlab"
+    telemetryConsent: "limited"
+    useTreeSitterParsers: true
+  "css-declaration-sorter":
+    formatOnSave: true
+    sortOrder: "smacss"
+  "custom-app-icon": {}
+  "custom-title": {}
+  editor:
+    fontFamily: "Fira Mono, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 21
+    invisibles: {}
+    preferredLineLength: 40000
+    scrollPastEnd: true
+    showInvisibles: true
+    softTabs: false
+    tabType: "hard"
+  emmet: {}
+  "exception-reporting":
+    userId: "e74134cd-fdb5-904c-0e74-158b47b40d45"
+  expose:
+    useAnimations: false
+  "file-icons":
+    colourChangedOnly: true
+    forceShow: true
+    strategies: {}
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  fonts:
+    fontFamily: "Fira Mono"
+  "ftp-remote-edit":
+    config: "f18be2409a95298298a3a83457f80d994adb23af847cdbe91750ce080b91e56788313193eadc85b892cac46ee5a2fe30798f240448bef66d18a35fb6f013cca7a6ec230e49dd7938d587b67afb0841baadac3189e8b1e7208a2b02afc3af2b04902e9cfc8a444b36c7a6569c5c56210896d695ecf0ecf1ea787976979fdfee2ce2e5a2f81fe84226dfd4aa339e3ca823922323a3ceee3872dd49f8c2a03ed1a60862c9da2e1e5efc70170c0783e60404d5108ebd911f570c30b7201c2932dbfa0975323c06c2178e52078db3f9c5577566c42299b41544fd80240b1a6144f1460bf95b1005c07a5cec266cc30874c39842b2030ca13a3d5f42e79fa5717cd8bf100bd6388727534bb32d2772eb7af519f7c829e69b960abae496eb757a2e15bca1acbd10b909dc667c533e7da730910193fd6ca747732d64bdd62f7fc9d8e8d6a3e3264758f526159b3d6795673606f19d3bb79b1b3f6e"
+    password: "c39eb443999078d5deb5"
+    tree:
+      showHiddenFiles: true
+      showOnRightSide: false
+  "ftp-remote-edit-plus":
+    password: "c39eb443999078d5deb5"
+    servers: "f18be2409a95298298a3a83457f80d994adb23af847cdbe91750ce080b91e56788313193eadc85b892cac46ee5a2fe30798f240448bef66d18a35fb6f013cca7a6ec230e49dd7938d587b67afb0841baadac3189e8b1e7208a2b02afc3af2b04902e9cfc8a444b36c7a6569c5c56210896d695ecf0ecf1ea787976979fdfee2ce2e5a2f81fe84226dfd4aa339e3ca823922323a3ceee3872dd49f8c2a03ed1a60862c9da2e1e5efc70170c0783e60404d5108ebd911f570c30b7201c2932dbfa0975323c06c2178e52078db3f9c5577566c42299b41544fd80240b1a6144f1460bf95b1005c07a5cec266cc30874c39842b2030ca13a3d5f42e79fa5717cd8bf100bd6388727534bb32d2772eb7af519f7c829e69b960abae496eb757a2e15bca1acbd10b909dc667c533e7da730910193fd6ca747732d64bdd62f7fc9d8e8d6a3e3264758f526159b3d6795673606f19d3bb79b1b3f6e"
+  "git-diff-details":
+    closeAfterCopy: true
+    enableSyntaxHighlighting: true
+  "git-plus":
+    general:
+      _analyticsUserId: "dc8c76cc-9b32-43d0-8db2-f277029b17dc"
+  github: {}
+  "hey-pane":
+    expandedWidth: 99
+  "highlight-line":
+    enableSelectionBorder: true
+    enableUnderline: true
+  "highlight-selected":
+    onlyHighlightWholeWords: false
+  linter: {}
+  "linter-flow-plus": {}
+  "linter-htmlhint": {}
+  "linter-php": {}
+  "linter-scss-lint": {}
+  "linter-twig": {}
+  "linter-ui-default":
+    panelHeight: 69
+  livereload:
+    applyImageLive: true
+  "markdown-preview": {}
+  "merge-conflicts":
+    gitPath: "/usr/local/git/"
+  minimap:
+    adjustMinimapWidthOnlyIfSmaller: false
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      "minimap-autohide": false
+      "minimap-autohideDecorationsZIndex": 0
+      "minimap-autohider": true
+      "minimap-autohiderDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+    scrollAnimation: true
+  "minimap-autohider":
+    TimeToHide: 1
+    TransitionDuration: 1
+  "minimap-git-diff":
+    useGutterDecoration: true
+  "minimap-linter":
+    markerTypeError: "gutter"
+    markerTypeInfo: "gutter"
+    markerTypeWarning: "gutter"
+  "minimap-selection":
+    highlightCursorsLines: true
+  "native-ui":
+    tabs: {}
+    ui:
+      seamlessScrollbars: true
+  "nord-atom-ui":
+    darkerFormFocusEffect: true
+  "one-dark-ui":
+    fontSize: 13
+  "one-vibrancy": {}
+  "open-recent":
+    replaceProjectOnOpenDirectory: true
+  "open-terminal-here":
+    command: "open -a Hyper.app \"$PWD\""
+  "php-cs-fixer":
+    phpExecutablePath: "/usr/local/opt/php@7.2/bin/php"
+  pigments:
+    autocompleteSuggestionsFromValue: true
+    extendAutocompleteToVariables: true
+    extendedSearchNames: [
+      "**/*.scss"
+      "**/*.css"
+    ]
+    groupPaletteColors: "by file"
+    mergeColorDuplicates: true
+    sortPaletteColors: "by color"
+  punchclock:
+    autoEnableTimeTrackingOnLoad: true
+  "px-to-rem": {}
+  qolor:
+    fourBorders: true
+  "quick-editor":
+    stylesDirectory: "/sass"
+  "quick-highlight":
+    countDisplayPosition: "Right"
+    highlightSelection: false
+  "remote-edit":
+    clearFileList: true
+    foldersOnTop: true
+    rememberLastOpenDirectory: true
+    showHiddenFiles: true
+  "remote-sync": {}
+  "run-command": {}
+  "run-command2": {}
+  "sass-autocompile":
+    compileExpanded: true
+    directlyJumpToError: true
+    indentType: "Tab"
+    nodeSassPath: "/usr/local/lib/node_modules/npm/node_modules/node-sass/bin"
+    sourceMap: true
+    sourceMapEmbed: true
+  "sass-compiler":
+    outputStyle: "nested"
+  "save-commands": {}
+  "save-commands-plus": {}
+  "silent-sync":
+    enabled: false
+    useConfigFile: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  swackets: {}
+  teletype: {}
+  "terminal-plus":
+    core: {}
+    style:
+      fontFamily: "Fira Mono"
+      fontSize: "12"
+    toggles:
+      autoClose: true
+  "title-bar-replacer":
+    colours:
+      controlLocation: true
+    configuration: {}
+    general: {}
+  "todo-show": {}
+  toggl:
+    togglApiKey: "6be4c3114020dc48df89b5066f2288bc"
+  "tool-bar":
+    position: "Left"
+  "trailing-spaces":
+    enableForIndentation: true
+  "tree-view":
+    hideIgnoredNames: true
+  "tree-view-git-status":
+    gitFlow: {}
+  "vibrance-ui":
+    vibrancy: true
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "

@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/Users/tobias/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/Users/tobias/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   'https://www.atom.io/api/packages/panel-boss/versions/0.1.3/tarball',
+1 verbose cli   '--runtime=electron',
+1 verbose cli   '--target=2.0.18',
+1 verbose cli   '--dist-url=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64',
+1 verbose cli   '--global-style' ]
+2 info using npm@6.2.0
+3 info using node@v8.9.3
+4 verbose npm-session 413a50b668a2d9b5
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://www.atom.io/api/packages/panel-boss/versions/0.1.3/tarball 1545ms
+8 silly pacote remote manifest for undefined@https://www.atom.io/api/packages/panel-boss/versions/0.1.3/tarball fetched in 1574ms
+9 timing stage:loadCurrentTree Completed in 1835ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 0ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule panel-boss@0.1.3 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/etch 92ms (from cache)
+18 silly pacote range manifest for etch@^0.10.0 fetched in 106ms
+19 silly resolveWithNewModule etch@0.10.0 checking installable status
+20 silly fetchPackageMetaData error for ez-dom@git://github.com/tuomashatakka/ezDOM.git Non-registry package missing package.json: ez-dom@git://github.com/tuomashatakka/ezDOM.git.
+21 timing stage:rollbackFailedOptional Completed in 1ms
+22 timing stage:runTopLevelLifecycles Completed in 3269ms
+23 silly saveTree apm-install-dir-11962-94080-1w1mr1p.s6ru
+23 silly saveTree `-- panel-boss@0.1.3
+23 silly saveTree   `-- etch@0.10.0
+24 verbose stack Error: Non-registry package missing package.json: ez-dom@git://github.com/tuomashatakka/ezDOM.git.
+24 verbose stack     at BB.join (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/pacote/lib/finalize-manifest.js:162:23)
+24 verbose stack     at tryCatcher (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+24 verbose stack     at Holder$5._callFunction (eval at generateHolderClass (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/join.js:92:16), <anonymous>:14:44)
+24 verbose stack     at Holder$5.checkFulfillment (eval at generateHolderClass (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/join.js:92:16), <anonymous>:29:30)
+24 verbose stack     at Promise.eval (eval at thenCallback (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/join.js:14:16), <anonymous>:6:20)
+24 verbose stack     at Promise._settlePromise (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/promise.js:566:21)
+24 verbose stack     at Promise._settlePromise0 (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/promise.js:614:10)
+24 verbose stack     at Promise._settlePromises (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/promise.js:693:18)
+24 verbose stack     at Promise._fulfill (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/promise.js:638:18)
+24 verbose stack     at Object.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/nodeback.js:42:21)
+24 verbose stack     at emitNone (events.js:111:20)
+24 verbose stack     at Object.emit (events.js:208:7)
+24 verbose stack     at Object.Parser.on._ (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/tar/lib/parse.js:75:14)
+24 verbose stack     at emitTwo (events.js:126:13)
+24 verbose stack     at Object.emit (events.js:214:7)
+24 verbose stack     at Object.[emit] (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/tar/lib/parse.js:229:12)
+25 verbose cwd /private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-11962-94080-1w1mr1p.s6ru
+26 verbose Darwin 19.0.0
+27 verbose argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/Users/tobias/.atom/.apm/.apmrc" "--userconfig" "/Users/tobias/.atom/.apmrc" "install" "https://www.atom.io/api/packages/panel-boss/versions/0.1.3/tarball" "--runtime=electron" "--target=2.0.18" "--dist-url=https://atom.io/download/electron" "--arch=x64" "--global-style"
+28 verbose node v8.9.3
+29 verbose npm  v6.2.0
+30 error code ENOPACKAGEJSON
+31 error package.json Non-registry package missing package.json: ez-dom@git://github.com/tuomashatakka/ezDOM.git.
+32 error package.json npm can't find a package.json file in your current directory.
+33 verbose exit [ 1, true ]

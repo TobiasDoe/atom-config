@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/tree-view-autoresize/versions/2.3.0/tarball",
+  "_id": "tree-view-autoresize@2.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-oIbSzEIGbePiR0YMvMSDy6QlkJyghHnc6jJTXe/NEC6+x6Wnvk1dg40wz7wK2X467J0A5UhPtfQt00kQr0/sFg==",
+  "_location": "/tree-view-autoresize",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/tree-view-autoresize/versions/2.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/tree-view-autoresize/versions/2.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/tree-view-autoresize/versions/2.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/tree-view-autoresize/versions/2.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/tree-view-autoresize/versions/2.3.0/tarball",
+  "_shasum": "9d05c123d04baaac76ef4542322fe32e7212812c",
+  "_spec": "https://www.atom.io/api/packages/tree-view-autoresize/versions/2.3.0/tarball",
+  "_where": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-11962-96618-333na6.djq44",
+  "bugs": {
+    "url": "https://github.com/lexcast/tree-view-autoresize/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-utils": "^0.9.2",
+    "scrollbar-width": "^3.1.1"
+  },
+  "deprecated": false,
+  "description": "Autoresize the tree view when open/close folders",
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lexcast/tree-view-autoresize#readme",
+  "keywords": [
+    "tree-view",
+    "autoresize"
+  ],
+  "license": "MIT",
+  "main": "./lib/tree-view-autoresize",
+  "name": "tree-view-autoresize",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexcast/tree-view-autoresize.git"
+  },
+  "version": "2.3.0"
+}

@@ -219,6 +219,7 @@
                     |case
                     |choice
                     |component
+                    |componentfirst
                     |continue
                     |dd
                     |dump
@@ -295,6 +296,7 @@
                     |endcanany
                     |endcannot
                     |endcomponent
+                    |endcomponentfirst
                     |endempty
                     |enderror
                     |endfor
@@ -357,6 +359,7 @@
                   |(?i)endcanany
                   |(?i)endcannot
                   |(?i)endcomponent
+                  |(?i)endcomponentfirst
                   |(?i)endempty
                   |(?i)enderror
                   |(?i)endfor

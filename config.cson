@@ -4,6 +4,10 @@
     showViewOnStartup: false
   "SFTP-deployment": {}
   "Sublime-Style-Column-Selection": {}
+  artisan: {}
+  "atom-auto-resize":
+    resizeHeight: false
+    resizeWidth: false
   "atom-beautify":
     general:
       _analyticsUserId: "051c98be-7e44-46c9-bd07-9d31f0a13dd9"
@@ -15,6 +19,13 @@
       keep_function_indentation: true
     php: {}
   "atom-css-class-checker": {}
+  "atom-focus-mode":
+    focusShadowMode:
+      numberOfLinesToHighlightAboveCursor: 4
+      numberOfLinesToHighlightBelowCursor: 4
+    whenFocusModeIsActivated:
+      enterFullScreen: false
+      useLargeFontSize: true
   "atom-material-ui":
     accentColor: "Cyan"
     compactTreeView: true
@@ -73,6 +84,9 @@
       "linter-sass-lint"
       "autocomplete-paths"
       "quick-highlight"
+      "atom-bootstrap4"
+      "one-vibrancy"
+      "run-command"
     ]
     ignoredNames: [
       ".git"
@@ -88,6 +102,7 @@
     projectHome: "/Users/tobias/Developer/web/gitlab"
     telemetryConsent: "limited"
     useTreeSitterParsers: true
+    warnOnLargeFileLimit: 5
   "css-declaration-sorter":
     formatOnSave: true
     sortOrder: "smacss"
@@ -95,7 +110,7 @@
   "custom-title": {}
   editor:
     fontFamily: "Fira Mono, Menlo, Consolas, DejaVu Sans Mono, monospace"
-    fontSize: 20
+    fontSize: 22
     invisibles: {}
     preferredLineLength: 40000
     scrollPastEnd: true
@@ -115,6 +130,16 @@
     promptWhenFileHasChangedOnDisk: false
   fonts:
     fontFamily: "Fira Mono"
+  "ftp-remote-edit":
+    config: "d1d2b643878a248884a3a87812ba5083468760eec32d84b92e5bd10246dcd031f8103f8aadd29df299dcc661beecf968299e6e4442e3ab725bea0ea4b2549ab3eaed7e4d0090283bdf87b43db30400f9e2fb6eceeafcaf76df2111be89ef3c45d7709cb6c9510871cab7038856565a5fbfc1d1d3ddf5aabf556f38d7918efd2bf786fffb10f013799597b6329266eb27963b35adc7f53035c5518b85bb64f68f1045c7d0636c3986363c025083f30d1cc157c6f9ca1d510570b972002129dfac563c182b0dd2149c1e10fddeba93052229877494f95c12f0982a5e463f10f84a4bf1571816d66d5cf02460d04a648ed942ea4411be6a731b19a9ceec2e25d0f80c48817fd22d400aba22246ea822f545b4d335e280c654baa9c3cb361676548990ada04b83058b643d4f352bfb30db0880e53df849737134a1d32b798e89afc9b1fa78114ffb3102823d39d27a3800f1d175b78e57375f49e84cfe93473f817b9ee772229b2bdd9e75ae28d6a1890723b87f86b264b6dba622e0666a61bd5f1765bdc2865b937bebfcb421907987cc434586cc92f0f4ba872ef955beabdb37fcd217b616fb5312dfb75b6589e2715f320fe502e7c0e3e85577a6b0638af3851cbab5bd11848583a39a7b0b0d8c9ce4cd924b34d40cbbe4c7ccbb4727fce65b841beb632530dcf087de8676b5539ac189"
+    password: "c39eb443999078d5deb5"
+    tree: {}
+  "ftp-remote-edit-plus":
+    password: "c39eb443999078d5deb5"
+    servers: "f18be2409a95298298a3a83457f80d994adb23af847cdbe91750ce080b91e56788313193eadc85b892cac46ee5a2fe30798f240448bef66d18a35fb6f013cca7a6ec230e49dd7938d587b67afb0841baadac3189e8b1e7208a2b02afc3af2b04902e9cfc8a444b36c7a6569c5c56210896d695ecf0ecf1ea787976979fdfee2ce2e5a2f81fe84226dfd4aa339e3ca823922323a3ceee3872dd49f8c2a03ed1a60862c9da2e1e5efc70170c0783e60404d5108ebd911f570c30b7201c2932dbfa0975323c06c2178e52078db3f9c5577566c42299b41544fd80240b1a6144f1460bf95b1005c07a5cec266cc30874c39842b2030ca13a3d5f42e79fa5717cd8bf100bd6388727534bb32d2772eb7af519f7c829e69b960abae496eb757a2e15bca1acbd10b909dc667c533e7da730910193fd6ca747732d64bdd62f7fc9d8e8d6a3e3264758f526159b3d6795673606f19d3bb79b1b3f6e"
+  "fuzzy-finder":
+    scoringSystem: "fast"
+    useRipGrep: true
   "git-diff-details":
     closeAfterCopy: true
     enableSyntaxHighlighting: true
@@ -132,11 +157,13 @@
   linter: {}
   "linter-flow-plus": {}
   "linter-htmlhint": {}
+  "linter-jshint":
+    lintInlineJavaScript: true
   "linter-php": {}
   "linter-scss-lint": {}
   "linter-twig": {}
   "linter-ui-default":
-    panelHeight: 69
+    panelHeight: 300
   livereload:
     applyImageLive: true
   "markdown-preview": {}
@@ -241,6 +268,8 @@
     rightEditorColor: "green"
     syncHorizontalScroll: true
   swackets: {}
+  tabs:
+    enableVcsColoring: true
   teletype: {}
   "terminal-plus":
     core: {}
@@ -263,6 +292,10 @@
     enableForIndentation: true
   "tree-view":
     hideIgnoredNames: true
+  "tree-view-autoresize":
+    maximumWidth: 380
+    minimumWidth: 260
+    padding: 15
   "tree-view-git-status":
     gitFlow: {}
   "vibrance-ui":

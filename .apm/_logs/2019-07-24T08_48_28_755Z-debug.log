@@ -1,0 +1,231 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/Users/tobias/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/Users/tobias/.atom/.apmrc',
+1 verbose cli   'rebuild',
+1 verbose cli   '--runtime=electron',
+1 verbose cli   '--target=3.1.10',
+1 verbose cli   '--dist-url=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64' ]
+2 info using npm@6.2.0
+3 info using node@v8.9.3
+4 info readInstalled object
+5 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command',
+5 verbose rebuild   'run-command@0.5.0' ]
+6 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/atom-space-pen-views',
+6 verbose rebuild   'atom-space-pen-views@2.2.0' ]
+7 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/fuzzaldrin',
+7 verbose rebuild   'fuzzaldrin@2.1.0' ]
+8 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/space-pen',
+8 verbose rebuild   'space-pen@5.1.2' ]
+9 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/grim',
+9 verbose rebuild   'grim@1.5.0' ]
+10 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/emissary',
+10 verbose rebuild   'emissary@1.3.3' ]
+11 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/es6-weak-map',
+11 verbose rebuild   'es6-weak-map@0.1.4' ]
+12 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/d',
+12 verbose rebuild   'd@0.1.1' ]
+13 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/es5-ext',
+13 verbose rebuild   'es5-ext@0.10.21' ]
+14 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/es6-iterator',
+14 verbose rebuild   'es6-iterator@2.0.1' ]
+15 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/d',
+15 verbose rebuild   'd@1.0.0' ]
+16 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/es6-symbol',
+16 verbose rebuild   'es6-symbol@3.1.1' ]
+17 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/es6-iterator',
+17 verbose rebuild   'es6-iterator@0.1.3' ]
+18 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/es6-symbol',
+18 verbose rebuild   'es6-symbol@2.0.1' ]
+19 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/mixto',
+19 verbose rebuild   'mixto@1.0.0' ]
+20 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/property-accessors',
+20 verbose rebuild   'property-accessors@1.1.3' ]
+21 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/underscore-plus',
+21 verbose rebuild   'underscore-plus@1.6.6' ]
+22 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/underscore',
+22 verbose rebuild   'underscore@1.6.0' ]
+23 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/jquery',
+23 verbose rebuild   'jquery@2.1.4' ]
+24 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/pty.js',
+24 verbose rebuild   'pty.js@0.3.1' ]
+25 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/extend',
+25 verbose rebuild   'extend@1.2.1' ]
+26 verbose rebuild path, id [ '/Users/tobias/.atom/packages/run-command/node_modules/nan',
+26 verbose rebuild   'nan@2.3.5' ]
+27 silly rebuild set [ '/Users/tobias/.atom/packages/run-command/node_modules/atom-space-pen-views',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/fuzzaldrin',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/space-pen',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/grim',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/emissary',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/es6-weak-map',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/d',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/es5-ext',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/es6-iterator',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/d',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/es6-symbol',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/es6-iterator',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/es6-symbol',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/mixto',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/property-accessors',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/underscore-plus',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/underscore',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/jquery',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/pty.js',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/extend',
+27 silly rebuild set   '/Users/tobias/.atom/packages/run-command/node_modules/nan' ]
+28 info build /Users/tobias/.atom/packages/run-command/node_modules/atom-space-pen-views
+29 info lifecycle atom-space-pen-views@2.2.0~preinstall: atom-space-pen-views@2.2.0
+30 info linkStuff atom-space-pen-views@2.2.0
+31 silly linkStuff atom-space-pen-views@2.2.0 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+32 info lifecycle atom-space-pen-views@2.2.0~install: atom-space-pen-views@2.2.0
+33 info lifecycle atom-space-pen-views@2.2.0~postinstall: atom-space-pen-views@2.2.0
+34 info build /Users/tobias/.atom/packages/run-command/node_modules/fuzzaldrin
+35 info lifecycle fuzzaldrin@2.1.0~preinstall: fuzzaldrin@2.1.0
+36 info linkStuff fuzzaldrin@2.1.0
+37 silly linkStuff fuzzaldrin@2.1.0 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+38 info lifecycle fuzzaldrin@2.1.0~install: fuzzaldrin@2.1.0
+39 info lifecycle fuzzaldrin@2.1.0~postinstall: fuzzaldrin@2.1.0
+40 info build /Users/tobias/.atom/packages/run-command/node_modules/space-pen
+41 info lifecycle space-pen@5.1.2~preinstall: space-pen@5.1.2
+42 info linkStuff space-pen@5.1.2
+43 silly linkStuff space-pen@5.1.2 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+44 info lifecycle space-pen@5.1.2~install: space-pen@5.1.2
+45 info lifecycle space-pen@5.1.2~postinstall: space-pen@5.1.2
+46 info build /Users/tobias/.atom/packages/run-command/node_modules/grim
+47 info lifecycle grim@1.5.0~preinstall: grim@1.5.0
+48 info linkStuff grim@1.5.0
+49 silly linkStuff grim@1.5.0 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+50 info lifecycle grim@1.5.0~install: grim@1.5.0
+51 info lifecycle grim@1.5.0~postinstall: grim@1.5.0
+52 info build /Users/tobias/.atom/packages/run-command/node_modules/emissary
+53 info lifecycle emissary@1.3.3~preinstall: emissary@1.3.3
+54 info linkStuff emissary@1.3.3
+55 silly linkStuff emissary@1.3.3 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+56 info lifecycle emissary@1.3.3~install: emissary@1.3.3
+57 info lifecycle emissary@1.3.3~postinstall: emissary@1.3.3
+58 info build /Users/tobias/.atom/packages/run-command/node_modules/es6-weak-map
+59 info lifecycle es6-weak-map@0.1.4~preinstall: es6-weak-map@0.1.4
+60 info linkStuff es6-weak-map@0.1.4
+61 silly linkStuff es6-weak-map@0.1.4 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+62 info lifecycle es6-weak-map@0.1.4~install: es6-weak-map@0.1.4
+63 info lifecycle es6-weak-map@0.1.4~postinstall: es6-weak-map@0.1.4
+64 info build /Users/tobias/.atom/packages/run-command/node_modules/d
+65 info lifecycle d@0.1.1~preinstall: d@0.1.1
+66 info linkStuff d@0.1.1
+67 silly linkStuff d@0.1.1 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+68 info lifecycle d@0.1.1~install: d@0.1.1
+69 info lifecycle d@0.1.1~postinstall: d@0.1.1
+70 info build /Users/tobias/.atom/packages/run-command/node_modules/es5-ext
+71 info lifecycle es5-ext@0.10.21~preinstall: es5-ext@0.10.21
+72 info linkStuff es5-ext@0.10.21
+73 silly linkStuff es5-ext@0.10.21 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+74 verbose rebuildBundles [ 'd', 'es6-iterator', 'es6-symbol' ]
+75 verbose rebuild bundle /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/d
+76 info build /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/d
+77 info lifecycle d@1.0.0~preinstall: d@1.0.0
+78 info linkStuff d@1.0.0
+79 silly linkStuff d@1.0.0 has /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules as its parent node_modules
+80 info lifecycle d@1.0.0~install: d@1.0.0
+81 info lifecycle d@1.0.0~postinstall: d@1.0.0
+82 info lifecycle es5-ext@0.10.21~install: es5-ext@0.10.21
+83 info lifecycle es5-ext@0.10.21~postinstall: es5-ext@0.10.21
+84 info build /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/es6-iterator
+85 info lifecycle es6-iterator@2.0.1~preinstall: es6-iterator@2.0.1
+86 info linkStuff es6-iterator@2.0.1
+87 silly linkStuff es6-iterator@2.0.1 has /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules as its parent node_modules
+88 info lifecycle es6-iterator@2.0.1~install: es6-iterator@2.0.1
+89 info lifecycle es6-iterator@2.0.1~postinstall: es6-iterator@2.0.1
+90 info build already built /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/d
+91 info build /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/d
+92 info lifecycle d@1.0.0~preinstall: d@1.0.0
+93 info linkStuff d@1.0.0
+94 silly linkStuff d@1.0.0 has /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules as its parent node_modules
+95 info lifecycle d@1.0.0~install: d@1.0.0
+96 info lifecycle d@1.0.0~postinstall: d@1.0.0
+97 info build /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules/es6-symbol
+98 info lifecycle es6-symbol@3.1.1~preinstall: es6-symbol@3.1.1
+99 info linkStuff es6-symbol@3.1.1
+100 silly linkStuff es6-symbol@3.1.1 has /Users/tobias/.atom/packages/run-command/node_modules/es5-ext/node_modules as its parent node_modules
+101 info lifecycle es6-symbol@3.1.1~install: es6-symbol@3.1.1
+102 info lifecycle es6-symbol@3.1.1~postinstall: es6-symbol@3.1.1
+103 info build /Users/tobias/.atom/packages/run-command/node_modules/es6-iterator
+104 info lifecycle es6-iterator@0.1.3~preinstall: es6-iterator@0.1.3
+105 info linkStuff es6-iterator@0.1.3
+106 silly linkStuff es6-iterator@0.1.3 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+107 info lifecycle es6-iterator@0.1.3~install: es6-iterator@0.1.3
+108 info lifecycle es6-iterator@0.1.3~postinstall: es6-iterator@0.1.3
+109 info build /Users/tobias/.atom/packages/run-command/node_modules/es6-symbol
+110 info lifecycle es6-symbol@2.0.1~preinstall: es6-symbol@2.0.1
+111 info linkStuff es6-symbol@2.0.1
+112 silly linkStuff es6-symbol@2.0.1 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+113 info lifecycle es6-symbol@2.0.1~install: es6-symbol@2.0.1
+114 info lifecycle es6-symbol@2.0.1~postinstall: es6-symbol@2.0.1
+115 info build /Users/tobias/.atom/packages/run-command/node_modules/mixto
+116 info lifecycle mixto@1.0.0~preinstall: mixto@1.0.0
+117 info linkStuff mixto@1.0.0
+118 silly linkStuff mixto@1.0.0 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+119 info lifecycle mixto@1.0.0~install: mixto@1.0.0
+120 info lifecycle mixto@1.0.0~postinstall: mixto@1.0.0
+121 info build /Users/tobias/.atom/packages/run-command/node_modules/property-accessors
+122 info lifecycle property-accessors@1.1.3~preinstall: property-accessors@1.1.3
+123 info linkStuff property-accessors@1.1.3
+124 silly linkStuff property-accessors@1.1.3 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+125 info lifecycle property-accessors@1.1.3~install: property-accessors@1.1.3
+126 info lifecycle property-accessors@1.1.3~postinstall: property-accessors@1.1.3
+127 info build /Users/tobias/.atom/packages/run-command/node_modules/underscore-plus
+128 info lifecycle underscore-plus@1.6.6~preinstall: underscore-plus@1.6.6
+129 info linkStuff underscore-plus@1.6.6
+130 silly linkStuff underscore-plus@1.6.6 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+131 info lifecycle underscore-plus@1.6.6~install: underscore-plus@1.6.6
+132 info lifecycle underscore-plus@1.6.6~postinstall: underscore-plus@1.6.6
+133 info build /Users/tobias/.atom/packages/run-command/node_modules/underscore
+134 info lifecycle underscore@1.6.0~preinstall: underscore@1.6.0
+135 info linkStuff underscore@1.6.0
+136 silly linkStuff underscore@1.6.0 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+137 info lifecycle underscore@1.6.0~install: underscore@1.6.0
+138 info lifecycle underscore@1.6.0~postinstall: underscore@1.6.0
+139 info build /Users/tobias/.atom/packages/run-command/node_modules/jquery
+140 info lifecycle jquery@2.1.4~preinstall: jquery@2.1.4
+141 info linkStuff jquery@2.1.4
+142 silly linkStuff jquery@2.1.4 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+143 info lifecycle jquery@2.1.4~install: jquery@2.1.4
+144 info lifecycle jquery@2.1.4~postinstall: jquery@2.1.4
+145 info build /Users/tobias/.atom/packages/run-command/node_modules/pty.js
+146 info lifecycle pty.js@0.3.1~preinstall: pty.js@0.3.1
+147 info linkStuff pty.js@0.3.1
+148 silly linkStuff pty.js@0.3.1 has /Users/tobias/.atom/packages/run-command/node_modules as its parent node_modules
+149 info lifecycle pty.js@0.3.1~install: pty.js@0.3.1
+150 verbose lifecycle pty.js@0.3.1~install: unsafe-perm in lifecycle true
+151 verbose lifecycle pty.js@0.3.1~install: PATH: /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/tobias/.atom/packages/run-command/node_modules/pty.js/node_modules/.bin:/Users/tobias/.atom/packages/run-command/node_modules/.bin:/Applications/Atom.app/Contents/Resources/app/apm/bin:/Users/tobias/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin
+152 verbose lifecycle pty.js@0.3.1~install: CWD: /Users/tobias/.atom/packages/run-command/node_modules/pty.js
+153 silly lifecycle pty.js@0.3.1~install: Args: [ '-c', 'node-gyp rebuild' ]
+154 silly lifecycle pty.js@0.3.1~install: Returned: code: 1  signal: null
+155 info lifecycle pty.js@0.3.1~install: Failed to exec install script
+156 verbose stack Error: pty.js@0.3.1 install: `node-gyp rebuild`
+156 verbose stack Exit status 1
+156 verbose stack     at EventEmitter.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/index.js:304:16)
+156 verbose stack     at emitTwo (events.js:126:13)
+156 verbose stack     at EventEmitter.emit (events.js:214:7)
+156 verbose stack     at ChildProcess.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+156 verbose stack     at emitTwo (events.js:126:13)
+156 verbose stack     at ChildProcess.emit (events.js:214:7)
+156 verbose stack     at maybeClose (internal/child_process.js:925:16)
+156 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+157 verbose pkgid pty.js@0.3.1
+158 verbose cwd /Users/tobias/.atom/packages/run-command
+159 verbose Darwin 19.0.0
+160 verbose argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/Users/tobias/.atom/.apm/.apmrc" "--userconfig" "/Users/tobias/.atom/.apmrc" "rebuild" "--runtime=electron" "--target=3.1.10" "--dist-url=https://atom.io/download/electron" "--arch=x64"
+161 verbose node v8.9.3
+162 verbose npm  v6.2.0
+163 error code ELIFECYCLE
+164 error errno 1
+165 error pty.js@0.3.1 install: `node-gyp rebuild`
+165 error Exit status 1
+166 error Failed at the pty.js@0.3.1 install script.
+166 error This is probably not a problem with npm. There is likely additional logging output above.
+167 verbose exit [ 1, true ]
