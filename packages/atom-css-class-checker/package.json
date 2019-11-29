@@ -19,7 +19,7 @@
     "event-kit": "~0.8.1",
     "q": "~1.1.2",
     "css-parse": "~2.0.0",
-    "lodash": "~2.4.1",
+    "lodash": "~4.17.15",
     "space-pen": "~5.0.0"
   },
   "readme": "# atom-css-class-checker package\n\nThis package scans html markup and shows which classes are not specified in project's CSS files.\nIt also provides functionality to jump to the CSS class/id definition\n\n![A screenshot of your spankin' package](https://cloud.githubusercontent.com/assets/5073932/5628969/0bd51fd8-95bf-11e4-9aca-7339711f46f1.gif)\n\n## How to use\n- Ctrl-Alt-O  - toggle plugin\n- Ctrl-B      - open source\n",
@@ -1246,7 +1246,7 @@
           "event-kit": "~0.8.1",
           "q": "~1.1.2",
           "css-parse": "~2.0.0",
-          "lodash": "~2.4.1",
+          "lodash": "~4.17.15",
           "space-pen": "~5.0.0"
         }
       },
