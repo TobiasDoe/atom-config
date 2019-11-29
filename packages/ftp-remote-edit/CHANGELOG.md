@@ -1,3 +1,19 @@
+## 0.18.0
+- Enhancement: Allows to remember last selected path for download/upload
+- Enhancement: Extends the logon type of the server configuration with "Prompt for Password"
+- Enhancement: Add option to restore previous state after closing and reopening atom
+- Enhancement: Allow to reconnect opened server from context menu (issue-290)
+- Enhancement: Don't allow to create temp duplicates on server list (PR-336)
+- Feature request: "Add option to display dialog to confirm drag & drop action" (issue-334)
+- Fix error reported in "Spinning icon and foldername" (issue-347)
+
+## 0.17.4
+- Fix error reported in "Unable to load server files ever since updating to 0.17.2" (issue-328)
+- Update dependency for "basic-ftp" to 3.8.4
+
+## 0.17.3
+- Fix error reported in "Uncaught TypeError: Cannot read property 'hasPassword' of null" (issue-323)
+
 ## 0.17.2
 - Fix error reported in "Uncaught TypeError: FindDialog is not a constructor" (issue-319)
 

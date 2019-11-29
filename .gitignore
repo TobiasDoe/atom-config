@@ -8,3 +8,5 @@ split-diff
 
 blob-store
 .atom-socket-secret-*
+
+.apm/_cacache

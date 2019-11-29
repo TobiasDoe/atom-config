@@ -34,7 +34,7 @@ class FtpRemoteEdit {
   constructor() {
     const self = this;
 
-    self.info = [];
+    self.state = {};
     self.config = config;
     self.subscriptions = null;
 
@@ -43,10 +43,16 @@ class FtpRemoteEdit {
     self.configurationView = null;
     self.finderView = null;
     self.loaded = false;
+
+    self.currentDownloadPath = atom.config.get('ftp-remote-edit.transfer.defaultDownloadPath') || 'downloads';
+    self.currentUploadPath = atom.config.get('ftp-remote-edit.transfer.defaultUploadPath') || 'desktop';
   }
 
-  activate() {
+  activate(state) {
     const self = this;
+
+    // Get last project state
+    self.state = state;
 
     // Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     self.subscriptions = new CompositeDisposable();
@@ -75,6 +81,7 @@ class FtpRemoteEdit {
       'ftp-remote-edit:upload-directory': () => self.upload('directory'),
       'ftp-remote-edit:download': () => self.download(),
       'ftp-remote-edit:reload': () => self.reload(),
+      'ftp-remote-edit:reconnect': () => self.reconnect(),
       'ftp-remote-edit:find-remote-path': () => self.findRemotePath(),
       'ftp-remote-edit:copy-remote-path': () => self.copyRemotePath(),
       'ftp-remote-edit:finder': () => self.remotePathFinder(),
@@ -134,6 +141,9 @@ class FtpRemoteEdit {
       Queue = require('./helper/queue.js');
       Storage = require('./helper/storage.js');
 
+      // Load state
+      Storage.loadState();
+
       // Events
       // Config change
       atom.config.onDidChange('ftp-remote-edit.config', () => {
@@ -176,6 +186,17 @@ class FtpRemoteEdit {
       self.subscriptions = null;
     }
 
+    // Save state
+    if (atom.config.get('ftp-remote-edit.tree.restoreState') && self.loaded && Storage.loaded) {
+      if (self.treeView) {
+        Storage.state.treeView = self.treeView.serialize();
+      }
+      if (self.protocolView) {
+        Storage.state.protocolView = self.protocolView.serialize();
+      }
+      Storage.saveState();
+    }
+
     if (self.treeView) {
       self.treeView.destroy();
     }
@@ -194,7 +215,9 @@ class FtpRemoteEdit {
   }
 
   serialize() {
-    return {};
+    const self = this;
+
+    return self.state;
   }
 
   handleURI(parsedUri) {
@@ -363,9 +386,9 @@ class FtpRemoteEdit {
     })
   }
 
-  promtPassword() {
+  promptPassword() {
     const self = this;
-    const dialog = new PromptPassDialog();
+    const dialog = new PromptPassDialog('Enter password only for this session:');
 
     let promise = new Promise((resolve, reject) => {
       dialog.on('dialog-done', (e, password) => {
@@ -387,6 +410,8 @@ class FtpRemoteEdit {
 
   changePassword(mode) {
     const self = this;
+
+    self.init();
 
     const options = {};
     if (mode == 'add') {
@@ -459,7 +484,7 @@ class FtpRemoteEdit {
         });
         return;
       } else {
-        self.promtPassword().then(() => {
+        self.promptPassword().then(() => {
           if (Storage.load()) {
             self.getTreeViewInstance().reload();
             self.getTreeViewInstance().toggle();
@@ -476,6 +501,8 @@ class FtpRemoteEdit {
   toggleFocus() {
     const self = this;
 
+    self.init();
+
     if (!Storage.hasPassword()) {
       self.toggle();
     } else {
@@ -491,6 +518,8 @@ class FtpRemoteEdit {
 
   show() {
     const self = this;
+
+    self.init();
 
     if (!Storage.hasPassword()) {
       self.toggle();
@@ -515,7 +544,7 @@ class FtpRemoteEdit {
     };
 
     if (!Storage.hasPassword()) {
-      self.promtPassword().then(() => {
+      self.promptPassword().then(() => {
         if (Storage.load()) {
           self.getConfigurationViewInstance().reload(root);
           self.getConfigurationViewInstance().attach();
@@ -549,6 +578,20 @@ class FtpRemoteEdit {
     if (selected.length !== 0) {
       self.getTreeViewInstance().removeServer(selected.view());
     };
+  }
+
+  reconnect() {
+    const self = this;
+    const selected = self.getTreeViewInstance().list.find('.selected');
+
+    if (selected.length === 0) return;
+
+    if (selected.view().is('.server')) {
+      let server = selected.view();
+      if (server) {
+        server.getConnector().reconnect();
+      }
+    }
   }
 
   open(pending = false) {
@@ -1191,11 +1234,43 @@ class FtpRemoteEdit {
         if (initialType == "directory") {
           let srcPath = trailingslashit(destObject.getRoot().getPath(true)) + initialPath;
           let destPath = destObject.getPath(true) + initialName + '/';
-          self.moveDirectory(destObject.getRoot(), srcPath, destPath);
+
+          if (atom.config.get('ftp-remote-edit.tree.dragAndDropConfirmation')) {
+            atom.confirm({
+              message: 'Are you sure you want to move this directory?',
+              detailedMessage: "You are moving:\n" + trailingslashit(normalize(srcPath)),
+              buttons: {
+                Yes: () => {
+                  self.moveDirectory(destObject.getRoot(), srcPath, destPath);
+                },
+                Cancel: () => {
+                  return true;
+                }
+              }
+            });
+          } else {
+            self.moveDirectory(destObject.getRoot(), srcPath, destPath);
+          }
         } else if (initialType == "file") {
           let srcPath = trailingslashit(destObject.getRoot().getPath(true)) + initialPath;
           let destPath = destObject.getPath(true) + initialName;
-          self.moveFile(destObject.getRoot(), srcPath, destPath);
+
+          if (atom.config.get('ftp-remote-edit.tree.dragAndDropConfirmation')) {
+            atom.confirm({
+              message: 'Are you sure you want to move this file?',
+              detailedMessage: "You are moving:\n" + trailingslashit(normalize(srcPath)),
+              buttons: {
+                Yes: () => {
+                  self.moveFile(destObject.getRoot(), srcPath, destPath);
+                },
+                Cancel: () => {
+                  return true;
+                }
+              }
+            });
+          } else {
+            self.moveFile(destObject.getRoot(), srcPath, destPath);
+          }
         }
       } else {
         // Drop event from OS
@@ -1221,6 +1296,7 @@ class FtpRemoteEdit {
           }
         }
       }
+
     }
   }
 
@@ -1236,7 +1312,11 @@ class FtpRemoteEdit {
       destObject = destObject.parent;
     }
 
-    let defaultPath = atom.config.get('ftp-remote-edit.transfer.defaultUploadPath') || 'desktop';
+    let defaultPath = self.currentUploadPath;
+    if (['project', 'desktop', 'downloads'].includes(defaultPath) === false && FileSystem.existsSync(defaultPath) === false) {
+      defaultPath = atom.config.get('ftp-remote-edit.transfer.defaultUploadPath') || 'desktop';
+    }
+
     if (defaultPath == 'project') {
       const projects = atom.project.getPaths();
       defaultPath = projects.shift();
@@ -1251,6 +1331,7 @@ class FtpRemoteEdit {
     if (type == 'file') {
       Electron.remote.dialog.showOpenDialog(null, { title: 'Select file(s) for upload...', defaultPath: defaultPath, buttonLabel: 'Upload', properties: ['openFile', 'multiSelections', 'showHiddenFiles'] }, (filePaths, bookmarks) => {
         if (filePaths) {
+          self.currentUploadPath = Path.dirname(filePaths[0]);
           Promise.all(filePaths.map((filePath) => {
             srcPath = filePath;
             destPath = destObject.getPath(true) + basename(filePath, Path.sep);
@@ -1265,6 +1346,7 @@ class FtpRemoteEdit {
     } else if (type == 'directory') {
       Electron.remote.dialog.showOpenDialog(null, { title: 'Select directory for upload...', defaultPath: defaultPath, buttonLabel: 'Upload', properties: ['openDirectory', 'showHiddenFiles'] }, (directoryPaths, bookmarks) => {
         if (directoryPaths) {
+          self.currentUploadPath = Path.dirname(directoryPaths[0]);
           directoryPaths.forEach((directoryPath, index) => {
             srcPath = directoryPath;
             destPath = destObject.getPath(true) + basename(directoryPath, Path.sep);
@@ -1287,7 +1369,11 @@ class FtpRemoteEdit {
     if (selected.length === 0) return;
     if (!Storage.hasPassword()) return;
 
-    let defaultPath = atom.config.get('ftp-remote-edit.transfer.defaultDownloadPath') || 'downloads';
+    let defaultPath = self.currentDownloadPath;
+    if (['project', 'desktop', 'downloads'].includes(defaultPath) === false && FileSystem.existsSync(defaultPath) === false) {
+      defaultPath = atom.config.get('ftp-remote-edit.transfer.defaultDownloadPath') || 'downloads';
+    }
+
     if (defaultPath == 'project') {
       const projects = atom.project.getPaths();
       defaultPath = projects.shift();
@@ -1304,6 +1390,7 @@ class FtpRemoteEdit {
 
         Electron.remote.dialog.showSaveDialog(null, { defaultPath: defaultPath + "/" + file.name }, (destPath) => {
           if (destPath) {
+            self.currentDownloadPath = Path.dirname(destPath);
             self.downloadFile(file.getRoot(), srcPath, destPath, { filesize: file.size }).then(() => {
               showMessage('File has been downloaded to ' + destPath, 'success');
             }).catch((err) => {
@@ -1319,6 +1406,7 @@ class FtpRemoteEdit {
 
         Electron.remote.dialog.showSaveDialog(null, { defaultPath: defaultPath + "/" + directory.name }, (destPath) => {
           if (destPath) {
+            self.currentDownloadPath = Path.dirname(destPath);
             self.downloadDirectory(directory.getRoot(), srcPath, destPath).then(() => {
               showMessage('Directory has been downloaded to ' + destPath, 'success');
             }).catch((err) => {
@@ -1334,6 +1422,7 @@ class FtpRemoteEdit {
 
         Electron.remote.dialog.showSaveDialog(null, { defaultPath: defaultPath + "/" }, (destPath) => {
           if (destPath) {
+            self.currentDownloadPath = Path.dirname(destPath);
             self.downloadDirectory(server, srcPath, destPath).then(() => {
               showMessage('Directory has been downloaded to ' + destPath, 'success');
             }).catch((err) => {
@@ -1910,11 +1999,11 @@ class FtpRemoteEdit {
     const self = this;
 
     return atom.workspace.open(normalize(file.getLocalPath(true) + file.name, Path.sep), { pending: pending, searchAllPanes: true }).then((editor) => {
-      editor.saveObject = file;
-      editor.saveObject.addClass('open');
+      file.open();
 
       try {
         // Save file on remote server
+        editor.saveObject = file;
         editor.onDidSave((saveObject) => {
           if (!editor.saveObject) return;
 
@@ -1938,8 +2027,7 @@ class FtpRemoteEdit {
 
         editor.onDidDestroy(() => {
           if (!editor.saveObject) return;
-
-          editor.saveObject.removeClass('open');
+          editor.saveObject.close();
         });
       } catch (err) { }
     }).catch((err) => {
@@ -1953,7 +2041,7 @@ class FtpRemoteEdit {
     self.init();
 
     if (self.treeView == null) {
-      self.treeView = new TreeView();
+      self.treeView = new TreeView(Storage.state.treeView);
     }
     return self.treeView;
   }
@@ -1964,7 +2052,7 @@ class FtpRemoteEdit {
     self.init();
 
     if (self.protocolView == null) {
-      self.protocolView = new ProtocolView();
+      self.protocolView = new ProtocolView(Storage.state.protocolView);
     }
     return self.protocolView;
   }

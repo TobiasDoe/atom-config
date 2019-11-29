@@ -22,20 +22,19 @@ class FileView extends View {
     const self = this;
 
     return {
+      type: 'file',
       id: self.id,
-      config: self.config,
-      name: self.name,
-      size: self.size,
-      rights: self.rights,
-      path: self.getPath(false),
+      opened: self.isOpened(),
     };
   }
 
   initialize(parent, file) {
     const self = this;
 
+    self.state = {};
     self.parent = parent;
     self.config = parent.config;
+    self.opened = false;
 
     self.name = file.name;
     self.size = file.size;
@@ -69,6 +68,12 @@ class FileView extends View {
     self.on('dragstart', (e) => self.onDragStart(e));
     self.on('dragenter', (e) => self.onDragEnter(e));
     self.on('dragleave', (e) => self.onDragLeave(e));
+  }
+
+  restoreState(state) {
+    const self = this;
+
+    self.state = state;
   }
 
   destroy() {
@@ -113,7 +118,7 @@ class FileView extends View {
     if (!element) element = self;
     if (!element.label) return;
 
-    element.label.addClass('icon-sync').addClass('spin');
+    element.label.addClass('icon-sync').addClass('loading-spin');
   }
 
   removeSyncIcon(element = null) {
@@ -122,7 +127,21 @@ class FileView extends View {
     if (!element) element = self;
     if (!element.label) return;
 
-    element.label.removeClass('icon-sync').removeClass('spin');
+    element.label.removeClass('icon-sync').removeClass('loading-spin');
+  }
+
+  open() {
+    const self = this;
+
+    self.opened = true;
+    self.addClass('open');
+  }
+
+  close() {
+    const self = this;
+
+    self.opened = false;
+    self.removeClass('open');
   }
 
   select(deselectAllOther = true) {
@@ -147,6 +166,12 @@ class FileView extends View {
     if (self.hasClass('selected')) {
       self.removeClass('selected');
     }
+  }
+
+  isOpened() {
+    const self = this;
+
+    return self.opened;
   }
 
   isVisible() {

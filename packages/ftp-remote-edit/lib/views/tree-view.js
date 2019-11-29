@@ -3,7 +3,7 @@
 import { $, ScrollView } from 'atom-space-pen-views';
 import { basename, dirname, leadingslashit, trailingslashit, unleadingslashit, untrailingslashit, normalize, cleanJsonString } from './../helper/format.js';
 import { decrypt } from './../helper/secure.js';
-import { resetIgnoredPatterns, resetIgnoredFinderPatterns, permissionsToRights } from './../helper/helper.js';
+import { showMessage, resetIgnoredPatterns, resetIgnoredFinderPatterns, permissionsToRights } from './../helper/helper.js';
 import { throwErrorIssue44 } from './../helper/issue.js';
 import ServerView from './server-view.js';
 import FolderView from './folder-view.js';
@@ -46,12 +46,23 @@ class TreeView extends ScrollView {
   }
 
   serialize() {
-    return {};
+    const self = this;
+
+    let children = [];
+    self.list.children().each((index, child) => {
+      children.push($(child).view().serialize())
+    });
+
+    return {
+      children: children
+    };
   }
 
   initialize(state) {
     super.initialize(state)
     const self = this;
+
+    self.state = state;
 
     let html = '<background-tip>';
     html += '<ul class="centered background-message">';
@@ -91,7 +102,6 @@ class TreeView extends ScrollView {
         self.reload();
       }
     });
-
     self.on('mousedown', (e) => {
       let entry;
       if (entry = e.target.closest('.entry')) {
@@ -153,25 +163,33 @@ class TreeView extends ScrollView {
   }
 
   show() {
+    const self = this;
+
     atom.workspace.open(this, {
       searchAllPanes: true,
       activatePane: true,
       activateItem: true,
     }).then(() => {
-      atom.workspace.paneContainerForURI(this.getURI()).show()
+      atom.workspace.paneContainerForURI(this.getURI()).show();
     });
   }
 
   hide() {
-    atom.workspace.hide(this)
+    const self = this;
+
+    atom.workspace.hide(this);
   }
 
   focus() {
+    const self = this;
+
     $(this).focus();
   }
 
   unfocus() {
-    atom.workspace.getCenter().activate()
+    const self = this;
+
+    atom.workspace.getCenter().activate();
   }
 
   hasFocus() {
@@ -224,7 +242,16 @@ class TreeView extends ScrollView {
   addServer(config) {
     const self = this;
 
+    // Init
     let server = new ServerView(config);
+
+    if (server.config.temp) {
+      let servers = self.list.children('#' + server.getId());
+      if (servers.length > 0) {
+        showMessage('Server you are trying to add is already on the list!', 'warning');
+        return false;
+      }
+    }
 
     // Events
     server.getConnector().on('log', (msg) => {
@@ -243,6 +270,12 @@ class TreeView extends ScrollView {
 
     self.list.append(server);
     self.hideInfo();
+
+    // Restore previous state
+    if (atom.config.get('ftp-remote-edit.tree.restoreState')) {
+      let foundState = self.state.children.find((item) => item.id == server.id);
+      server.restoreState((foundState !== undefined) ? foundState : {});
+    }
   }
 
   removeServer(root) {
@@ -261,6 +294,7 @@ class TreeView extends ScrollView {
   addFolder(config) {
     const self = this;
 
+    // Init
     let folder = new FolderView(config, self);
 
     // Events
@@ -282,6 +316,12 @@ class TreeView extends ScrollView {
 
     self.list.append(folder);
     self.hideInfo();
+
+    // Restore previous state
+    if (atom.config.get('ftp-remote-edit.tree.restoreState')) {
+      let foundState = self.state.children.find((item) => item.id == folder.id);
+      folder.restoreState((foundState !== undefined) ? foundState : {});
+    }
   }
 
   addDirectory(root, relativePath, options = {}) {
@@ -301,6 +341,7 @@ class TreeView extends ScrollView {
         name: element,
         rights: options.rights
       });
+
       root.entries.append(directory);
 
       if (root.isExpanded()) {
@@ -339,6 +380,7 @@ class TreeView extends ScrollView {
         size: options.size,
         rights: options.rights
       });
+
       root.entries.append(file);
 
       if (root.isExpanded()) {

@@ -1,0 +1,2454 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/Users/tobias/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/Users/tobias/.atom/.apmrc',
+1 verbose cli   'rebuild',
+1 verbose cli   '--target=4.2.7',
+1 verbose cli   '--disturl=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64' ]
+2 info using npm@6.2.0
+3 info using node@v10.2.1
+4 info readInstalled object
+5 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script', 'script@3.18.1' ]
+6 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/ansi-to-html',
+6 verbose rebuild   'ansi-to-html@0.4.2' ]
+7 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/entities',
+7 verbose rebuild   'entities@1.1.1' ]
+8 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/atom-message-panel',
+8 verbose rebuild   'atom-message-panel@1.2.7' ]
+9 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/atom-space-pen-views',
+9 verbose rebuild   'atom-space-pen-views@2.2.0' ]
+10 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fuzzaldrin',
+10 verbose rebuild   'fuzzaldrin@2.1.0' ]
+11 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/space-pen',
+11 verbose rebuild   'space-pen@5.1.2' ]
+12 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/grim',
+12 verbose rebuild   'grim@1.5.0' ]
+13 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/emissary',
+13 verbose rebuild   'emissary@1.3.3' ]
+14 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/es6-weak-map',
+14 verbose rebuild   'es6-weak-map@0.1.4' ]
+15 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/d',
+15 verbose rebuild   'd@0.1.1' ]
+16 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/es5-ext',
+16 verbose rebuild   'es5-ext@0.10.45' ]
+17 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/es6-iterator',
+17 verbose rebuild   'es6-iterator@2.0.3' ]
+18 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/d',
+18 verbose rebuild   'd@1.0.0' ]
+19 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/es6-symbol',
+19 verbose rebuild   'es6-symbol@3.1.1' ]
+20 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/next-tick',
+20 verbose rebuild   'next-tick@1.0.0' ]
+21 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/es6-iterator',
+21 verbose rebuild   'es6-iterator@0.1.3' ]
+22 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/es6-symbol',
+22 verbose rebuild   'es6-symbol@2.0.1' ]
+23 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/mixto',
+23 verbose rebuild   'mixto@1.0.0' ]
+24 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/property-accessors',
+24 verbose rebuild   'property-accessors@1.1.3' ]
+25 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/underscore-plus',
+25 verbose rebuild   'underscore-plus@1.6.7' ]
+26 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/underscore-plus/node_modules/underscore',
+26 verbose rebuild   'underscore@1.8.3' ]
+27 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/jquery',
+27 verbose rebuild   'jquery@2.1.4' ]
+28 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-cli',
+28 verbose rebuild   'babel-cli@6.26.0' ]
+29 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-core',
+29 verbose rebuild   'babel-core@6.26.3' ]
+30 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-code-frame',
+30 verbose rebuild   'babel-code-frame@6.26.0' ]
+31 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/chalk',
+31 verbose rebuild   'chalk@1.1.3' ]
+32 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/ansi-styles',
+32 verbose rebuild   'ansi-styles@2.2.1' ]
+33 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/escape-string-regexp',
+33 verbose rebuild   'escape-string-regexp@1.0.5' ]
+34 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/has-ansi',
+34 verbose rebuild   'has-ansi@2.0.0' ]
+35 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/ansi-regex',
+35 verbose rebuild   'ansi-regex@2.1.1' ]
+36 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/strip-ansi',
+36 verbose rebuild   'strip-ansi@3.0.1' ]
+37 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/supports-color',
+37 verbose rebuild   'supports-color@2.0.0' ]
+38 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/esutils',
+38 verbose rebuild   'esutils@2.0.2' ]
+39 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/js-tokens',
+39 verbose rebuild   'js-tokens@3.0.2' ]
+40 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-generator',
+40 verbose rebuild   'babel-generator@6.26.1' ]
+41 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-messages',
+41 verbose rebuild   'babel-messages@6.23.0' ]
+42 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-runtime',
+42 verbose rebuild   'babel-runtime@6.26.0' ]
+43 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/core-js',
+43 verbose rebuild   'core-js@2.5.7' ]
+44 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/regenerator-runtime',
+44 verbose rebuild   'regenerator-runtime@0.11.1' ]
+45 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-types',
+45 verbose rebuild   'babel-types@6.26.0' ]
+46 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/lodash',
+46 verbose rebuild   'lodash@4.17.10' ]
+47 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/to-fast-properties',
+47 verbose rebuild   'to-fast-properties@1.0.3' ]
+48 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/detect-indent',
+48 verbose rebuild   'detect-indent@4.0.0' ]
+49 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/repeating',
+49 verbose rebuild   'repeating@2.0.1' ]
+50 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-finite',
+50 verbose rebuild   'is-finite@1.0.2' ]
+51 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/number-is-nan',
+51 verbose rebuild   'number-is-nan@1.0.1' ]
+52 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/jsesc',
+52 verbose rebuild   'jsesc@1.3.0' ]
+53 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/source-map',
+53 verbose rebuild   'source-map@0.5.7' ]
+54 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/trim-right',
+54 verbose rebuild   'trim-right@1.0.1' ]
+55 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helpers',
+55 verbose rebuild   'babel-helpers@6.24.1' ]
+56 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-template',
+56 verbose rebuild   'babel-template@6.26.0' ]
+57 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-traverse',
+57 verbose rebuild   'babel-traverse@6.26.0' ]
+58 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babylon',
+58 verbose rebuild   'babylon@6.18.0' ]
+59 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/debug',
+59 verbose rebuild   'debug@2.6.9' ]
+60 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/ms',
+60 verbose rebuild   'ms@2.0.0' ]
+61 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/globals',
+61 verbose rebuild   'globals@9.18.0' ]
+62 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/invariant',
+62 verbose rebuild   'invariant@2.2.4' ]
+63 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/loose-envify',
+63 verbose rebuild   'loose-envify@1.3.1' ]
+64 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-register',
+64 verbose rebuild   'babel-register@6.26.0' ]
+65 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/home-or-tmp',
+65 verbose rebuild   'home-or-tmp@2.0.0' ]
+66 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/os-homedir',
+66 verbose rebuild   'os-homedir@1.0.2' ]
+67 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/os-tmpdir',
+67 verbose rebuild   'os-tmpdir@1.0.2' ]
+68 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/mkdirp',
+68 verbose rebuild   'mkdirp@0.5.1' ]
+69 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/minimist',
+69 verbose rebuild   'minimist@0.0.8' ]
+70 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/source-map-support',
+70 verbose rebuild   'source-map-support@0.4.18' ]
+71 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/convert-source-map',
+71 verbose rebuild   'convert-source-map@1.5.1' ]
+72 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/json5',
+72 verbose rebuild   'json5@0.5.1' ]
+73 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/minimatch',
+73 verbose rebuild   'minimatch@3.0.4' ]
+74 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/brace-expansion',
+74 verbose rebuild   'brace-expansion@1.1.11' ]
+75 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/balanced-match',
+75 verbose rebuild   'balanced-match@1.0.0' ]
+76 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/concat-map',
+76 verbose rebuild   'concat-map@0.0.1' ]
+77 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/path-is-absolute',
+77 verbose rebuild   'path-is-absolute@1.0.1' ]
+78 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/private',
+78 verbose rebuild   'private@0.1.8' ]
+79 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/slash',
+79 verbose rebuild   'slash@1.0.0' ]
+80 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-polyfill',
+80 verbose rebuild   'babel-polyfill@6.26.0' ]
+81 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-polyfill/node_modules/regenerator-runtime',
+81 verbose rebuild   'regenerator-runtime@0.10.5' ]
+82 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/commander',
+82 verbose rebuild   'commander@2.15.1' ]
+83 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fs-readdir-recursive',
+83 verbose rebuild   'fs-readdir-recursive@1.1.0' ]
+84 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/glob',
+84 verbose rebuild   'glob@7.1.2' ]
+85 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fs.realpath',
+85 verbose rebuild   'fs.realpath@1.0.0' ]
+86 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/inflight',
+86 verbose rebuild   'inflight@1.0.6' ]
+87 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/once',
+87 verbose rebuild   'once@1.4.0' ]
+88 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/wrappy',
+88 verbose rebuild   'wrappy@1.0.2' ]
+89 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/inherits',
+89 verbose rebuild   'inherits@2.0.3' ]
+90 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/output-file-sync',
+90 verbose rebuild   'output-file-sync@1.1.2' ]
+91 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/graceful-fs',
+91 verbose rebuild   'graceful-fs@4.1.11' ]
+92 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/object-assign',
+92 verbose rebuild   'object-assign@4.1.1' ]
+93 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/v8flags',
+93 verbose rebuild   'v8flags@2.1.1' ]
+94 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/user-home',
+94 verbose rebuild   'user-home@1.1.1' ]
+95 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-preset-env',
+95 verbose rebuild   'babel-preset-env@1.7.0' ]
+96 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-check-es2015-constants',
+96 verbose rebuild   'babel-plugin-check-es2015-constants@6.22.0' ]
+97 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-syntax-trailing-function-commas',
+97 verbose rebuild   'babel-plugin-syntax-trailing-function-commas@6.22.0' ]
+98 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-async-to-generator',
+98 verbose rebuild   'babel-plugin-transform-async-to-generator@6.24.1' ]
+99 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-remap-async-to-generator',
+99 verbose rebuild   'babel-helper-remap-async-to-generator@6.24.1' ]
+100 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-function-name',
+100 verbose rebuild   'babel-helper-function-name@6.24.1' ]
+101 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-get-function-arity',
+101 verbose rebuild   'babel-helper-get-function-arity@6.24.1' ]
+102 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-syntax-async-functions',
+102 verbose rebuild   'babel-plugin-syntax-async-functions@6.13.0' ]
+103 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-arrow-functions',
+103 verbose rebuild   'babel-plugin-transform-es2015-arrow-functions@6.22.0' ]
+104 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-block-scoped-functions',
+104 verbose rebuild   'babel-plugin-transform-es2015-block-scoped-functions@6.22.0' ]
+105 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-block-scoping',
+105 verbose rebuild   'babel-plugin-transform-es2015-block-scoping@6.26.0' ]
+106 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-classes',
+106 verbose rebuild   'babel-plugin-transform-es2015-classes@6.24.1' ]
+107 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-define-map',
+107 verbose rebuild   'babel-helper-define-map@6.26.0' ]
+108 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-optimise-call-expression',
+108 verbose rebuild   'babel-helper-optimise-call-expression@6.24.1' ]
+109 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-replace-supers',
+109 verbose rebuild   'babel-helper-replace-supers@6.24.1' ]
+110 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-computed-properties',
+110 verbose rebuild   'babel-plugin-transform-es2015-computed-properties@6.24.1' ]
+111 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-destructuring',
+111 verbose rebuild   'babel-plugin-transform-es2015-destructuring@6.23.0' ]
+112 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-duplicate-keys',
+112 verbose rebuild   'babel-plugin-transform-es2015-duplicate-keys@6.24.1' ]
+113 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-for-of',
+113 verbose rebuild   'babel-plugin-transform-es2015-for-of@6.23.0' ]
+114 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-function-name',
+114 verbose rebuild   'babel-plugin-transform-es2015-function-name@6.24.1' ]
+115 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-literals',
+115 verbose rebuild   'babel-plugin-transform-es2015-literals@6.22.0' ]
+116 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-modules-amd',
+116 verbose rebuild   'babel-plugin-transform-es2015-modules-amd@6.24.1' ]
+117 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-modules-commonjs',
+117 verbose rebuild   'babel-plugin-transform-es2015-modules-commonjs@6.26.2' ]
+118 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-strict-mode',
+118 verbose rebuild   'babel-plugin-transform-strict-mode@6.24.1' ]
+119 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-modules-systemjs',
+119 verbose rebuild   'babel-plugin-transform-es2015-modules-systemjs@6.24.1' ]
+120 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-hoist-variables',
+120 verbose rebuild   'babel-helper-hoist-variables@6.24.1' ]
+121 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-modules-umd',
+121 verbose rebuild   'babel-plugin-transform-es2015-modules-umd@6.24.1' ]
+122 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-object-super',
+122 verbose rebuild   'babel-plugin-transform-es2015-object-super@6.24.1' ]
+123 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-parameters',
+123 verbose rebuild   'babel-plugin-transform-es2015-parameters@6.24.1' ]
+124 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-call-delegate',
+124 verbose rebuild   'babel-helper-call-delegate@6.24.1' ]
+125 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-shorthand-properties',
+125 verbose rebuild   'babel-plugin-transform-es2015-shorthand-properties@6.24.1' ]
+126 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-spread',
+126 verbose rebuild   'babel-plugin-transform-es2015-spread@6.22.0' ]
+127 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-sticky-regex',
+127 verbose rebuild   'babel-plugin-transform-es2015-sticky-regex@6.24.1' ]
+128 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-regex',
+128 verbose rebuild   'babel-helper-regex@6.26.0' ]
+129 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-template-literals',
+129 verbose rebuild   'babel-plugin-transform-es2015-template-literals@6.22.0' ]
+130 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-typeof-symbol',
+130 verbose rebuild   'babel-plugin-transform-es2015-typeof-symbol@6.23.0' ]
+131 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-unicode-regex',
+131 verbose rebuild   'babel-plugin-transform-es2015-unicode-regex@6.24.1' ]
+132 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/regexpu-core',
+132 verbose rebuild   'regexpu-core@2.0.0' ]
+133 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/regenerate',
+133 verbose rebuild   'regenerate@1.4.0' ]
+134 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/regjsgen',
+134 verbose rebuild   'regjsgen@0.2.0' ]
+135 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/regjsparser',
+135 verbose rebuild   'regjsparser@0.1.5' ]
+136 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/regjsparser/node_modules/jsesc',
+136 verbose rebuild   'jsesc@0.5.0' ]
+137 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-exponentiation-operator',
+137 verbose rebuild   'babel-plugin-transform-exponentiation-operator@6.24.1' ]
+138 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-builder-binary-assignment-operator-visitor',
+138 verbose rebuild   'babel-helper-builder-binary-assignment-operator-visitor@6.24.1' ]
+139 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-helper-explode-assignable-expression',
+139 verbose rebuild   'babel-helper-explode-assignable-expression@6.24.1' ]
+140 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-syntax-exponentiation-operator',
+140 verbose rebuild   'babel-plugin-syntax-exponentiation-operator@6.13.0' ]
+141 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-regenerator',
+141 verbose rebuild   'babel-plugin-transform-regenerator@6.26.0' ]
+142 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/regenerator-transform',
+142 verbose rebuild   'regenerator-transform@0.10.1' ]
+143 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/browserslist',
+143 verbose rebuild   'browserslist@3.2.8' ]
+144 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/caniuse-lite',
+144 verbose rebuild   'caniuse-lite@1.0.30000847' ]
+145 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/electron-to-chromium',
+145 verbose rebuild   'electron-to-chromium@1.3.48' ]
+146 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/semver',
+146 verbose rebuild   'semver@5.5.0' ]
+147 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/coffeescript',
+147 verbose rebuild   'coffeescript@2.3.1' ]
+148 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/underscore',
+148 verbose rebuild   'underscore@1.9.1' ]
+149 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/uuid',
+149 verbose rebuild   'uuid@3.2.1' ]
+150 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/anymatch',
+150 verbose rebuild   'anymatch@1.3.2' ]
+151 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/micromatch',
+151 verbose rebuild   'micromatch@2.3.11' ]
+152 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/arr-diff',
+152 verbose rebuild   'arr-diff@2.0.0' ]
+153 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/arr-flatten',
+153 verbose rebuild   'arr-flatten@1.1.0' ]
+154 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/array-unique',
+154 verbose rebuild   'array-unique@0.2.1' ]
+155 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/braces',
+155 verbose rebuild   'braces@1.8.5' ]
+156 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/expand-range',
+156 verbose rebuild   'expand-range@1.8.2' ]
+157 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fill-range',
+157 verbose rebuild   'fill-range@2.2.4' ]
+158 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-number',
+158 verbose rebuild   'is-number@2.1.0' ]
+159 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/kind-of',
+159 verbose rebuild   'kind-of@3.2.2' ]
+160 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-buffer',
+160 verbose rebuild   'is-buffer@1.1.6' ]
+161 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/isobject',
+161 verbose rebuild   'isobject@2.1.0' ]
+162 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/isarray',
+162 verbose rebuild   'isarray@1.0.0' ]
+163 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/randomatic',
+163 verbose rebuild   'randomatic@3.0.0' ]
+164 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/randomatic/node_modules/is-number',
+164 verbose rebuild   'is-number@4.0.0' ]
+165 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/randomatic/node_modules/kind-of',
+165 verbose rebuild   'kind-of@6.0.2' ]
+166 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/math-random',
+166 verbose rebuild   'math-random@1.0.1' ]
+167 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/repeat-element',
+167 verbose rebuild   'repeat-element@1.1.2' ]
+168 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/repeat-string',
+168 verbose rebuild   'repeat-string@1.6.1' ]
+169 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/preserve',
+169 verbose rebuild   'preserve@0.2.0' ]
+170 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/expand-brackets',
+170 verbose rebuild   'expand-brackets@0.1.5' ]
+171 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-posix-bracket',
+171 verbose rebuild   'is-posix-bracket@0.1.1' ]
+172 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/extglob',
+172 verbose rebuild   'extglob@0.3.2' ]
+173 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-extglob',
+173 verbose rebuild   'is-extglob@1.0.0' ]
+174 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/filename-regex',
+174 verbose rebuild   'filename-regex@2.0.1' ]
+175 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-glob',
+175 verbose rebuild   'is-glob@2.0.1' ]
+176 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/normalize-path',
+176 verbose rebuild   'normalize-path@2.1.1' ]
+177 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/remove-trailing-separator',
+177 verbose rebuild   'remove-trailing-separator@1.1.0' ]
+178 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/object.omit',
+178 verbose rebuild   'object.omit@2.0.1' ]
+179 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/for-own',
+179 verbose rebuild   'for-own@0.1.5' ]
+180 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/for-in',
+180 verbose rebuild   'for-in@1.0.2' ]
+181 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-extendable',
+181 verbose rebuild   'is-extendable@0.1.1' ]
+182 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/parse-glob',
+182 verbose rebuild   'parse-glob@3.0.4' ]
+183 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/glob-base',
+183 verbose rebuild   'glob-base@0.3.0' ]
+184 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/glob-parent',
+184 verbose rebuild   'glob-parent@2.0.0' ]
+185 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-dotfile',
+185 verbose rebuild   'is-dotfile@1.0.3' ]
+186 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/regex-cache',
+186 verbose rebuild   'regex-cache@0.4.4' ]
+187 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-equal-shallow',
+187 verbose rebuild   'is-equal-shallow@0.1.3' ]
+188 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-primitive',
+188 verbose rebuild   'is-primitive@2.0.0' ]
+189 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/async-each',
+189 verbose rebuild   'async-each@1.0.1' ]
+190 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/binary-extensions',
+190 verbose rebuild   'binary-extensions@1.11.0' ]
+191 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/chokidar',
+191 verbose rebuild   'chokidar@1.7.0' ]
+192 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/is-binary-path',
+192 verbose rebuild   'is-binary-path@1.0.1' ]
+193 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/readdirp',
+193 verbose rebuild   'readdirp@2.1.0' ]
+194 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/readable-stream',
+194 verbose rebuild   'readable-stream@2.3.6' ]
+195 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/core-util-is',
+195 verbose rebuild   'core-util-is@1.0.2' ]
+196 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/process-nextick-args',
+196 verbose rebuild   'process-nextick-args@2.0.0' ]
+197 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/safe-buffer',
+197 verbose rebuild   'safe-buffer@5.1.2' ]
+198 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/string_decoder',
+198 verbose rebuild   'string_decoder@1.1.1' ]
+199 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/util-deprecate',
+199 verbose rebuild   'util-deprecate@1.0.2' ]
+200 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/set-immediate-shim',
+200 verbose rebuild   'set-immediate-shim@1.0.1' ]
+201 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/nan',
+201 verbose rebuild   'nan@2.10.0' ]
+202 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents',
+202 verbose rebuild   'fsevents@1.2.4' ]
+203 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/node-pre-gyp',
+203 verbose rebuild   'node-pre-gyp@0.10.0' ]
+204 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/detect-libc',
+204 verbose rebuild   'detect-libc@1.0.3' ]
+205 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/mkdirp',
+205 verbose rebuild   'mkdirp@0.5.1' ]
+206 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minimist',
+206 verbose rebuild   'minimist@0.0.8' ]
+207 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/needle',
+207 verbose rebuild   'needle@2.2.0' ]
+208 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/debug',
+208 verbose rebuild   'debug@2.6.9' ]
+209 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ms',
+209 verbose rebuild   'ms@2.0.0' ]
+210 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/iconv-lite',
+210 verbose rebuild   'iconv-lite@0.4.21' ]
+211 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/safer-buffer',
+211 verbose rebuild   'safer-buffer@2.1.2' ]
+212 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/sax',
+212 verbose rebuild   'sax@1.2.4' ]
+213 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/nopt',
+213 verbose rebuild   'nopt@4.0.1' ]
+214 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/abbrev',
+214 verbose rebuild   'abbrev@1.1.1' ]
+215 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/osenv',
+215 verbose rebuild   'osenv@0.1.5' ]
+216 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/os-homedir',
+216 verbose rebuild   'os-homedir@1.0.2' ]
+217 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/os-tmpdir',
+217 verbose rebuild   'os-tmpdir@1.0.2' ]
+218 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npm-packlist',
+218 verbose rebuild   'npm-packlist@1.1.10' ]
+219 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ignore-walk',
+219 verbose rebuild   'ignore-walk@3.0.1' ]
+220 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minimatch',
+220 verbose rebuild   'minimatch@3.0.4' ]
+221 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/brace-expansion',
+221 verbose rebuild   'brace-expansion@1.1.11' ]
+222 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/balanced-match',
+222 verbose rebuild   'balanced-match@1.0.0' ]
+223 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/concat-map',
+223 verbose rebuild   'concat-map@0.0.1' ]
+224 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npm-bundled',
+224 verbose rebuild   'npm-bundled@1.0.3' ]
+225 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npmlog',
+225 verbose rebuild   'npmlog@4.1.2' ]
+226 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/are-we-there-yet',
+226 verbose rebuild   'are-we-there-yet@1.1.4' ]
+227 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/delegates',
+227 verbose rebuild   'delegates@1.0.0' ]
+228 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/readable-stream',
+228 verbose rebuild   'readable-stream@2.3.6' ]
+229 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/core-util-is',
+229 verbose rebuild   'core-util-is@1.0.2' ]
+230 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/inherits',
+230 verbose rebuild   'inherits@2.0.3' ]
+231 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/isarray',
+231 verbose rebuild   'isarray@1.0.0' ]
+232 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/process-nextick-args',
+232 verbose rebuild   'process-nextick-args@2.0.0' ]
+233 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/safe-buffer',
+233 verbose rebuild   'safe-buffer@5.1.1' ]
+234 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/string_decoder',
+234 verbose rebuild   'string_decoder@1.1.1' ]
+235 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/util-deprecate',
+235 verbose rebuild   'util-deprecate@1.0.2' ]
+236 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/console-control-strings',
+236 verbose rebuild   'console-control-strings@1.1.0' ]
+237 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/gauge',
+237 verbose rebuild   'gauge@2.7.4' ]
+238 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/aproba',
+238 verbose rebuild   'aproba@1.2.0' ]
+239 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/has-unicode',
+239 verbose rebuild   'has-unicode@2.0.1' ]
+240 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/object-assign',
+240 verbose rebuild   'object-assign@4.1.1' ]
+241 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/signal-exit',
+241 verbose rebuild   'signal-exit@3.0.2' ]
+242 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/string-width',
+242 verbose rebuild   'string-width@1.0.2' ]
+243 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/code-point-at',
+243 verbose rebuild   'code-point-at@1.1.0' ]
+244 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/is-fullwidth-code-point',
+244 verbose rebuild   'is-fullwidth-code-point@1.0.0' ]
+245 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/number-is-nan',
+245 verbose rebuild   'number-is-nan@1.0.1' ]
+246 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/strip-ansi',
+246 verbose rebuild   'strip-ansi@3.0.1' ]
+247 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ansi-regex',
+247 verbose rebuild   'ansi-regex@2.1.1' ]
+248 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/wide-align',
+248 verbose rebuild   'wide-align@1.1.2' ]
+249 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/set-blocking',
+249 verbose rebuild   'set-blocking@2.0.0' ]
+250 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/rc',
+250 verbose rebuild   'rc@1.2.7' ]
+251 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/deep-extend',
+251 verbose rebuild   'deep-extend@0.5.1' ]
+252 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ini',
+252 verbose rebuild   'ini@1.3.5' ]
+253 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/rc/node_modules/minimist',
+253 verbose rebuild   'minimist@1.2.0' ]
+254 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/strip-json-comments',
+254 verbose rebuild   'strip-json-comments@2.0.1' ]
+255 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/rimraf',
+255 verbose rebuild   'rimraf@2.6.2' ]
+256 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/glob',
+256 verbose rebuild   'glob@7.1.2' ]
+257 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/fs.realpath',
+257 verbose rebuild   'fs.realpath@1.0.0' ]
+258 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/inflight',
+258 verbose rebuild   'inflight@1.0.6' ]
+259 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/once',
+259 verbose rebuild   'once@1.4.0' ]
+260 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/wrappy',
+260 verbose rebuild   'wrappy@1.0.2' ]
+261 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/path-is-absolute',
+261 verbose rebuild   'path-is-absolute@1.0.1' ]
+262 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/semver',
+262 verbose rebuild   'semver@5.5.0' ]
+263 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/tar',
+263 verbose rebuild   'tar@4.4.1' ]
+264 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/chownr',
+264 verbose rebuild   'chownr@1.0.1' ]
+265 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/fs-minipass',
+265 verbose rebuild   'fs-minipass@1.2.5' ]
+266 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minipass',
+266 verbose rebuild   'minipass@2.2.4' ]
+267 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/yallist',
+267 verbose rebuild   'yallist@3.0.2' ]
+268 verbose rebuild path, id [ '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minizlib',
+268 verbose rebuild   'minizlib@1.1.0' ]
+269 silly rebuild set [ '/Users/tobias/.atom/packages/script/node_modules/ansi-to-html',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/entities',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/atom-message-panel',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/atom-space-pen-views',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/fuzzaldrin',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/space-pen',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/grim',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/emissary',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/es6-weak-map',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/d',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/es5-ext',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/es6-iterator',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/d',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/es6-symbol',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/next-tick',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/es6-iterator',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/es6-symbol',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/mixto',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/property-accessors',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/underscore-plus',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/underscore-plus/node_modules/underscore',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/jquery',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-cli',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-core',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-code-frame',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/chalk',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/ansi-styles',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/escape-string-regexp',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/has-ansi',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/ansi-regex',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/strip-ansi',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/supports-color',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/esutils',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/js-tokens',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-generator',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-messages',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-runtime',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/core-js',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/regenerator-runtime',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-types',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/lodash',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/to-fast-properties',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/detect-indent',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/repeating',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/is-finite',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/number-is-nan',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/jsesc',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/source-map',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/trim-right',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-helpers',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-template',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-traverse',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babylon',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/debug',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/ms',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/globals',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/invariant',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/loose-envify',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-register',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/home-or-tmp',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/os-homedir',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/os-tmpdir',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/mkdirp',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/minimist',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/source-map-support',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/convert-source-map',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/json5',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/minimatch',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/brace-expansion',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/balanced-match',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/concat-map',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/path-is-absolute',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/private',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/slash',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-polyfill',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-polyfill/node_modules/regenerator-runtime',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/commander',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/fs-readdir-recursive',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/glob',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/fs.realpath',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/inflight',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/once',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/wrappy',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/inherits',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/output-file-sync',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/graceful-fs',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/object-assign',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/v8flags',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/user-home',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-preset-env',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-check-es2015-constants',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-syntax-trailing-function-commas',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-async-to-generator',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-helper-remap-async-to-generator',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-helper-function-name',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-helper-get-function-arity',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-syntax-async-functions',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-arrow-functions',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-block-scoped-functions',
+269 silly rebuild set   '/Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-block-scoping',
+269 silly rebuild set   ... 163 more items ]
+270 info build /Users/tobias/.atom/packages/script/node_modules/ansi-to-html
+271 info lifecycle ansi-to-html@0.4.2~preinstall: ansi-to-html@0.4.2
+272 info linkStuff ansi-to-html@0.4.2
+273 silly linkStuff ansi-to-html@0.4.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+274 verbose linkBins [ { 'ansi-to-html': './bin/ansi-to-html' },
+274 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+274 verbose linkBins   false ]
+275 info lifecycle ansi-to-html@0.4.2~install: ansi-to-html@0.4.2
+276 info lifecycle ansi-to-html@0.4.2~postinstall: ansi-to-html@0.4.2
+277 info build /Users/tobias/.atom/packages/script/node_modules/entities
+278 info lifecycle entities@1.1.1~preinstall: entities@1.1.1
+279 info linkStuff entities@1.1.1
+280 silly linkStuff entities@1.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+281 info lifecycle entities@1.1.1~install: entities@1.1.1
+282 info lifecycle entities@1.1.1~postinstall: entities@1.1.1
+283 info build /Users/tobias/.atom/packages/script/node_modules/atom-message-panel
+284 info lifecycle atom-message-panel@1.2.7~preinstall: atom-message-panel@1.2.7
+285 info linkStuff atom-message-panel@1.2.7
+286 silly linkStuff atom-message-panel@1.2.7 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+287 info lifecycle atom-message-panel@1.2.7~install: atom-message-panel@1.2.7
+288 info lifecycle atom-message-panel@1.2.7~postinstall: atom-message-panel@1.2.7
+289 info build /Users/tobias/.atom/packages/script/node_modules/atom-space-pen-views
+290 info lifecycle atom-space-pen-views@2.2.0~preinstall: atom-space-pen-views@2.2.0
+291 info linkStuff atom-space-pen-views@2.2.0
+292 silly linkStuff atom-space-pen-views@2.2.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+293 info lifecycle atom-space-pen-views@2.2.0~install: atom-space-pen-views@2.2.0
+294 info lifecycle atom-space-pen-views@2.2.0~postinstall: atom-space-pen-views@2.2.0
+295 info build /Users/tobias/.atom/packages/script/node_modules/fuzzaldrin
+296 info lifecycle fuzzaldrin@2.1.0~preinstall: fuzzaldrin@2.1.0
+297 info linkStuff fuzzaldrin@2.1.0
+298 silly linkStuff fuzzaldrin@2.1.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+299 info lifecycle fuzzaldrin@2.1.0~install: fuzzaldrin@2.1.0
+300 info lifecycle fuzzaldrin@2.1.0~postinstall: fuzzaldrin@2.1.0
+301 info build /Users/tobias/.atom/packages/script/node_modules/space-pen
+302 info lifecycle space-pen@5.1.2~preinstall: space-pen@5.1.2
+303 info linkStuff space-pen@5.1.2
+304 silly linkStuff space-pen@5.1.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+305 info lifecycle space-pen@5.1.2~install: space-pen@5.1.2
+306 info lifecycle space-pen@5.1.2~postinstall: space-pen@5.1.2
+307 info build /Users/tobias/.atom/packages/script/node_modules/grim
+308 info lifecycle grim@1.5.0~preinstall: grim@1.5.0
+309 info linkStuff grim@1.5.0
+310 silly linkStuff grim@1.5.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+311 info lifecycle grim@1.5.0~install: grim@1.5.0
+312 info lifecycle grim@1.5.0~postinstall: grim@1.5.0
+313 info build /Users/tobias/.atom/packages/script/node_modules/emissary
+314 info lifecycle emissary@1.3.3~preinstall: emissary@1.3.3
+315 info linkStuff emissary@1.3.3
+316 silly linkStuff emissary@1.3.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+317 info lifecycle emissary@1.3.3~install: emissary@1.3.3
+318 info lifecycle emissary@1.3.3~postinstall: emissary@1.3.3
+319 info build /Users/tobias/.atom/packages/script/node_modules/es6-weak-map
+320 info lifecycle es6-weak-map@0.1.4~preinstall: es6-weak-map@0.1.4
+321 info linkStuff es6-weak-map@0.1.4
+322 silly linkStuff es6-weak-map@0.1.4 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+323 info lifecycle es6-weak-map@0.1.4~install: es6-weak-map@0.1.4
+324 info lifecycle es6-weak-map@0.1.4~postinstall: es6-weak-map@0.1.4
+325 info build /Users/tobias/.atom/packages/script/node_modules/d
+326 info lifecycle d@0.1.1~preinstall: d@0.1.1
+327 info linkStuff d@0.1.1
+328 silly linkStuff d@0.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+329 info lifecycle d@0.1.1~install: d@0.1.1
+330 info lifecycle d@0.1.1~postinstall: d@0.1.1
+331 info build /Users/tobias/.atom/packages/script/node_modules/es5-ext
+332 info lifecycle es5-ext@0.10.45~preinstall: es5-ext@0.10.45
+333 info linkStuff es5-ext@0.10.45
+334 silly linkStuff es5-ext@0.10.45 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+335 verbose rebuildBundles [ 'd', 'es6-iterator', 'es6-symbol' ]
+336 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/d
+337 info build /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/d
+338 info lifecycle d@1.0.0~preinstall: d@1.0.0
+339 info linkStuff d@1.0.0
+340 silly linkStuff d@1.0.0 has /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules as its parent node_modules
+341 info lifecycle d@1.0.0~install: d@1.0.0
+342 info lifecycle d@1.0.0~postinstall: d@1.0.0
+343 info lifecycle es5-ext@0.10.45~install: es5-ext@0.10.45
+344 info lifecycle es5-ext@0.10.45~postinstall: es5-ext@0.10.45
+345 info build /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/es6-iterator
+346 info lifecycle es6-iterator@2.0.3~preinstall: es6-iterator@2.0.3
+347 info linkStuff es6-iterator@2.0.3
+348 silly linkStuff es6-iterator@2.0.3 has /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules as its parent node_modules
+349 info lifecycle es6-iterator@2.0.3~install: es6-iterator@2.0.3
+350 info lifecycle es6-iterator@2.0.3~postinstall: es6-iterator@2.0.3
+351 info build already built /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/d
+352 info build /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/d
+353 info lifecycle d@1.0.0~preinstall: d@1.0.0
+354 info linkStuff d@1.0.0
+355 silly linkStuff d@1.0.0 has /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules as its parent node_modules
+356 info lifecycle d@1.0.0~install: d@1.0.0
+357 info lifecycle d@1.0.0~postinstall: d@1.0.0
+358 info build /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules/es6-symbol
+359 info lifecycle es6-symbol@3.1.1~preinstall: es6-symbol@3.1.1
+360 info linkStuff es6-symbol@3.1.1
+361 silly linkStuff es6-symbol@3.1.1 has /Users/tobias/.atom/packages/script/node_modules/es5-ext/node_modules as its parent node_modules
+362 info lifecycle es6-symbol@3.1.1~install: es6-symbol@3.1.1
+363 info lifecycle es6-symbol@3.1.1~postinstall: es6-symbol@3.1.1
+364 info build /Users/tobias/.atom/packages/script/node_modules/next-tick
+365 info lifecycle next-tick@1.0.0~preinstall: next-tick@1.0.0
+366 info linkStuff next-tick@1.0.0
+367 silly linkStuff next-tick@1.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+368 info lifecycle next-tick@1.0.0~install: next-tick@1.0.0
+369 info lifecycle next-tick@1.0.0~postinstall: next-tick@1.0.0
+370 info build /Users/tobias/.atom/packages/script/node_modules/es6-iterator
+371 info lifecycle es6-iterator@0.1.3~preinstall: es6-iterator@0.1.3
+372 info linkStuff es6-iterator@0.1.3
+373 silly linkStuff es6-iterator@0.1.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+374 info lifecycle es6-iterator@0.1.3~install: es6-iterator@0.1.3
+375 info lifecycle es6-iterator@0.1.3~postinstall: es6-iterator@0.1.3
+376 info build /Users/tobias/.atom/packages/script/node_modules/es6-symbol
+377 info lifecycle es6-symbol@2.0.1~preinstall: es6-symbol@2.0.1
+378 info linkStuff es6-symbol@2.0.1
+379 silly linkStuff es6-symbol@2.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+380 info lifecycle es6-symbol@2.0.1~install: es6-symbol@2.0.1
+381 info lifecycle es6-symbol@2.0.1~postinstall: es6-symbol@2.0.1
+382 info build /Users/tobias/.atom/packages/script/node_modules/mixto
+383 info lifecycle mixto@1.0.0~preinstall: mixto@1.0.0
+384 info linkStuff mixto@1.0.0
+385 silly linkStuff mixto@1.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+386 info lifecycle mixto@1.0.0~install: mixto@1.0.0
+387 info lifecycle mixto@1.0.0~postinstall: mixto@1.0.0
+388 info build /Users/tobias/.atom/packages/script/node_modules/property-accessors
+389 info lifecycle property-accessors@1.1.3~preinstall: property-accessors@1.1.3
+390 info linkStuff property-accessors@1.1.3
+391 silly linkStuff property-accessors@1.1.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+392 info lifecycle property-accessors@1.1.3~install: property-accessors@1.1.3
+393 info lifecycle property-accessors@1.1.3~postinstall: property-accessors@1.1.3
+394 info build /Users/tobias/.atom/packages/script/node_modules/underscore-plus
+395 info lifecycle underscore-plus@1.6.7~preinstall: underscore-plus@1.6.7
+396 info linkStuff underscore-plus@1.6.7
+397 silly linkStuff underscore-plus@1.6.7 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+398 verbose rebuildBundles [ 'underscore' ]
+399 info lifecycle underscore-plus@1.6.7~install: underscore-plus@1.6.7
+400 info lifecycle underscore-plus@1.6.7~postinstall: underscore-plus@1.6.7
+401 info build /Users/tobias/.atom/packages/script/node_modules/underscore-plus/node_modules/underscore
+402 info lifecycle underscore@1.8.3~preinstall: underscore@1.8.3
+403 info linkStuff underscore@1.8.3
+404 silly linkStuff underscore@1.8.3 has /Users/tobias/.atom/packages/script/node_modules/underscore-plus/node_modules as its parent node_modules
+405 info lifecycle underscore@1.8.3~install: underscore@1.8.3
+406 info lifecycle underscore@1.8.3~postinstall: underscore@1.8.3
+407 info build /Users/tobias/.atom/packages/script/node_modules/jquery
+408 info lifecycle jquery@2.1.4~preinstall: jquery@2.1.4
+409 info linkStuff jquery@2.1.4
+410 silly linkStuff jquery@2.1.4 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+411 info lifecycle jquery@2.1.4~install: jquery@2.1.4
+412 info lifecycle jquery@2.1.4~postinstall: jquery@2.1.4
+413 info build /Users/tobias/.atom/packages/script/node_modules/babel-cli
+414 info lifecycle babel-cli@6.26.0~preinstall: babel-cli@6.26.0
+415 info linkStuff babel-cli@6.26.0
+416 silly linkStuff babel-cli@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+417 verbose linkBins [ { 'babel-doctor': './bin/babel-doctor.js',
+417 verbose linkBins     babel: './bin/babel.js',
+417 verbose linkBins     'babel-node': './bin/babel-node.js',
+417 verbose linkBins     'babel-external-helpers': './bin/babel-external-helpers.js' },
+417 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+417 verbose linkBins   false ]
+418 info lifecycle babel-cli@6.26.0~install: babel-cli@6.26.0
+419 info lifecycle babel-cli@6.26.0~postinstall: babel-cli@6.26.0
+420 info build /Users/tobias/.atom/packages/script/node_modules/babel-core
+421 info lifecycle babel-core@6.26.3~preinstall: babel-core@6.26.3
+422 info linkStuff babel-core@6.26.3
+423 silly linkStuff babel-core@6.26.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+424 info lifecycle babel-core@6.26.3~install: babel-core@6.26.3
+425 info lifecycle babel-core@6.26.3~postinstall: babel-core@6.26.3
+426 info build /Users/tobias/.atom/packages/script/node_modules/babel-code-frame
+427 info lifecycle babel-code-frame@6.26.0~preinstall: babel-code-frame@6.26.0
+428 info linkStuff babel-code-frame@6.26.0
+429 silly linkStuff babel-code-frame@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+430 info lifecycle babel-code-frame@6.26.0~install: babel-code-frame@6.26.0
+431 info lifecycle babel-code-frame@6.26.0~postinstall: babel-code-frame@6.26.0
+432 info build /Users/tobias/.atom/packages/script/node_modules/chalk
+433 info lifecycle chalk@1.1.3~preinstall: chalk@1.1.3
+434 info linkStuff chalk@1.1.3
+435 silly linkStuff chalk@1.1.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+436 info lifecycle chalk@1.1.3~install: chalk@1.1.3
+437 info lifecycle chalk@1.1.3~postinstall: chalk@1.1.3
+438 info build /Users/tobias/.atom/packages/script/node_modules/ansi-styles
+439 info lifecycle ansi-styles@2.2.1~preinstall: ansi-styles@2.2.1
+440 info linkStuff ansi-styles@2.2.1
+441 silly linkStuff ansi-styles@2.2.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+442 info lifecycle ansi-styles@2.2.1~install: ansi-styles@2.2.1
+443 info lifecycle ansi-styles@2.2.1~postinstall: ansi-styles@2.2.1
+444 info build /Users/tobias/.atom/packages/script/node_modules/escape-string-regexp
+445 info lifecycle escape-string-regexp@1.0.5~preinstall: escape-string-regexp@1.0.5
+446 info linkStuff escape-string-regexp@1.0.5
+447 silly linkStuff escape-string-regexp@1.0.5 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+448 info lifecycle escape-string-regexp@1.0.5~install: escape-string-regexp@1.0.5
+449 info lifecycle escape-string-regexp@1.0.5~postinstall: escape-string-regexp@1.0.5
+450 info build /Users/tobias/.atom/packages/script/node_modules/has-ansi
+451 info lifecycle has-ansi@2.0.0~preinstall: has-ansi@2.0.0
+452 info linkStuff has-ansi@2.0.0
+453 silly linkStuff has-ansi@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+454 info lifecycle has-ansi@2.0.0~install: has-ansi@2.0.0
+455 info lifecycle has-ansi@2.0.0~postinstall: has-ansi@2.0.0
+456 info build /Users/tobias/.atom/packages/script/node_modules/ansi-regex
+457 info lifecycle ansi-regex@2.1.1~preinstall: ansi-regex@2.1.1
+458 info linkStuff ansi-regex@2.1.1
+459 silly linkStuff ansi-regex@2.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+460 info lifecycle ansi-regex@2.1.1~install: ansi-regex@2.1.1
+461 info lifecycle ansi-regex@2.1.1~postinstall: ansi-regex@2.1.1
+462 info build /Users/tobias/.atom/packages/script/node_modules/strip-ansi
+463 info lifecycle strip-ansi@3.0.1~preinstall: strip-ansi@3.0.1
+464 info linkStuff strip-ansi@3.0.1
+465 silly linkStuff strip-ansi@3.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+466 info lifecycle strip-ansi@3.0.1~install: strip-ansi@3.0.1
+467 info lifecycle strip-ansi@3.0.1~postinstall: strip-ansi@3.0.1
+468 info build /Users/tobias/.atom/packages/script/node_modules/supports-color
+469 info lifecycle supports-color@2.0.0~preinstall: supports-color@2.0.0
+470 info linkStuff supports-color@2.0.0
+471 silly linkStuff supports-color@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+472 info lifecycle supports-color@2.0.0~install: supports-color@2.0.0
+473 info lifecycle supports-color@2.0.0~postinstall: supports-color@2.0.0
+474 info build /Users/tobias/.atom/packages/script/node_modules/esutils
+475 info lifecycle esutils@2.0.2~preinstall: esutils@2.0.2
+476 info linkStuff esutils@2.0.2
+477 silly linkStuff esutils@2.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+478 info lifecycle esutils@2.0.2~install: esutils@2.0.2
+479 info lifecycle esutils@2.0.2~postinstall: esutils@2.0.2
+480 info build /Users/tobias/.atom/packages/script/node_modules/js-tokens
+481 info lifecycle js-tokens@3.0.2~preinstall: js-tokens@3.0.2
+482 info linkStuff js-tokens@3.0.2
+483 silly linkStuff js-tokens@3.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+484 info lifecycle js-tokens@3.0.2~install: js-tokens@3.0.2
+485 info lifecycle js-tokens@3.0.2~postinstall: js-tokens@3.0.2
+486 info build /Users/tobias/.atom/packages/script/node_modules/babel-generator
+487 info lifecycle babel-generator@6.26.1~preinstall: babel-generator@6.26.1
+488 info linkStuff babel-generator@6.26.1
+489 silly linkStuff babel-generator@6.26.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+490 info lifecycle babel-generator@6.26.1~install: babel-generator@6.26.1
+491 info lifecycle babel-generator@6.26.1~postinstall: babel-generator@6.26.1
+492 info build /Users/tobias/.atom/packages/script/node_modules/babel-messages
+493 info lifecycle babel-messages@6.23.0~preinstall: babel-messages@6.23.0
+494 info linkStuff babel-messages@6.23.0
+495 silly linkStuff babel-messages@6.23.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+496 info lifecycle babel-messages@6.23.0~install: babel-messages@6.23.0
+497 info lifecycle babel-messages@6.23.0~postinstall: babel-messages@6.23.0
+498 info build /Users/tobias/.atom/packages/script/node_modules/babel-runtime
+499 info lifecycle babel-runtime@6.26.0~preinstall: babel-runtime@6.26.0
+500 info linkStuff babel-runtime@6.26.0
+501 silly linkStuff babel-runtime@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+502 info lifecycle babel-runtime@6.26.0~install: babel-runtime@6.26.0
+503 info lifecycle babel-runtime@6.26.0~postinstall: babel-runtime@6.26.0
+504 info build /Users/tobias/.atom/packages/script/node_modules/core-js
+505 info lifecycle core-js@2.5.7~preinstall: core-js@2.5.7
+506 info linkStuff core-js@2.5.7
+507 silly linkStuff core-js@2.5.7 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+508 info lifecycle core-js@2.5.7~install: core-js@2.5.7
+509 info lifecycle core-js@2.5.7~postinstall: core-js@2.5.7
+510 info build /Users/tobias/.atom/packages/script/node_modules/regenerator-runtime
+511 info lifecycle regenerator-runtime@0.11.1~preinstall: regenerator-runtime@0.11.1
+512 info linkStuff regenerator-runtime@0.11.1
+513 silly linkStuff regenerator-runtime@0.11.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+514 info lifecycle regenerator-runtime@0.11.1~install: regenerator-runtime@0.11.1
+515 info lifecycle regenerator-runtime@0.11.1~postinstall: regenerator-runtime@0.11.1
+516 info build /Users/tobias/.atom/packages/script/node_modules/babel-types
+517 info lifecycle babel-types@6.26.0~preinstall: babel-types@6.26.0
+518 info linkStuff babel-types@6.26.0
+519 silly linkStuff babel-types@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+520 info lifecycle babel-types@6.26.0~install: babel-types@6.26.0
+521 info lifecycle babel-types@6.26.0~postinstall: babel-types@6.26.0
+522 info build /Users/tobias/.atom/packages/script/node_modules/lodash
+523 info lifecycle lodash@4.17.10~preinstall: lodash@4.17.10
+524 info linkStuff lodash@4.17.10
+525 silly linkStuff lodash@4.17.10 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+526 info lifecycle lodash@4.17.10~install: lodash@4.17.10
+527 info lifecycle lodash@4.17.10~postinstall: lodash@4.17.10
+528 info build /Users/tobias/.atom/packages/script/node_modules/to-fast-properties
+529 info lifecycle to-fast-properties@1.0.3~preinstall: to-fast-properties@1.0.3
+530 info linkStuff to-fast-properties@1.0.3
+531 silly linkStuff to-fast-properties@1.0.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+532 info lifecycle to-fast-properties@1.0.3~install: to-fast-properties@1.0.3
+533 info lifecycle to-fast-properties@1.0.3~postinstall: to-fast-properties@1.0.3
+534 info build /Users/tobias/.atom/packages/script/node_modules/detect-indent
+535 info lifecycle detect-indent@4.0.0~preinstall: detect-indent@4.0.0
+536 info linkStuff detect-indent@4.0.0
+537 silly linkStuff detect-indent@4.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+538 info lifecycle detect-indent@4.0.0~install: detect-indent@4.0.0
+539 info lifecycle detect-indent@4.0.0~postinstall: detect-indent@4.0.0
+540 info build /Users/tobias/.atom/packages/script/node_modules/repeating
+541 info lifecycle repeating@2.0.1~preinstall: repeating@2.0.1
+542 info linkStuff repeating@2.0.1
+543 silly linkStuff repeating@2.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+544 info lifecycle repeating@2.0.1~install: repeating@2.0.1
+545 info lifecycle repeating@2.0.1~postinstall: repeating@2.0.1
+546 info build /Users/tobias/.atom/packages/script/node_modules/is-finite
+547 info lifecycle is-finite@1.0.2~preinstall: is-finite@1.0.2
+548 info linkStuff is-finite@1.0.2
+549 silly linkStuff is-finite@1.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+550 info lifecycle is-finite@1.0.2~install: is-finite@1.0.2
+551 info lifecycle is-finite@1.0.2~postinstall: is-finite@1.0.2
+552 info build /Users/tobias/.atom/packages/script/node_modules/number-is-nan
+553 info lifecycle number-is-nan@1.0.1~preinstall: number-is-nan@1.0.1
+554 info linkStuff number-is-nan@1.0.1
+555 silly linkStuff number-is-nan@1.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+556 info lifecycle number-is-nan@1.0.1~install: number-is-nan@1.0.1
+557 info lifecycle number-is-nan@1.0.1~postinstall: number-is-nan@1.0.1
+558 info build /Users/tobias/.atom/packages/script/node_modules/jsesc
+559 info lifecycle jsesc@1.3.0~preinstall: jsesc@1.3.0
+560 info linkStuff jsesc@1.3.0
+561 silly linkStuff jsesc@1.3.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+562 verbose linkBins [ { jsesc: 'bin/jsesc' },
+562 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+562 verbose linkBins   false ]
+563 info lifecycle jsesc@1.3.0~install: jsesc@1.3.0
+564 info lifecycle jsesc@1.3.0~postinstall: jsesc@1.3.0
+565 info build /Users/tobias/.atom/packages/script/node_modules/source-map
+566 info lifecycle source-map@0.5.7~preinstall: source-map@0.5.7
+567 info linkStuff source-map@0.5.7
+568 silly linkStuff source-map@0.5.7 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+569 info lifecycle source-map@0.5.7~install: source-map@0.5.7
+570 info lifecycle source-map@0.5.7~postinstall: source-map@0.5.7
+571 info build /Users/tobias/.atom/packages/script/node_modules/trim-right
+572 info lifecycle trim-right@1.0.1~preinstall: trim-right@1.0.1
+573 info linkStuff trim-right@1.0.1
+574 silly linkStuff trim-right@1.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+575 info lifecycle trim-right@1.0.1~install: trim-right@1.0.1
+576 info lifecycle trim-right@1.0.1~postinstall: trim-right@1.0.1
+577 info build /Users/tobias/.atom/packages/script/node_modules/babel-helpers
+578 info lifecycle babel-helpers@6.24.1~preinstall: babel-helpers@6.24.1
+579 info linkStuff babel-helpers@6.24.1
+580 silly linkStuff babel-helpers@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+581 info lifecycle babel-helpers@6.24.1~install: babel-helpers@6.24.1
+582 info lifecycle babel-helpers@6.24.1~postinstall: babel-helpers@6.24.1
+583 info build /Users/tobias/.atom/packages/script/node_modules/babel-template
+584 info lifecycle babel-template@6.26.0~preinstall: babel-template@6.26.0
+585 info linkStuff babel-template@6.26.0
+586 silly linkStuff babel-template@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+587 info lifecycle babel-template@6.26.0~install: babel-template@6.26.0
+588 info lifecycle babel-template@6.26.0~postinstall: babel-template@6.26.0
+589 info build /Users/tobias/.atom/packages/script/node_modules/babel-traverse
+590 info lifecycle babel-traverse@6.26.0~preinstall: babel-traverse@6.26.0
+591 info linkStuff babel-traverse@6.26.0
+592 silly linkStuff babel-traverse@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+593 info lifecycle babel-traverse@6.26.0~install: babel-traverse@6.26.0
+594 info lifecycle babel-traverse@6.26.0~postinstall: babel-traverse@6.26.0
+595 info build /Users/tobias/.atom/packages/script/node_modules/babylon
+596 info lifecycle babylon@6.18.0~preinstall: babylon@6.18.0
+597 info linkStuff babylon@6.18.0
+598 silly linkStuff babylon@6.18.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+599 verbose linkBins [ { babylon: './bin/babylon.js' },
+599 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+599 verbose linkBins   false ]
+600 info lifecycle babylon@6.18.0~install: babylon@6.18.0
+601 info lifecycle babylon@6.18.0~postinstall: babylon@6.18.0
+602 info build /Users/tobias/.atom/packages/script/node_modules/debug
+603 info lifecycle debug@2.6.9~preinstall: debug@2.6.9
+604 info linkStuff debug@2.6.9
+605 silly linkStuff debug@2.6.9 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+606 info lifecycle debug@2.6.9~install: debug@2.6.9
+607 info lifecycle debug@2.6.9~postinstall: debug@2.6.9
+608 info build /Users/tobias/.atom/packages/script/node_modules/ms
+609 info lifecycle ms@2.0.0~preinstall: ms@2.0.0
+610 info linkStuff ms@2.0.0
+611 silly linkStuff ms@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+612 info lifecycle ms@2.0.0~install: ms@2.0.0
+613 info lifecycle ms@2.0.0~postinstall: ms@2.0.0
+614 info build /Users/tobias/.atom/packages/script/node_modules/globals
+615 info lifecycle globals@9.18.0~preinstall: globals@9.18.0
+616 info linkStuff globals@9.18.0
+617 silly linkStuff globals@9.18.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+618 info lifecycle globals@9.18.0~install: globals@9.18.0
+619 info lifecycle globals@9.18.0~postinstall: globals@9.18.0
+620 info build /Users/tobias/.atom/packages/script/node_modules/invariant
+621 info lifecycle invariant@2.2.4~preinstall: invariant@2.2.4
+622 info linkStuff invariant@2.2.4
+623 silly linkStuff invariant@2.2.4 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+624 info lifecycle invariant@2.2.4~install: invariant@2.2.4
+625 info lifecycle invariant@2.2.4~postinstall: invariant@2.2.4
+626 info build /Users/tobias/.atom/packages/script/node_modules/loose-envify
+627 info lifecycle loose-envify@1.3.1~preinstall: loose-envify@1.3.1
+628 info linkStuff loose-envify@1.3.1
+629 silly linkStuff loose-envify@1.3.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+630 verbose linkBins [ { 'loose-envify': 'cli.js' },
+630 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+630 verbose linkBins   false ]
+631 info lifecycle loose-envify@1.3.1~install: loose-envify@1.3.1
+632 info lifecycle loose-envify@1.3.1~postinstall: loose-envify@1.3.1
+633 info build /Users/tobias/.atom/packages/script/node_modules/babel-register
+634 info lifecycle babel-register@6.26.0~preinstall: babel-register@6.26.0
+635 info linkStuff babel-register@6.26.0
+636 silly linkStuff babel-register@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+637 info lifecycle babel-register@6.26.0~install: babel-register@6.26.0
+638 info lifecycle babel-register@6.26.0~postinstall: babel-register@6.26.0
+639 info build /Users/tobias/.atom/packages/script/node_modules/home-or-tmp
+640 info lifecycle home-or-tmp@2.0.0~preinstall: home-or-tmp@2.0.0
+641 info linkStuff home-or-tmp@2.0.0
+642 silly linkStuff home-or-tmp@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+643 info lifecycle home-or-tmp@2.0.0~install: home-or-tmp@2.0.0
+644 info lifecycle home-or-tmp@2.0.0~postinstall: home-or-tmp@2.0.0
+645 info build /Users/tobias/.atom/packages/script/node_modules/os-homedir
+646 info lifecycle os-homedir@1.0.2~preinstall: os-homedir@1.0.2
+647 info linkStuff os-homedir@1.0.2
+648 silly linkStuff os-homedir@1.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+649 info lifecycle os-homedir@1.0.2~install: os-homedir@1.0.2
+650 info lifecycle os-homedir@1.0.2~postinstall: os-homedir@1.0.2
+651 info build /Users/tobias/.atom/packages/script/node_modules/os-tmpdir
+652 info lifecycle os-tmpdir@1.0.2~preinstall: os-tmpdir@1.0.2
+653 info linkStuff os-tmpdir@1.0.2
+654 silly linkStuff os-tmpdir@1.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+655 info lifecycle os-tmpdir@1.0.2~install: os-tmpdir@1.0.2
+656 info lifecycle os-tmpdir@1.0.2~postinstall: os-tmpdir@1.0.2
+657 info build /Users/tobias/.atom/packages/script/node_modules/mkdirp
+658 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+659 info linkStuff mkdirp@0.5.1
+660 silly linkStuff mkdirp@0.5.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+661 verbose linkBins [ { mkdirp: 'bin/cmd.js' },
+661 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+661 verbose linkBins   false ]
+662 info lifecycle mkdirp@0.5.1~install: mkdirp@0.5.1
+663 info lifecycle mkdirp@0.5.1~postinstall: mkdirp@0.5.1
+664 info build /Users/tobias/.atom/packages/script/node_modules/minimist
+665 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+666 info linkStuff minimist@0.0.8
+667 silly linkStuff minimist@0.0.8 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+668 info lifecycle minimist@0.0.8~install: minimist@0.0.8
+669 info lifecycle minimist@0.0.8~postinstall: minimist@0.0.8
+670 info build /Users/tobias/.atom/packages/script/node_modules/source-map-support
+671 info lifecycle source-map-support@0.4.18~preinstall: source-map-support@0.4.18
+672 info linkStuff source-map-support@0.4.18
+673 silly linkStuff source-map-support@0.4.18 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+674 info lifecycle source-map-support@0.4.18~install: source-map-support@0.4.18
+675 info lifecycle source-map-support@0.4.18~postinstall: source-map-support@0.4.18
+676 info build /Users/tobias/.atom/packages/script/node_modules/convert-source-map
+677 info lifecycle convert-source-map@1.5.1~preinstall: convert-source-map@1.5.1
+678 info linkStuff convert-source-map@1.5.1
+679 silly linkStuff convert-source-map@1.5.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+680 info lifecycle convert-source-map@1.5.1~install: convert-source-map@1.5.1
+681 info lifecycle convert-source-map@1.5.1~postinstall: convert-source-map@1.5.1
+682 info build /Users/tobias/.atom/packages/script/node_modules/json5
+683 info lifecycle json5@0.5.1~preinstall: json5@0.5.1
+684 info linkStuff json5@0.5.1
+685 silly linkStuff json5@0.5.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+686 verbose linkBins [ { json5: 'lib/cli.js' },
+686 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+686 verbose linkBins   false ]
+687 info lifecycle json5@0.5.1~install: json5@0.5.1
+688 info lifecycle json5@0.5.1~postinstall: json5@0.5.1
+689 info build /Users/tobias/.atom/packages/script/node_modules/minimatch
+690 info lifecycle minimatch@3.0.4~preinstall: minimatch@3.0.4
+691 info linkStuff minimatch@3.0.4
+692 silly linkStuff minimatch@3.0.4 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+693 info lifecycle minimatch@3.0.4~install: minimatch@3.0.4
+694 info lifecycle minimatch@3.0.4~postinstall: minimatch@3.0.4
+695 info build /Users/tobias/.atom/packages/script/node_modules/brace-expansion
+696 info lifecycle brace-expansion@1.1.11~preinstall: brace-expansion@1.1.11
+697 info linkStuff brace-expansion@1.1.11
+698 silly linkStuff brace-expansion@1.1.11 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+699 info lifecycle brace-expansion@1.1.11~install: brace-expansion@1.1.11
+700 info lifecycle brace-expansion@1.1.11~postinstall: brace-expansion@1.1.11
+701 info build /Users/tobias/.atom/packages/script/node_modules/balanced-match
+702 info lifecycle balanced-match@1.0.0~preinstall: balanced-match@1.0.0
+703 info linkStuff balanced-match@1.0.0
+704 silly linkStuff balanced-match@1.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+705 info lifecycle balanced-match@1.0.0~install: balanced-match@1.0.0
+706 info lifecycle balanced-match@1.0.0~postinstall: balanced-match@1.0.0
+707 info build /Users/tobias/.atom/packages/script/node_modules/concat-map
+708 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+709 info linkStuff concat-map@0.0.1
+710 silly linkStuff concat-map@0.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+711 info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+712 info lifecycle concat-map@0.0.1~postinstall: concat-map@0.0.1
+713 info build /Users/tobias/.atom/packages/script/node_modules/path-is-absolute
+714 info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+715 info linkStuff path-is-absolute@1.0.1
+716 silly linkStuff path-is-absolute@1.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+717 info lifecycle path-is-absolute@1.0.1~install: path-is-absolute@1.0.1
+718 info lifecycle path-is-absolute@1.0.1~postinstall: path-is-absolute@1.0.1
+719 info build /Users/tobias/.atom/packages/script/node_modules/private
+720 info lifecycle private@0.1.8~preinstall: private@0.1.8
+721 info linkStuff private@0.1.8
+722 silly linkStuff private@0.1.8 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+723 info lifecycle private@0.1.8~install: private@0.1.8
+724 info lifecycle private@0.1.8~postinstall: private@0.1.8
+725 info build /Users/tobias/.atom/packages/script/node_modules/slash
+726 info lifecycle slash@1.0.0~preinstall: slash@1.0.0
+727 info linkStuff slash@1.0.0
+728 silly linkStuff slash@1.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+729 info lifecycle slash@1.0.0~install: slash@1.0.0
+730 info lifecycle slash@1.0.0~postinstall: slash@1.0.0
+731 info build /Users/tobias/.atom/packages/script/node_modules/babel-polyfill
+732 info lifecycle babel-polyfill@6.26.0~preinstall: babel-polyfill@6.26.0
+733 info linkStuff babel-polyfill@6.26.0
+734 silly linkStuff babel-polyfill@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+735 verbose rebuildBundles [ 'regenerator-runtime' ]
+736 info lifecycle babel-polyfill@6.26.0~install: babel-polyfill@6.26.0
+737 info lifecycle babel-polyfill@6.26.0~postinstall: babel-polyfill@6.26.0
+738 info build /Users/tobias/.atom/packages/script/node_modules/babel-polyfill/node_modules/regenerator-runtime
+739 info lifecycle regenerator-runtime@0.10.5~preinstall: regenerator-runtime@0.10.5
+740 info linkStuff regenerator-runtime@0.10.5
+741 silly linkStuff regenerator-runtime@0.10.5 has /Users/tobias/.atom/packages/script/node_modules/babel-polyfill/node_modules as its parent node_modules
+742 info lifecycle regenerator-runtime@0.10.5~install: regenerator-runtime@0.10.5
+743 info lifecycle regenerator-runtime@0.10.5~postinstall: regenerator-runtime@0.10.5
+744 info build /Users/tobias/.atom/packages/script/node_modules/commander
+745 info lifecycle commander@2.15.1~preinstall: commander@2.15.1
+746 info linkStuff commander@2.15.1
+747 silly linkStuff commander@2.15.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+748 info lifecycle commander@2.15.1~install: commander@2.15.1
+749 info lifecycle commander@2.15.1~postinstall: commander@2.15.1
+750 info build /Users/tobias/.atom/packages/script/node_modules/fs-readdir-recursive
+751 info lifecycle fs-readdir-recursive@1.1.0~preinstall: fs-readdir-recursive@1.1.0
+752 info linkStuff fs-readdir-recursive@1.1.0
+753 silly linkStuff fs-readdir-recursive@1.1.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+754 info lifecycle fs-readdir-recursive@1.1.0~install: fs-readdir-recursive@1.1.0
+755 info lifecycle fs-readdir-recursive@1.1.0~postinstall: fs-readdir-recursive@1.1.0
+756 info build /Users/tobias/.atom/packages/script/node_modules/glob
+757 info lifecycle glob@7.1.2~preinstall: glob@7.1.2
+758 info linkStuff glob@7.1.2
+759 silly linkStuff glob@7.1.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+760 info lifecycle glob@7.1.2~install: glob@7.1.2
+761 info lifecycle glob@7.1.2~postinstall: glob@7.1.2
+762 info build /Users/tobias/.atom/packages/script/node_modules/fs.realpath
+763 info lifecycle fs.realpath@1.0.0~preinstall: fs.realpath@1.0.0
+764 info linkStuff fs.realpath@1.0.0
+765 silly linkStuff fs.realpath@1.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+766 info lifecycle fs.realpath@1.0.0~install: fs.realpath@1.0.0
+767 info lifecycle fs.realpath@1.0.0~postinstall: fs.realpath@1.0.0
+768 info build /Users/tobias/.atom/packages/script/node_modules/inflight
+769 info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+770 info linkStuff inflight@1.0.6
+771 silly linkStuff inflight@1.0.6 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+772 info lifecycle inflight@1.0.6~install: inflight@1.0.6
+773 info lifecycle inflight@1.0.6~postinstall: inflight@1.0.6
+774 info build /Users/tobias/.atom/packages/script/node_modules/once
+775 info lifecycle once@1.4.0~preinstall: once@1.4.0
+776 info linkStuff once@1.4.0
+777 silly linkStuff once@1.4.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+778 info lifecycle once@1.4.0~install: once@1.4.0
+779 info lifecycle once@1.4.0~postinstall: once@1.4.0
+780 info build /Users/tobias/.atom/packages/script/node_modules/wrappy
+781 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+782 info linkStuff wrappy@1.0.2
+783 silly linkStuff wrappy@1.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+784 info lifecycle wrappy@1.0.2~install: wrappy@1.0.2
+785 info lifecycle wrappy@1.0.2~postinstall: wrappy@1.0.2
+786 info build /Users/tobias/.atom/packages/script/node_modules/inherits
+787 info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+788 info linkStuff inherits@2.0.3
+789 silly linkStuff inherits@2.0.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+790 info lifecycle inherits@2.0.3~install: inherits@2.0.3
+791 info lifecycle inherits@2.0.3~postinstall: inherits@2.0.3
+792 info build /Users/tobias/.atom/packages/script/node_modules/output-file-sync
+793 info lifecycle output-file-sync@1.1.2~preinstall: output-file-sync@1.1.2
+794 info linkStuff output-file-sync@1.1.2
+795 silly linkStuff output-file-sync@1.1.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+796 info lifecycle output-file-sync@1.1.2~install: output-file-sync@1.1.2
+797 info lifecycle output-file-sync@1.1.2~postinstall: output-file-sync@1.1.2
+798 info build /Users/tobias/.atom/packages/script/node_modules/graceful-fs
+799 info lifecycle graceful-fs@4.1.11~preinstall: graceful-fs@4.1.11
+800 info linkStuff graceful-fs@4.1.11
+801 silly linkStuff graceful-fs@4.1.11 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+802 info lifecycle graceful-fs@4.1.11~install: graceful-fs@4.1.11
+803 info lifecycle graceful-fs@4.1.11~postinstall: graceful-fs@4.1.11
+804 info build /Users/tobias/.atom/packages/script/node_modules/object-assign
+805 info lifecycle object-assign@4.1.1~preinstall: object-assign@4.1.1
+806 info linkStuff object-assign@4.1.1
+807 silly linkStuff object-assign@4.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+808 info lifecycle object-assign@4.1.1~install: object-assign@4.1.1
+809 info lifecycle object-assign@4.1.1~postinstall: object-assign@4.1.1
+810 info build /Users/tobias/.atom/packages/script/node_modules/v8flags
+811 info lifecycle v8flags@2.1.1~preinstall: v8flags@2.1.1
+812 info linkStuff v8flags@2.1.1
+813 silly linkStuff v8flags@2.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+814 info lifecycle v8flags@2.1.1~install: v8flags@2.1.1
+815 info lifecycle v8flags@2.1.1~postinstall: v8flags@2.1.1
+816 info build /Users/tobias/.atom/packages/script/node_modules/user-home
+817 info lifecycle user-home@1.1.1~preinstall: user-home@1.1.1
+818 info linkStuff user-home@1.1.1
+819 silly linkStuff user-home@1.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+820 verbose linkBins [ { 'user-home': 'cli.js' },
+820 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+820 verbose linkBins   false ]
+821 info lifecycle user-home@1.1.1~install: user-home@1.1.1
+822 info lifecycle user-home@1.1.1~postinstall: user-home@1.1.1
+823 info build /Users/tobias/.atom/packages/script/node_modules/babel-preset-env
+824 info lifecycle babel-preset-env@1.7.0~preinstall: babel-preset-env@1.7.0
+825 info linkStuff babel-preset-env@1.7.0
+826 silly linkStuff babel-preset-env@1.7.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+827 info lifecycle babel-preset-env@1.7.0~install: babel-preset-env@1.7.0
+828 info lifecycle babel-preset-env@1.7.0~postinstall: babel-preset-env@1.7.0
+829 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-check-es2015-constants
+830 info lifecycle babel-plugin-check-es2015-constants@6.22.0~preinstall: babel-plugin-check-es2015-constants@6.22.0
+831 info linkStuff babel-plugin-check-es2015-constants@6.22.0
+832 silly linkStuff babel-plugin-check-es2015-constants@6.22.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+833 info lifecycle babel-plugin-check-es2015-constants@6.22.0~install: babel-plugin-check-es2015-constants@6.22.0
+834 info lifecycle babel-plugin-check-es2015-constants@6.22.0~postinstall: babel-plugin-check-es2015-constants@6.22.0
+835 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-syntax-trailing-function-commas
+836 info lifecycle babel-plugin-syntax-trailing-function-commas@6.22.0~preinstall: babel-plugin-syntax-trailing-function-commas@6.22.0
+837 info linkStuff babel-plugin-syntax-trailing-function-commas@6.22.0
+838 silly linkStuff babel-plugin-syntax-trailing-function-commas@6.22.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+839 info lifecycle babel-plugin-syntax-trailing-function-commas@6.22.0~install: babel-plugin-syntax-trailing-function-commas@6.22.0
+840 info lifecycle babel-plugin-syntax-trailing-function-commas@6.22.0~postinstall: babel-plugin-syntax-trailing-function-commas@6.22.0
+841 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-async-to-generator
+842 info lifecycle babel-plugin-transform-async-to-generator@6.24.1~preinstall: babel-plugin-transform-async-to-generator@6.24.1
+843 info linkStuff babel-plugin-transform-async-to-generator@6.24.1
+844 silly linkStuff babel-plugin-transform-async-to-generator@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+845 info lifecycle babel-plugin-transform-async-to-generator@6.24.1~install: babel-plugin-transform-async-to-generator@6.24.1
+846 info lifecycle babel-plugin-transform-async-to-generator@6.24.1~postinstall: babel-plugin-transform-async-to-generator@6.24.1
+847 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-remap-async-to-generator
+848 info lifecycle babel-helper-remap-async-to-generator@6.24.1~preinstall: babel-helper-remap-async-to-generator@6.24.1
+849 info linkStuff babel-helper-remap-async-to-generator@6.24.1
+850 silly linkStuff babel-helper-remap-async-to-generator@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+851 info lifecycle babel-helper-remap-async-to-generator@6.24.1~install: babel-helper-remap-async-to-generator@6.24.1
+852 info lifecycle babel-helper-remap-async-to-generator@6.24.1~postinstall: babel-helper-remap-async-to-generator@6.24.1
+853 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-function-name
+854 info lifecycle babel-helper-function-name@6.24.1~preinstall: babel-helper-function-name@6.24.1
+855 info linkStuff babel-helper-function-name@6.24.1
+856 silly linkStuff babel-helper-function-name@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+857 info lifecycle babel-helper-function-name@6.24.1~install: babel-helper-function-name@6.24.1
+858 info lifecycle babel-helper-function-name@6.24.1~postinstall: babel-helper-function-name@6.24.1
+859 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-get-function-arity
+860 info lifecycle babel-helper-get-function-arity@6.24.1~preinstall: babel-helper-get-function-arity@6.24.1
+861 info linkStuff babel-helper-get-function-arity@6.24.1
+862 silly linkStuff babel-helper-get-function-arity@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+863 info lifecycle babel-helper-get-function-arity@6.24.1~install: babel-helper-get-function-arity@6.24.1
+864 info lifecycle babel-helper-get-function-arity@6.24.1~postinstall: babel-helper-get-function-arity@6.24.1
+865 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-syntax-async-functions
+866 info lifecycle babel-plugin-syntax-async-functions@6.13.0~preinstall: babel-plugin-syntax-async-functions@6.13.0
+867 info linkStuff babel-plugin-syntax-async-functions@6.13.0
+868 silly linkStuff babel-plugin-syntax-async-functions@6.13.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+869 info lifecycle babel-plugin-syntax-async-functions@6.13.0~install: babel-plugin-syntax-async-functions@6.13.0
+870 info lifecycle babel-plugin-syntax-async-functions@6.13.0~postinstall: babel-plugin-syntax-async-functions@6.13.0
+871 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-arrow-functions
+872 info lifecycle babel-plugin-transform-es2015-arrow-functions@6.22.0~preinstall: babel-plugin-transform-es2015-arrow-functions@6.22.0
+873 info linkStuff babel-plugin-transform-es2015-arrow-functions@6.22.0
+874 silly linkStuff babel-plugin-transform-es2015-arrow-functions@6.22.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+875 info lifecycle babel-plugin-transform-es2015-arrow-functions@6.22.0~install: babel-plugin-transform-es2015-arrow-functions@6.22.0
+876 info lifecycle babel-plugin-transform-es2015-arrow-functions@6.22.0~postinstall: babel-plugin-transform-es2015-arrow-functions@6.22.0
+877 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-block-scoped-functions
+878 info lifecycle babel-plugin-transform-es2015-block-scoped-functions@6.22.0~preinstall: babel-plugin-transform-es2015-block-scoped-functions@6.22.0
+879 info linkStuff babel-plugin-transform-es2015-block-scoped-functions@6.22.0
+880 silly linkStuff babel-plugin-transform-es2015-block-scoped-functions@6.22.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+881 info lifecycle babel-plugin-transform-es2015-block-scoped-functions@6.22.0~install: babel-plugin-transform-es2015-block-scoped-functions@6.22.0
+882 info lifecycle babel-plugin-transform-es2015-block-scoped-functions@6.22.0~postinstall: babel-plugin-transform-es2015-block-scoped-functions@6.22.0
+883 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-block-scoping
+884 info lifecycle babel-plugin-transform-es2015-block-scoping@6.26.0~preinstall: babel-plugin-transform-es2015-block-scoping@6.26.0
+885 info linkStuff babel-plugin-transform-es2015-block-scoping@6.26.0
+886 silly linkStuff babel-plugin-transform-es2015-block-scoping@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+887 info lifecycle babel-plugin-transform-es2015-block-scoping@6.26.0~install: babel-plugin-transform-es2015-block-scoping@6.26.0
+888 info lifecycle babel-plugin-transform-es2015-block-scoping@6.26.0~postinstall: babel-plugin-transform-es2015-block-scoping@6.26.0
+889 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-classes
+890 info lifecycle babel-plugin-transform-es2015-classes@6.24.1~preinstall: babel-plugin-transform-es2015-classes@6.24.1
+891 info linkStuff babel-plugin-transform-es2015-classes@6.24.1
+892 silly linkStuff babel-plugin-transform-es2015-classes@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+893 info lifecycle babel-plugin-transform-es2015-classes@6.24.1~install: babel-plugin-transform-es2015-classes@6.24.1
+894 info lifecycle babel-plugin-transform-es2015-classes@6.24.1~postinstall: babel-plugin-transform-es2015-classes@6.24.1
+895 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-define-map
+896 info lifecycle babel-helper-define-map@6.26.0~preinstall: babel-helper-define-map@6.26.0
+897 info linkStuff babel-helper-define-map@6.26.0
+898 silly linkStuff babel-helper-define-map@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+899 info lifecycle babel-helper-define-map@6.26.0~install: babel-helper-define-map@6.26.0
+900 info lifecycle babel-helper-define-map@6.26.0~postinstall: babel-helper-define-map@6.26.0
+901 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-optimise-call-expression
+902 info lifecycle babel-helper-optimise-call-expression@6.24.1~preinstall: babel-helper-optimise-call-expression@6.24.1
+903 info linkStuff babel-helper-optimise-call-expression@6.24.1
+904 silly linkStuff babel-helper-optimise-call-expression@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+905 info lifecycle babel-helper-optimise-call-expression@6.24.1~install: babel-helper-optimise-call-expression@6.24.1
+906 info lifecycle babel-helper-optimise-call-expression@6.24.1~postinstall: babel-helper-optimise-call-expression@6.24.1
+907 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-replace-supers
+908 info lifecycle babel-helper-replace-supers@6.24.1~preinstall: babel-helper-replace-supers@6.24.1
+909 info linkStuff babel-helper-replace-supers@6.24.1
+910 silly linkStuff babel-helper-replace-supers@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+911 info lifecycle babel-helper-replace-supers@6.24.1~install: babel-helper-replace-supers@6.24.1
+912 info lifecycle babel-helper-replace-supers@6.24.1~postinstall: babel-helper-replace-supers@6.24.1
+913 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-computed-properties
+914 info lifecycle babel-plugin-transform-es2015-computed-properties@6.24.1~preinstall: babel-plugin-transform-es2015-computed-properties@6.24.1
+915 info linkStuff babel-plugin-transform-es2015-computed-properties@6.24.1
+916 silly linkStuff babel-plugin-transform-es2015-computed-properties@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+917 info lifecycle babel-plugin-transform-es2015-computed-properties@6.24.1~install: babel-plugin-transform-es2015-computed-properties@6.24.1
+918 info lifecycle babel-plugin-transform-es2015-computed-properties@6.24.1~postinstall: babel-plugin-transform-es2015-computed-properties@6.24.1
+919 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-destructuring
+920 info lifecycle babel-plugin-transform-es2015-destructuring@6.23.0~preinstall: babel-plugin-transform-es2015-destructuring@6.23.0
+921 info linkStuff babel-plugin-transform-es2015-destructuring@6.23.0
+922 silly linkStuff babel-plugin-transform-es2015-destructuring@6.23.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+923 info lifecycle babel-plugin-transform-es2015-destructuring@6.23.0~install: babel-plugin-transform-es2015-destructuring@6.23.0
+924 info lifecycle babel-plugin-transform-es2015-destructuring@6.23.0~postinstall: babel-plugin-transform-es2015-destructuring@6.23.0
+925 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-duplicate-keys
+926 info lifecycle babel-plugin-transform-es2015-duplicate-keys@6.24.1~preinstall: babel-plugin-transform-es2015-duplicate-keys@6.24.1
+927 info linkStuff babel-plugin-transform-es2015-duplicate-keys@6.24.1
+928 silly linkStuff babel-plugin-transform-es2015-duplicate-keys@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+929 info lifecycle babel-plugin-transform-es2015-duplicate-keys@6.24.1~install: babel-plugin-transform-es2015-duplicate-keys@6.24.1
+930 info lifecycle babel-plugin-transform-es2015-duplicate-keys@6.24.1~postinstall: babel-plugin-transform-es2015-duplicate-keys@6.24.1
+931 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-for-of
+932 info lifecycle babel-plugin-transform-es2015-for-of@6.23.0~preinstall: babel-plugin-transform-es2015-for-of@6.23.0
+933 info linkStuff babel-plugin-transform-es2015-for-of@6.23.0
+934 silly linkStuff babel-plugin-transform-es2015-for-of@6.23.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+935 info lifecycle babel-plugin-transform-es2015-for-of@6.23.0~install: babel-plugin-transform-es2015-for-of@6.23.0
+936 info lifecycle babel-plugin-transform-es2015-for-of@6.23.0~postinstall: babel-plugin-transform-es2015-for-of@6.23.0
+937 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-function-name
+938 info lifecycle babel-plugin-transform-es2015-function-name@6.24.1~preinstall: babel-plugin-transform-es2015-function-name@6.24.1
+939 info linkStuff babel-plugin-transform-es2015-function-name@6.24.1
+940 silly linkStuff babel-plugin-transform-es2015-function-name@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+941 info lifecycle babel-plugin-transform-es2015-function-name@6.24.1~install: babel-plugin-transform-es2015-function-name@6.24.1
+942 info lifecycle babel-plugin-transform-es2015-function-name@6.24.1~postinstall: babel-plugin-transform-es2015-function-name@6.24.1
+943 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-literals
+944 info lifecycle babel-plugin-transform-es2015-literals@6.22.0~preinstall: babel-plugin-transform-es2015-literals@6.22.0
+945 info linkStuff babel-plugin-transform-es2015-literals@6.22.0
+946 silly linkStuff babel-plugin-transform-es2015-literals@6.22.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+947 info lifecycle babel-plugin-transform-es2015-literals@6.22.0~install: babel-plugin-transform-es2015-literals@6.22.0
+948 info lifecycle babel-plugin-transform-es2015-literals@6.22.0~postinstall: babel-plugin-transform-es2015-literals@6.22.0
+949 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-modules-amd
+950 info lifecycle babel-plugin-transform-es2015-modules-amd@6.24.1~preinstall: babel-plugin-transform-es2015-modules-amd@6.24.1
+951 info linkStuff babel-plugin-transform-es2015-modules-amd@6.24.1
+952 silly linkStuff babel-plugin-transform-es2015-modules-amd@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+953 info lifecycle babel-plugin-transform-es2015-modules-amd@6.24.1~install: babel-plugin-transform-es2015-modules-amd@6.24.1
+954 info lifecycle babel-plugin-transform-es2015-modules-amd@6.24.1~postinstall: babel-plugin-transform-es2015-modules-amd@6.24.1
+955 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-modules-commonjs
+956 info lifecycle babel-plugin-transform-es2015-modules-commonjs@6.26.2~preinstall: babel-plugin-transform-es2015-modules-commonjs@6.26.2
+957 info linkStuff babel-plugin-transform-es2015-modules-commonjs@6.26.2
+958 silly linkStuff babel-plugin-transform-es2015-modules-commonjs@6.26.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+959 info lifecycle babel-plugin-transform-es2015-modules-commonjs@6.26.2~install: babel-plugin-transform-es2015-modules-commonjs@6.26.2
+960 info lifecycle babel-plugin-transform-es2015-modules-commonjs@6.26.2~postinstall: babel-plugin-transform-es2015-modules-commonjs@6.26.2
+961 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-strict-mode
+962 info lifecycle babel-plugin-transform-strict-mode@6.24.1~preinstall: babel-plugin-transform-strict-mode@6.24.1
+963 info linkStuff babel-plugin-transform-strict-mode@6.24.1
+964 silly linkStuff babel-plugin-transform-strict-mode@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+965 info lifecycle babel-plugin-transform-strict-mode@6.24.1~install: babel-plugin-transform-strict-mode@6.24.1
+966 info lifecycle babel-plugin-transform-strict-mode@6.24.1~postinstall: babel-plugin-transform-strict-mode@6.24.1
+967 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-modules-systemjs
+968 info lifecycle babel-plugin-transform-es2015-modules-systemjs@6.24.1~preinstall: babel-plugin-transform-es2015-modules-systemjs@6.24.1
+969 info linkStuff babel-plugin-transform-es2015-modules-systemjs@6.24.1
+970 silly linkStuff babel-plugin-transform-es2015-modules-systemjs@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+971 info lifecycle babel-plugin-transform-es2015-modules-systemjs@6.24.1~install: babel-plugin-transform-es2015-modules-systemjs@6.24.1
+972 info lifecycle babel-plugin-transform-es2015-modules-systemjs@6.24.1~postinstall: babel-plugin-transform-es2015-modules-systemjs@6.24.1
+973 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-hoist-variables
+974 info lifecycle babel-helper-hoist-variables@6.24.1~preinstall: babel-helper-hoist-variables@6.24.1
+975 info linkStuff babel-helper-hoist-variables@6.24.1
+976 silly linkStuff babel-helper-hoist-variables@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+977 info lifecycle babel-helper-hoist-variables@6.24.1~install: babel-helper-hoist-variables@6.24.1
+978 info lifecycle babel-helper-hoist-variables@6.24.1~postinstall: babel-helper-hoist-variables@6.24.1
+979 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-modules-umd
+980 info lifecycle babel-plugin-transform-es2015-modules-umd@6.24.1~preinstall: babel-plugin-transform-es2015-modules-umd@6.24.1
+981 info linkStuff babel-plugin-transform-es2015-modules-umd@6.24.1
+982 silly linkStuff babel-plugin-transform-es2015-modules-umd@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+983 info lifecycle babel-plugin-transform-es2015-modules-umd@6.24.1~install: babel-plugin-transform-es2015-modules-umd@6.24.1
+984 info lifecycle babel-plugin-transform-es2015-modules-umd@6.24.1~postinstall: babel-plugin-transform-es2015-modules-umd@6.24.1
+985 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-object-super
+986 info lifecycle babel-plugin-transform-es2015-object-super@6.24.1~preinstall: babel-plugin-transform-es2015-object-super@6.24.1
+987 info linkStuff babel-plugin-transform-es2015-object-super@6.24.1
+988 silly linkStuff babel-plugin-transform-es2015-object-super@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+989 info lifecycle babel-plugin-transform-es2015-object-super@6.24.1~install: babel-plugin-transform-es2015-object-super@6.24.1
+990 info lifecycle babel-plugin-transform-es2015-object-super@6.24.1~postinstall: babel-plugin-transform-es2015-object-super@6.24.1
+991 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-parameters
+992 info lifecycle babel-plugin-transform-es2015-parameters@6.24.1~preinstall: babel-plugin-transform-es2015-parameters@6.24.1
+993 info linkStuff babel-plugin-transform-es2015-parameters@6.24.1
+994 silly linkStuff babel-plugin-transform-es2015-parameters@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+995 info lifecycle babel-plugin-transform-es2015-parameters@6.24.1~install: babel-plugin-transform-es2015-parameters@6.24.1
+996 info lifecycle babel-plugin-transform-es2015-parameters@6.24.1~postinstall: babel-plugin-transform-es2015-parameters@6.24.1
+997 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-call-delegate
+998 info lifecycle babel-helper-call-delegate@6.24.1~preinstall: babel-helper-call-delegate@6.24.1
+999 info linkStuff babel-helper-call-delegate@6.24.1
+1000 silly linkStuff babel-helper-call-delegate@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1001 info lifecycle babel-helper-call-delegate@6.24.1~install: babel-helper-call-delegate@6.24.1
+1002 info lifecycle babel-helper-call-delegate@6.24.1~postinstall: babel-helper-call-delegate@6.24.1
+1003 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-shorthand-properties
+1004 info lifecycle babel-plugin-transform-es2015-shorthand-properties@6.24.1~preinstall: babel-plugin-transform-es2015-shorthand-properties@6.24.1
+1005 info linkStuff babel-plugin-transform-es2015-shorthand-properties@6.24.1
+1006 silly linkStuff babel-plugin-transform-es2015-shorthand-properties@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1007 info lifecycle babel-plugin-transform-es2015-shorthand-properties@6.24.1~install: babel-plugin-transform-es2015-shorthand-properties@6.24.1
+1008 info lifecycle babel-plugin-transform-es2015-shorthand-properties@6.24.1~postinstall: babel-plugin-transform-es2015-shorthand-properties@6.24.1
+1009 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-spread
+1010 info lifecycle babel-plugin-transform-es2015-spread@6.22.0~preinstall: babel-plugin-transform-es2015-spread@6.22.0
+1011 info linkStuff babel-plugin-transform-es2015-spread@6.22.0
+1012 silly linkStuff babel-plugin-transform-es2015-spread@6.22.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1013 info lifecycle babel-plugin-transform-es2015-spread@6.22.0~install: babel-plugin-transform-es2015-spread@6.22.0
+1014 info lifecycle babel-plugin-transform-es2015-spread@6.22.0~postinstall: babel-plugin-transform-es2015-spread@6.22.0
+1015 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-sticky-regex
+1016 info lifecycle babel-plugin-transform-es2015-sticky-regex@6.24.1~preinstall: babel-plugin-transform-es2015-sticky-regex@6.24.1
+1017 info linkStuff babel-plugin-transform-es2015-sticky-regex@6.24.1
+1018 silly linkStuff babel-plugin-transform-es2015-sticky-regex@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1019 info lifecycle babel-plugin-transform-es2015-sticky-regex@6.24.1~install: babel-plugin-transform-es2015-sticky-regex@6.24.1
+1020 info lifecycle babel-plugin-transform-es2015-sticky-regex@6.24.1~postinstall: babel-plugin-transform-es2015-sticky-regex@6.24.1
+1021 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-regex
+1022 info lifecycle babel-helper-regex@6.26.0~preinstall: babel-helper-regex@6.26.0
+1023 info linkStuff babel-helper-regex@6.26.0
+1024 silly linkStuff babel-helper-regex@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1025 info lifecycle babel-helper-regex@6.26.0~install: babel-helper-regex@6.26.0
+1026 info lifecycle babel-helper-regex@6.26.0~postinstall: babel-helper-regex@6.26.0
+1027 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-template-literals
+1028 info lifecycle babel-plugin-transform-es2015-template-literals@6.22.0~preinstall: babel-plugin-transform-es2015-template-literals@6.22.0
+1029 info linkStuff babel-plugin-transform-es2015-template-literals@6.22.0
+1030 silly linkStuff babel-plugin-transform-es2015-template-literals@6.22.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1031 info lifecycle babel-plugin-transform-es2015-template-literals@6.22.0~install: babel-plugin-transform-es2015-template-literals@6.22.0
+1032 info lifecycle babel-plugin-transform-es2015-template-literals@6.22.0~postinstall: babel-plugin-transform-es2015-template-literals@6.22.0
+1033 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-typeof-symbol
+1034 info lifecycle babel-plugin-transform-es2015-typeof-symbol@6.23.0~preinstall: babel-plugin-transform-es2015-typeof-symbol@6.23.0
+1035 info linkStuff babel-plugin-transform-es2015-typeof-symbol@6.23.0
+1036 silly linkStuff babel-plugin-transform-es2015-typeof-symbol@6.23.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1037 info lifecycle babel-plugin-transform-es2015-typeof-symbol@6.23.0~install: babel-plugin-transform-es2015-typeof-symbol@6.23.0
+1038 info lifecycle babel-plugin-transform-es2015-typeof-symbol@6.23.0~postinstall: babel-plugin-transform-es2015-typeof-symbol@6.23.0
+1039 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-es2015-unicode-regex
+1040 info lifecycle babel-plugin-transform-es2015-unicode-regex@6.24.1~preinstall: babel-plugin-transform-es2015-unicode-regex@6.24.1
+1041 info linkStuff babel-plugin-transform-es2015-unicode-regex@6.24.1
+1042 silly linkStuff babel-plugin-transform-es2015-unicode-regex@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1043 info lifecycle babel-plugin-transform-es2015-unicode-regex@6.24.1~install: babel-plugin-transform-es2015-unicode-regex@6.24.1
+1044 info lifecycle babel-plugin-transform-es2015-unicode-regex@6.24.1~postinstall: babel-plugin-transform-es2015-unicode-regex@6.24.1
+1045 info build /Users/tobias/.atom/packages/script/node_modules/regexpu-core
+1046 info lifecycle regexpu-core@2.0.0~preinstall: regexpu-core@2.0.0
+1047 info linkStuff regexpu-core@2.0.0
+1048 silly linkStuff regexpu-core@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1049 info lifecycle regexpu-core@2.0.0~install: regexpu-core@2.0.0
+1050 info lifecycle regexpu-core@2.0.0~postinstall: regexpu-core@2.0.0
+1051 info build /Users/tobias/.atom/packages/script/node_modules/regenerate
+1052 info lifecycle regenerate@1.4.0~preinstall: regenerate@1.4.0
+1053 info linkStuff regenerate@1.4.0
+1054 silly linkStuff regenerate@1.4.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1055 info lifecycle regenerate@1.4.0~install: regenerate@1.4.0
+1056 info lifecycle regenerate@1.4.0~postinstall: regenerate@1.4.0
+1057 info build /Users/tobias/.atom/packages/script/node_modules/regjsgen
+1058 info lifecycle regjsgen@0.2.0~preinstall: regjsgen@0.2.0
+1059 info linkStuff regjsgen@0.2.0
+1060 silly linkStuff regjsgen@0.2.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1061 info lifecycle regjsgen@0.2.0~install: regjsgen@0.2.0
+1062 info lifecycle regjsgen@0.2.0~postinstall: regjsgen@0.2.0
+1063 info build /Users/tobias/.atom/packages/script/node_modules/regjsparser
+1064 info lifecycle regjsparser@0.1.5~preinstall: regjsparser@0.1.5
+1065 info linkStuff regjsparser@0.1.5
+1066 silly linkStuff regjsparser@0.1.5 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1067 verbose linkBins [ { regjsparser: 'bin/parser' },
+1067 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+1067 verbose linkBins   false ]
+1068 verbose rebuildBundles [ '.bin', 'jsesc' ]
+1069 info lifecycle regjsparser@0.1.5~install: regjsparser@0.1.5
+1070 info lifecycle regjsparser@0.1.5~postinstall: regjsparser@0.1.5
+1071 info build /Users/tobias/.atom/packages/script/node_modules/regjsparser/node_modules/jsesc
+1072 info lifecycle jsesc@0.5.0~preinstall: jsesc@0.5.0
+1073 info linkStuff jsesc@0.5.0
+1074 silly linkStuff jsesc@0.5.0 has /Users/tobias/.atom/packages/script/node_modules/regjsparser/node_modules as its parent node_modules
+1075 verbose linkBins [ { jsesc: 'bin/jsesc' },
+1075 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/regjsparser/node_modules/.bin',
+1075 verbose linkBins   false ]
+1076 info lifecycle jsesc@0.5.0~install: jsesc@0.5.0
+1077 info lifecycle jsesc@0.5.0~postinstall: jsesc@0.5.0
+1078 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-exponentiation-operator
+1079 info lifecycle babel-plugin-transform-exponentiation-operator@6.24.1~preinstall: babel-plugin-transform-exponentiation-operator@6.24.1
+1080 info linkStuff babel-plugin-transform-exponentiation-operator@6.24.1
+1081 silly linkStuff babel-plugin-transform-exponentiation-operator@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1082 info lifecycle babel-plugin-transform-exponentiation-operator@6.24.1~install: babel-plugin-transform-exponentiation-operator@6.24.1
+1083 info lifecycle babel-plugin-transform-exponentiation-operator@6.24.1~postinstall: babel-plugin-transform-exponentiation-operator@6.24.1
+1084 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-builder-binary-assignment-operator-visitor
+1085 info lifecycle babel-helper-builder-binary-assignment-operator-visitor@6.24.1~preinstall: babel-helper-builder-binary-assignment-operator-visitor@6.24.1
+1086 info linkStuff babel-helper-builder-binary-assignment-operator-visitor@6.24.1
+1087 silly linkStuff babel-helper-builder-binary-assignment-operator-visitor@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1088 info lifecycle babel-helper-builder-binary-assignment-operator-visitor@6.24.1~install: babel-helper-builder-binary-assignment-operator-visitor@6.24.1
+1089 info lifecycle babel-helper-builder-binary-assignment-operator-visitor@6.24.1~postinstall: babel-helper-builder-binary-assignment-operator-visitor@6.24.1
+1090 info build /Users/tobias/.atom/packages/script/node_modules/babel-helper-explode-assignable-expression
+1091 info lifecycle babel-helper-explode-assignable-expression@6.24.1~preinstall: babel-helper-explode-assignable-expression@6.24.1
+1092 info linkStuff babel-helper-explode-assignable-expression@6.24.1
+1093 silly linkStuff babel-helper-explode-assignable-expression@6.24.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1094 info lifecycle babel-helper-explode-assignable-expression@6.24.1~install: babel-helper-explode-assignable-expression@6.24.1
+1095 info lifecycle babel-helper-explode-assignable-expression@6.24.1~postinstall: babel-helper-explode-assignable-expression@6.24.1
+1096 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-syntax-exponentiation-operator
+1097 info lifecycle babel-plugin-syntax-exponentiation-operator@6.13.0~preinstall: babel-plugin-syntax-exponentiation-operator@6.13.0
+1098 info linkStuff babel-plugin-syntax-exponentiation-operator@6.13.0
+1099 silly linkStuff babel-plugin-syntax-exponentiation-operator@6.13.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1100 info lifecycle babel-plugin-syntax-exponentiation-operator@6.13.0~install: babel-plugin-syntax-exponentiation-operator@6.13.0
+1101 info lifecycle babel-plugin-syntax-exponentiation-operator@6.13.0~postinstall: babel-plugin-syntax-exponentiation-operator@6.13.0
+1102 info build /Users/tobias/.atom/packages/script/node_modules/babel-plugin-transform-regenerator
+1103 info lifecycle babel-plugin-transform-regenerator@6.26.0~preinstall: babel-plugin-transform-regenerator@6.26.0
+1104 info linkStuff babel-plugin-transform-regenerator@6.26.0
+1105 silly linkStuff babel-plugin-transform-regenerator@6.26.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1106 info lifecycle babel-plugin-transform-regenerator@6.26.0~install: babel-plugin-transform-regenerator@6.26.0
+1107 info lifecycle babel-plugin-transform-regenerator@6.26.0~postinstall: babel-plugin-transform-regenerator@6.26.0
+1108 info build /Users/tobias/.atom/packages/script/node_modules/regenerator-transform
+1109 info lifecycle regenerator-transform@0.10.1~preinstall: regenerator-transform@0.10.1
+1110 info linkStuff regenerator-transform@0.10.1
+1111 silly linkStuff regenerator-transform@0.10.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1112 info lifecycle regenerator-transform@0.10.1~install: regenerator-transform@0.10.1
+1113 info lifecycle regenerator-transform@0.10.1~postinstall: regenerator-transform@0.10.1
+1114 info build /Users/tobias/.atom/packages/script/node_modules/browserslist
+1115 info lifecycle browserslist@3.2.8~preinstall: browserslist@3.2.8
+1116 info linkStuff browserslist@3.2.8
+1117 silly linkStuff browserslist@3.2.8 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1118 verbose linkBins [ { browserslist: './cli.js' },
+1118 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+1118 verbose linkBins   false ]
+1119 info lifecycle browserslist@3.2.8~install: browserslist@3.2.8
+1120 info lifecycle browserslist@3.2.8~postinstall: browserslist@3.2.8
+1121 info build /Users/tobias/.atom/packages/script/node_modules/caniuse-lite
+1122 info lifecycle caniuse-lite@1.0.30000847~preinstall: caniuse-lite@1.0.30000847
+1123 info linkStuff caniuse-lite@1.0.30000847
+1124 silly linkStuff caniuse-lite@1.0.30000847 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1125 info lifecycle caniuse-lite@1.0.30000847~install: caniuse-lite@1.0.30000847
+1126 info lifecycle caniuse-lite@1.0.30000847~postinstall: caniuse-lite@1.0.30000847
+1127 info build /Users/tobias/.atom/packages/script/node_modules/electron-to-chromium
+1128 info lifecycle electron-to-chromium@1.3.48~preinstall: electron-to-chromium@1.3.48
+1129 info linkStuff electron-to-chromium@1.3.48
+1130 silly linkStuff electron-to-chromium@1.3.48 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1131 info lifecycle electron-to-chromium@1.3.48~install: electron-to-chromium@1.3.48
+1132 info lifecycle electron-to-chromium@1.3.48~postinstall: electron-to-chromium@1.3.48
+1133 info build /Users/tobias/.atom/packages/script/node_modules/semver
+1134 info lifecycle semver@5.5.0~preinstall: semver@5.5.0
+1135 info linkStuff semver@5.5.0
+1136 silly linkStuff semver@5.5.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1137 verbose linkBins [ { semver: './bin/semver' },
+1137 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+1137 verbose linkBins   false ]
+1138 info lifecycle semver@5.5.0~install: semver@5.5.0
+1139 info lifecycle semver@5.5.0~postinstall: semver@5.5.0
+1140 info build /Users/tobias/.atom/packages/script/node_modules/coffeescript
+1141 info lifecycle coffeescript@2.3.1~preinstall: coffeescript@2.3.1
+1142 info linkStuff coffeescript@2.3.1
+1143 silly linkStuff coffeescript@2.3.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1144 verbose linkBins [ { coffee: './bin/coffee', cake: './bin/cake' },
+1144 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+1144 verbose linkBins   false ]
+1145 info lifecycle coffeescript@2.3.1~install: coffeescript@2.3.1
+1146 info lifecycle coffeescript@2.3.1~postinstall: coffeescript@2.3.1
+1147 info build /Users/tobias/.atom/packages/script/node_modules/underscore
+1148 info lifecycle underscore@1.9.1~preinstall: underscore@1.9.1
+1149 info linkStuff underscore@1.9.1
+1150 silly linkStuff underscore@1.9.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1151 info lifecycle underscore@1.9.1~install: underscore@1.9.1
+1152 info lifecycle underscore@1.9.1~postinstall: underscore@1.9.1
+1153 info build /Users/tobias/.atom/packages/script/node_modules/uuid
+1154 info lifecycle uuid@3.2.1~preinstall: uuid@3.2.1
+1155 info linkStuff uuid@3.2.1
+1156 silly linkStuff uuid@3.2.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1157 verbose linkBins [ { uuid: './bin/uuid' },
+1157 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/.bin',
+1157 verbose linkBins   false ]
+1158 info lifecycle uuid@3.2.1~install: uuid@3.2.1
+1159 info lifecycle uuid@3.2.1~postinstall: uuid@3.2.1
+1160 info build /Users/tobias/.atom/packages/script/node_modules/anymatch
+1161 info lifecycle anymatch@1.3.2~preinstall: anymatch@1.3.2
+1162 info linkStuff anymatch@1.3.2
+1163 silly linkStuff anymatch@1.3.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1164 info lifecycle anymatch@1.3.2~install: anymatch@1.3.2
+1165 info lifecycle anymatch@1.3.2~postinstall: anymatch@1.3.2
+1166 info build /Users/tobias/.atom/packages/script/node_modules/micromatch
+1167 info lifecycle micromatch@2.3.11~preinstall: micromatch@2.3.11
+1168 info linkStuff micromatch@2.3.11
+1169 silly linkStuff micromatch@2.3.11 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1170 info lifecycle micromatch@2.3.11~install: micromatch@2.3.11
+1171 info lifecycle micromatch@2.3.11~postinstall: micromatch@2.3.11
+1172 info build /Users/tobias/.atom/packages/script/node_modules/arr-diff
+1173 info lifecycle arr-diff@2.0.0~preinstall: arr-diff@2.0.0
+1174 info linkStuff arr-diff@2.0.0
+1175 silly linkStuff arr-diff@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1176 info lifecycle arr-diff@2.0.0~install: arr-diff@2.0.0
+1177 info lifecycle arr-diff@2.0.0~postinstall: arr-diff@2.0.0
+1178 info build /Users/tobias/.atom/packages/script/node_modules/arr-flatten
+1179 info lifecycle arr-flatten@1.1.0~preinstall: arr-flatten@1.1.0
+1180 info linkStuff arr-flatten@1.1.0
+1181 silly linkStuff arr-flatten@1.1.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1182 info lifecycle arr-flatten@1.1.0~install: arr-flatten@1.1.0
+1183 info lifecycle arr-flatten@1.1.0~postinstall: arr-flatten@1.1.0
+1184 info build /Users/tobias/.atom/packages/script/node_modules/array-unique
+1185 info lifecycle array-unique@0.2.1~preinstall: array-unique@0.2.1
+1186 info linkStuff array-unique@0.2.1
+1187 silly linkStuff array-unique@0.2.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1188 info lifecycle array-unique@0.2.1~install: array-unique@0.2.1
+1189 info lifecycle array-unique@0.2.1~postinstall: array-unique@0.2.1
+1190 info build /Users/tobias/.atom/packages/script/node_modules/braces
+1191 info lifecycle braces@1.8.5~preinstall: braces@1.8.5
+1192 info linkStuff braces@1.8.5
+1193 silly linkStuff braces@1.8.5 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1194 info lifecycle braces@1.8.5~install: braces@1.8.5
+1195 info lifecycle braces@1.8.5~postinstall: braces@1.8.5
+1196 info build /Users/tobias/.atom/packages/script/node_modules/expand-range
+1197 info lifecycle expand-range@1.8.2~preinstall: expand-range@1.8.2
+1198 info linkStuff expand-range@1.8.2
+1199 silly linkStuff expand-range@1.8.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1200 info lifecycle expand-range@1.8.2~install: expand-range@1.8.2
+1201 info lifecycle expand-range@1.8.2~postinstall: expand-range@1.8.2
+1202 info build /Users/tobias/.atom/packages/script/node_modules/fill-range
+1203 info lifecycle fill-range@2.2.4~preinstall: fill-range@2.2.4
+1204 info linkStuff fill-range@2.2.4
+1205 silly linkStuff fill-range@2.2.4 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1206 info lifecycle fill-range@2.2.4~install: fill-range@2.2.4
+1207 info lifecycle fill-range@2.2.4~postinstall: fill-range@2.2.4
+1208 info build /Users/tobias/.atom/packages/script/node_modules/is-number
+1209 info lifecycle is-number@2.1.0~preinstall: is-number@2.1.0
+1210 info linkStuff is-number@2.1.0
+1211 silly linkStuff is-number@2.1.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1212 info lifecycle is-number@2.1.0~install: is-number@2.1.0
+1213 info lifecycle is-number@2.1.0~postinstall: is-number@2.1.0
+1214 info build /Users/tobias/.atom/packages/script/node_modules/kind-of
+1215 info lifecycle kind-of@3.2.2~preinstall: kind-of@3.2.2
+1216 info linkStuff kind-of@3.2.2
+1217 silly linkStuff kind-of@3.2.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1218 info lifecycle kind-of@3.2.2~install: kind-of@3.2.2
+1219 info lifecycle kind-of@3.2.2~postinstall: kind-of@3.2.2
+1220 info build /Users/tobias/.atom/packages/script/node_modules/is-buffer
+1221 info lifecycle is-buffer@1.1.6~preinstall: is-buffer@1.1.6
+1222 info linkStuff is-buffer@1.1.6
+1223 silly linkStuff is-buffer@1.1.6 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1224 info lifecycle is-buffer@1.1.6~install: is-buffer@1.1.6
+1225 info lifecycle is-buffer@1.1.6~postinstall: is-buffer@1.1.6
+1226 info build /Users/tobias/.atom/packages/script/node_modules/isobject
+1227 info lifecycle isobject@2.1.0~preinstall: isobject@2.1.0
+1228 info linkStuff isobject@2.1.0
+1229 silly linkStuff isobject@2.1.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1230 info lifecycle isobject@2.1.0~install: isobject@2.1.0
+1231 info lifecycle isobject@2.1.0~postinstall: isobject@2.1.0
+1232 info build /Users/tobias/.atom/packages/script/node_modules/isarray
+1233 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+1234 info linkStuff isarray@1.0.0
+1235 silly linkStuff isarray@1.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1236 info lifecycle isarray@1.0.0~install: isarray@1.0.0
+1237 info lifecycle isarray@1.0.0~postinstall: isarray@1.0.0
+1238 info build /Users/tobias/.atom/packages/script/node_modules/randomatic
+1239 info lifecycle randomatic@3.0.0~preinstall: randomatic@3.0.0
+1240 info linkStuff randomatic@3.0.0
+1241 silly linkStuff randomatic@3.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1242 verbose rebuildBundles [ 'is-number', 'kind-of' ]
+1243 info lifecycle randomatic@3.0.0~install: randomatic@3.0.0
+1244 info lifecycle randomatic@3.0.0~postinstall: randomatic@3.0.0
+1245 info build /Users/tobias/.atom/packages/script/node_modules/randomatic/node_modules/is-number
+1246 info lifecycle is-number@4.0.0~preinstall: is-number@4.0.0
+1247 info linkStuff is-number@4.0.0
+1248 silly linkStuff is-number@4.0.0 has /Users/tobias/.atom/packages/script/node_modules/randomatic/node_modules as its parent node_modules
+1249 info lifecycle is-number@4.0.0~install: is-number@4.0.0
+1250 info lifecycle is-number@4.0.0~postinstall: is-number@4.0.0
+1251 info build /Users/tobias/.atom/packages/script/node_modules/randomatic/node_modules/kind-of
+1252 info lifecycle kind-of@6.0.2~preinstall: kind-of@6.0.2
+1253 info linkStuff kind-of@6.0.2
+1254 silly linkStuff kind-of@6.0.2 has /Users/tobias/.atom/packages/script/node_modules/randomatic/node_modules as its parent node_modules
+1255 info lifecycle kind-of@6.0.2~install: kind-of@6.0.2
+1256 info lifecycle kind-of@6.0.2~postinstall: kind-of@6.0.2
+1257 info build /Users/tobias/.atom/packages/script/node_modules/math-random
+1258 info lifecycle math-random@1.0.1~preinstall: math-random@1.0.1
+1259 info linkStuff math-random@1.0.1
+1260 silly linkStuff math-random@1.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1261 info lifecycle math-random@1.0.1~install: math-random@1.0.1
+1262 info lifecycle math-random@1.0.1~postinstall: math-random@1.0.1
+1263 info build /Users/tobias/.atom/packages/script/node_modules/repeat-element
+1264 info lifecycle repeat-element@1.1.2~preinstall: repeat-element@1.1.2
+1265 info linkStuff repeat-element@1.1.2
+1266 silly linkStuff repeat-element@1.1.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1267 info lifecycle repeat-element@1.1.2~install: repeat-element@1.1.2
+1268 info lifecycle repeat-element@1.1.2~postinstall: repeat-element@1.1.2
+1269 info build /Users/tobias/.atom/packages/script/node_modules/repeat-string
+1270 info lifecycle repeat-string@1.6.1~preinstall: repeat-string@1.6.1
+1271 info linkStuff repeat-string@1.6.1
+1272 silly linkStuff repeat-string@1.6.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1273 info lifecycle repeat-string@1.6.1~install: repeat-string@1.6.1
+1274 info lifecycle repeat-string@1.6.1~postinstall: repeat-string@1.6.1
+1275 info build /Users/tobias/.atom/packages/script/node_modules/preserve
+1276 info lifecycle preserve@0.2.0~preinstall: preserve@0.2.0
+1277 info linkStuff preserve@0.2.0
+1278 silly linkStuff preserve@0.2.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1279 info lifecycle preserve@0.2.0~install: preserve@0.2.0
+1280 info lifecycle preserve@0.2.0~postinstall: preserve@0.2.0
+1281 info build /Users/tobias/.atom/packages/script/node_modules/expand-brackets
+1282 info lifecycle expand-brackets@0.1.5~preinstall: expand-brackets@0.1.5
+1283 info linkStuff expand-brackets@0.1.5
+1284 silly linkStuff expand-brackets@0.1.5 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1285 info lifecycle expand-brackets@0.1.5~install: expand-brackets@0.1.5
+1286 info lifecycle expand-brackets@0.1.5~postinstall: expand-brackets@0.1.5
+1287 info build /Users/tobias/.atom/packages/script/node_modules/is-posix-bracket
+1288 info lifecycle is-posix-bracket@0.1.1~preinstall: is-posix-bracket@0.1.1
+1289 info linkStuff is-posix-bracket@0.1.1
+1290 silly linkStuff is-posix-bracket@0.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1291 info lifecycle is-posix-bracket@0.1.1~install: is-posix-bracket@0.1.1
+1292 info lifecycle is-posix-bracket@0.1.1~postinstall: is-posix-bracket@0.1.1
+1293 info build /Users/tobias/.atom/packages/script/node_modules/extglob
+1294 info lifecycle extglob@0.3.2~preinstall: extglob@0.3.2
+1295 info linkStuff extglob@0.3.2
+1296 silly linkStuff extglob@0.3.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1297 info lifecycle extglob@0.3.2~install: extglob@0.3.2
+1298 info lifecycle extglob@0.3.2~postinstall: extglob@0.3.2
+1299 info build /Users/tobias/.atom/packages/script/node_modules/is-extglob
+1300 info lifecycle is-extglob@1.0.0~preinstall: is-extglob@1.0.0
+1301 info linkStuff is-extglob@1.0.0
+1302 silly linkStuff is-extglob@1.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1303 info lifecycle is-extglob@1.0.0~install: is-extglob@1.0.0
+1304 info lifecycle is-extglob@1.0.0~postinstall: is-extglob@1.0.0
+1305 info build /Users/tobias/.atom/packages/script/node_modules/filename-regex
+1306 info lifecycle filename-regex@2.0.1~preinstall: filename-regex@2.0.1
+1307 info linkStuff filename-regex@2.0.1
+1308 silly linkStuff filename-regex@2.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1309 info lifecycle filename-regex@2.0.1~install: filename-regex@2.0.1
+1310 info lifecycle filename-regex@2.0.1~postinstall: filename-regex@2.0.1
+1311 info build /Users/tobias/.atom/packages/script/node_modules/is-glob
+1312 info lifecycle is-glob@2.0.1~preinstall: is-glob@2.0.1
+1313 info linkStuff is-glob@2.0.1
+1314 silly linkStuff is-glob@2.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1315 info lifecycle is-glob@2.0.1~install: is-glob@2.0.1
+1316 info lifecycle is-glob@2.0.1~postinstall: is-glob@2.0.1
+1317 info build /Users/tobias/.atom/packages/script/node_modules/normalize-path
+1318 info lifecycle normalize-path@2.1.1~preinstall: normalize-path@2.1.1
+1319 info linkStuff normalize-path@2.1.1
+1320 silly linkStuff normalize-path@2.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1321 info lifecycle normalize-path@2.1.1~install: normalize-path@2.1.1
+1322 info lifecycle normalize-path@2.1.1~postinstall: normalize-path@2.1.1
+1323 info build /Users/tobias/.atom/packages/script/node_modules/remove-trailing-separator
+1324 info lifecycle remove-trailing-separator@1.1.0~preinstall: remove-trailing-separator@1.1.0
+1325 info linkStuff remove-trailing-separator@1.1.0
+1326 silly linkStuff remove-trailing-separator@1.1.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1327 info lifecycle remove-trailing-separator@1.1.0~install: remove-trailing-separator@1.1.0
+1328 info lifecycle remove-trailing-separator@1.1.0~postinstall: remove-trailing-separator@1.1.0
+1329 info build /Users/tobias/.atom/packages/script/node_modules/object.omit
+1330 info lifecycle object.omit@2.0.1~preinstall: object.omit@2.0.1
+1331 info linkStuff object.omit@2.0.1
+1332 silly linkStuff object.omit@2.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1333 info lifecycle object.omit@2.0.1~install: object.omit@2.0.1
+1334 info lifecycle object.omit@2.0.1~postinstall: object.omit@2.0.1
+1335 info build /Users/tobias/.atom/packages/script/node_modules/for-own
+1336 info lifecycle for-own@0.1.5~preinstall: for-own@0.1.5
+1337 info linkStuff for-own@0.1.5
+1338 silly linkStuff for-own@0.1.5 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1339 info lifecycle for-own@0.1.5~install: for-own@0.1.5
+1340 info lifecycle for-own@0.1.5~postinstall: for-own@0.1.5
+1341 info build /Users/tobias/.atom/packages/script/node_modules/for-in
+1342 info lifecycle for-in@1.0.2~preinstall: for-in@1.0.2
+1343 info linkStuff for-in@1.0.2
+1344 silly linkStuff for-in@1.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1345 info lifecycle for-in@1.0.2~install: for-in@1.0.2
+1346 info lifecycle for-in@1.0.2~postinstall: for-in@1.0.2
+1347 info build /Users/tobias/.atom/packages/script/node_modules/is-extendable
+1348 info lifecycle is-extendable@0.1.1~preinstall: is-extendable@0.1.1
+1349 info linkStuff is-extendable@0.1.1
+1350 silly linkStuff is-extendable@0.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1351 info lifecycle is-extendable@0.1.1~install: is-extendable@0.1.1
+1352 info lifecycle is-extendable@0.1.1~postinstall: is-extendable@0.1.1
+1353 info build /Users/tobias/.atom/packages/script/node_modules/parse-glob
+1354 info lifecycle parse-glob@3.0.4~preinstall: parse-glob@3.0.4
+1355 info linkStuff parse-glob@3.0.4
+1356 silly linkStuff parse-glob@3.0.4 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1357 info lifecycle parse-glob@3.0.4~install: parse-glob@3.0.4
+1358 info lifecycle parse-glob@3.0.4~postinstall: parse-glob@3.0.4
+1359 info build /Users/tobias/.atom/packages/script/node_modules/glob-base
+1360 info lifecycle glob-base@0.3.0~preinstall: glob-base@0.3.0
+1361 info linkStuff glob-base@0.3.0
+1362 silly linkStuff glob-base@0.3.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1363 info lifecycle glob-base@0.3.0~install: glob-base@0.3.0
+1364 info lifecycle glob-base@0.3.0~postinstall: glob-base@0.3.0
+1365 info build /Users/tobias/.atom/packages/script/node_modules/glob-parent
+1366 info lifecycle glob-parent@2.0.0~preinstall: glob-parent@2.0.0
+1367 info linkStuff glob-parent@2.0.0
+1368 silly linkStuff glob-parent@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1369 info lifecycle glob-parent@2.0.0~install: glob-parent@2.0.0
+1370 info lifecycle glob-parent@2.0.0~postinstall: glob-parent@2.0.0
+1371 info build /Users/tobias/.atom/packages/script/node_modules/is-dotfile
+1372 info lifecycle is-dotfile@1.0.3~preinstall: is-dotfile@1.0.3
+1373 info linkStuff is-dotfile@1.0.3
+1374 silly linkStuff is-dotfile@1.0.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1375 info lifecycle is-dotfile@1.0.3~install: is-dotfile@1.0.3
+1376 info lifecycle is-dotfile@1.0.3~postinstall: is-dotfile@1.0.3
+1377 info build /Users/tobias/.atom/packages/script/node_modules/regex-cache
+1378 info lifecycle regex-cache@0.4.4~preinstall: regex-cache@0.4.4
+1379 info linkStuff regex-cache@0.4.4
+1380 silly linkStuff regex-cache@0.4.4 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1381 info lifecycle regex-cache@0.4.4~install: regex-cache@0.4.4
+1382 info lifecycle regex-cache@0.4.4~postinstall: regex-cache@0.4.4
+1383 info build /Users/tobias/.atom/packages/script/node_modules/is-equal-shallow
+1384 info lifecycle is-equal-shallow@0.1.3~preinstall: is-equal-shallow@0.1.3
+1385 info linkStuff is-equal-shallow@0.1.3
+1386 silly linkStuff is-equal-shallow@0.1.3 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1387 info lifecycle is-equal-shallow@0.1.3~install: is-equal-shallow@0.1.3
+1388 info lifecycle is-equal-shallow@0.1.3~postinstall: is-equal-shallow@0.1.3
+1389 info build /Users/tobias/.atom/packages/script/node_modules/is-primitive
+1390 info lifecycle is-primitive@2.0.0~preinstall: is-primitive@2.0.0
+1391 info linkStuff is-primitive@2.0.0
+1392 silly linkStuff is-primitive@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1393 info lifecycle is-primitive@2.0.0~install: is-primitive@2.0.0
+1394 info lifecycle is-primitive@2.0.0~postinstall: is-primitive@2.0.0
+1395 info build /Users/tobias/.atom/packages/script/node_modules/async-each
+1396 info lifecycle async-each@1.0.1~preinstall: async-each@1.0.1
+1397 info linkStuff async-each@1.0.1
+1398 silly linkStuff async-each@1.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1399 info lifecycle async-each@1.0.1~install: async-each@1.0.1
+1400 info lifecycle async-each@1.0.1~postinstall: async-each@1.0.1
+1401 info build /Users/tobias/.atom/packages/script/node_modules/binary-extensions
+1402 info lifecycle binary-extensions@1.11.0~preinstall: binary-extensions@1.11.0
+1403 info linkStuff binary-extensions@1.11.0
+1404 silly linkStuff binary-extensions@1.11.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1405 info lifecycle binary-extensions@1.11.0~install: binary-extensions@1.11.0
+1406 info lifecycle binary-extensions@1.11.0~postinstall: binary-extensions@1.11.0
+1407 info build /Users/tobias/.atom/packages/script/node_modules/chokidar
+1408 info lifecycle chokidar@1.7.0~preinstall: chokidar@1.7.0
+1409 info linkStuff chokidar@1.7.0
+1410 silly linkStuff chokidar@1.7.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1411 info lifecycle chokidar@1.7.0~install: chokidar@1.7.0
+1412 info lifecycle chokidar@1.7.0~postinstall: chokidar@1.7.0
+1413 info build /Users/tobias/.atom/packages/script/node_modules/is-binary-path
+1414 info lifecycle is-binary-path@1.0.1~preinstall: is-binary-path@1.0.1
+1415 info linkStuff is-binary-path@1.0.1
+1416 silly linkStuff is-binary-path@1.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1417 info lifecycle is-binary-path@1.0.1~install: is-binary-path@1.0.1
+1418 info lifecycle is-binary-path@1.0.1~postinstall: is-binary-path@1.0.1
+1419 info build /Users/tobias/.atom/packages/script/node_modules/readdirp
+1420 info lifecycle readdirp@2.1.0~preinstall: readdirp@2.1.0
+1421 info linkStuff readdirp@2.1.0
+1422 silly linkStuff readdirp@2.1.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1423 info lifecycle readdirp@2.1.0~install: readdirp@2.1.0
+1424 info lifecycle readdirp@2.1.0~postinstall: readdirp@2.1.0
+1425 info build /Users/tobias/.atom/packages/script/node_modules/readable-stream
+1426 info lifecycle readable-stream@2.3.6~preinstall: readable-stream@2.3.6
+1427 info linkStuff readable-stream@2.3.6
+1428 silly linkStuff readable-stream@2.3.6 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1429 info lifecycle readable-stream@2.3.6~install: readable-stream@2.3.6
+1430 info lifecycle readable-stream@2.3.6~postinstall: readable-stream@2.3.6
+1431 info build /Users/tobias/.atom/packages/script/node_modules/core-util-is
+1432 info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+1433 info linkStuff core-util-is@1.0.2
+1434 silly linkStuff core-util-is@1.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1435 info lifecycle core-util-is@1.0.2~install: core-util-is@1.0.2
+1436 info lifecycle core-util-is@1.0.2~postinstall: core-util-is@1.0.2
+1437 info build /Users/tobias/.atom/packages/script/node_modules/process-nextick-args
+1438 info lifecycle process-nextick-args@2.0.0~preinstall: process-nextick-args@2.0.0
+1439 info linkStuff process-nextick-args@2.0.0
+1440 silly linkStuff process-nextick-args@2.0.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1441 info lifecycle process-nextick-args@2.0.0~install: process-nextick-args@2.0.0
+1442 info lifecycle process-nextick-args@2.0.0~postinstall: process-nextick-args@2.0.0
+1443 info build /Users/tobias/.atom/packages/script/node_modules/safe-buffer
+1444 info lifecycle safe-buffer@5.1.2~preinstall: safe-buffer@5.1.2
+1445 info linkStuff safe-buffer@5.1.2
+1446 silly linkStuff safe-buffer@5.1.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1447 info lifecycle safe-buffer@5.1.2~install: safe-buffer@5.1.2
+1448 info lifecycle safe-buffer@5.1.2~postinstall: safe-buffer@5.1.2
+1449 info build /Users/tobias/.atom/packages/script/node_modules/string_decoder
+1450 info lifecycle string_decoder@1.1.1~preinstall: string_decoder@1.1.1
+1451 info linkStuff string_decoder@1.1.1
+1452 silly linkStuff string_decoder@1.1.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1453 info lifecycle string_decoder@1.1.1~install: string_decoder@1.1.1
+1454 info lifecycle string_decoder@1.1.1~postinstall: string_decoder@1.1.1
+1455 info build /Users/tobias/.atom/packages/script/node_modules/util-deprecate
+1456 info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+1457 info linkStuff util-deprecate@1.0.2
+1458 silly linkStuff util-deprecate@1.0.2 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1459 info lifecycle util-deprecate@1.0.2~install: util-deprecate@1.0.2
+1460 info lifecycle util-deprecate@1.0.2~postinstall: util-deprecate@1.0.2
+1461 info build /Users/tobias/.atom/packages/script/node_modules/set-immediate-shim
+1462 info lifecycle set-immediate-shim@1.0.1~preinstall: set-immediate-shim@1.0.1
+1463 info linkStuff set-immediate-shim@1.0.1
+1464 silly linkStuff set-immediate-shim@1.0.1 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1465 info lifecycle set-immediate-shim@1.0.1~install: set-immediate-shim@1.0.1
+1466 info lifecycle set-immediate-shim@1.0.1~postinstall: set-immediate-shim@1.0.1
+1467 info build /Users/tobias/.atom/packages/script/node_modules/nan
+1468 info lifecycle nan@2.10.0~preinstall: nan@2.10.0
+1469 info linkStuff nan@2.10.0
+1470 silly linkStuff nan@2.10.0 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1471 info lifecycle nan@2.10.0~install: nan@2.10.0
+1472 info lifecycle nan@2.10.0~postinstall: nan@2.10.0
+1473 info build /Users/tobias/.atom/packages/script/node_modules/fsevents
+1474 info lifecycle fsevents@1.2.4~preinstall: fsevents@1.2.4
+1475 info linkStuff fsevents@1.2.4
+1476 silly linkStuff fsevents@1.2.4 has /Users/tobias/.atom/packages/script/node_modules as its parent node_modules
+1477 verbose rebuildBundles [ '.bin',
+1477 verbose rebuildBundles   'abbrev',
+1477 verbose rebuildBundles   'ansi-regex',
+1477 verbose rebuildBundles   'aproba',
+1477 verbose rebuildBundles   'are-we-there-yet',
+1477 verbose rebuildBundles   'balanced-match',
+1477 verbose rebuildBundles   'brace-expansion',
+1477 verbose rebuildBundles   'chownr',
+1477 verbose rebuildBundles   'code-point-at',
+1477 verbose rebuildBundles   'concat-map',
+1477 verbose rebuildBundles   'console-control-strings',
+1477 verbose rebuildBundles   'core-util-is',
+1477 verbose rebuildBundles   'debug',
+1477 verbose rebuildBundles   'deep-extend',
+1477 verbose rebuildBundles   'delegates',
+1477 verbose rebuildBundles   'detect-libc',
+1477 verbose rebuildBundles   'fs-minipass',
+1477 verbose rebuildBundles   'fs.realpath',
+1477 verbose rebuildBundles   'gauge',
+1477 verbose rebuildBundles   'glob',
+1477 verbose rebuildBundles   'has-unicode',
+1477 verbose rebuildBundles   'iconv-lite',
+1477 verbose rebuildBundles   'ignore-walk',
+1477 verbose rebuildBundles   'inflight',
+1477 verbose rebuildBundles   'inherits',
+1477 verbose rebuildBundles   'ini',
+1477 verbose rebuildBundles   'is-fullwidth-code-point',
+1477 verbose rebuildBundles   'isarray',
+1477 verbose rebuildBundles   'minimatch',
+1477 verbose rebuildBundles   'minimist',
+1477 verbose rebuildBundles   'minipass',
+1477 verbose rebuildBundles   'minizlib',
+1477 verbose rebuildBundles   'mkdirp',
+1477 verbose rebuildBundles   'ms',
+1477 verbose rebuildBundles   'needle',
+1477 verbose rebuildBundles   'node-pre-gyp',
+1477 verbose rebuildBundles   'nopt',
+1477 verbose rebuildBundles   'npm-bundled',
+1477 verbose rebuildBundles   'npm-packlist',
+1477 verbose rebuildBundles   'npmlog',
+1477 verbose rebuildBundles   'number-is-nan',
+1477 verbose rebuildBundles   'object-assign',
+1477 verbose rebuildBundles   'once',
+1477 verbose rebuildBundles   'os-homedir',
+1477 verbose rebuildBundles   'os-tmpdir',
+1477 verbose rebuildBundles   'osenv',
+1477 verbose rebuildBundles   'path-is-absolute',
+1477 verbose rebuildBundles   'process-nextick-args',
+1477 verbose rebuildBundles   'rc',
+1477 verbose rebuildBundles   'readable-stream',
+1477 verbose rebuildBundles   'rimraf',
+1477 verbose rebuildBundles   'safe-buffer',
+1477 verbose rebuildBundles   'safer-buffer',
+1477 verbose rebuildBundles   'sax',
+1477 verbose rebuildBundles   'semver',
+1477 verbose rebuildBundles   'set-blocking',
+1477 verbose rebuildBundles   'signal-exit',
+1477 verbose rebuildBundles   'string-width',
+1477 verbose rebuildBundles   'string_decoder',
+1477 verbose rebuildBundles   'strip-ansi',
+1477 verbose rebuildBundles   'strip-json-comments',
+1477 verbose rebuildBundles   'tar',
+1477 verbose rebuildBundles   'util-deprecate',
+1477 verbose rebuildBundles   'wide-align',
+1477 verbose rebuildBundles   'wrappy',
+1477 verbose rebuildBundles   'yallist' ]
+1478 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/abbrev
+1479 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/abbrev
+1480 info lifecycle abbrev@1.1.1~preinstall: abbrev@1.1.1
+1481 info linkStuff abbrev@1.1.1
+1482 silly linkStuff abbrev@1.1.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1483 info lifecycle abbrev@1.1.1~install: abbrev@1.1.1
+1484 info lifecycle abbrev@1.1.1~postinstall: abbrev@1.1.1
+1485 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ansi-regex
+1486 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ansi-regex
+1487 info lifecycle ansi-regex@2.1.1~preinstall: ansi-regex@2.1.1
+1488 info linkStuff ansi-regex@2.1.1
+1489 silly linkStuff ansi-regex@2.1.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1490 info lifecycle ansi-regex@2.1.1~install: ansi-regex@2.1.1
+1491 info lifecycle ansi-regex@2.1.1~postinstall: ansi-regex@2.1.1
+1492 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/aproba
+1493 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/aproba
+1494 info lifecycle aproba@1.2.0~preinstall: aproba@1.2.0
+1495 info linkStuff aproba@1.2.0
+1496 silly linkStuff aproba@1.2.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1497 info lifecycle aproba@1.2.0~install: aproba@1.2.0
+1498 info lifecycle aproba@1.2.0~postinstall: aproba@1.2.0
+1499 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/are-we-there-yet
+1500 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/are-we-there-yet
+1501 info lifecycle are-we-there-yet@1.1.4~preinstall: are-we-there-yet@1.1.4
+1502 info linkStuff are-we-there-yet@1.1.4
+1503 silly linkStuff are-we-there-yet@1.1.4 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1504 info lifecycle are-we-there-yet@1.1.4~install: are-we-there-yet@1.1.4
+1505 info lifecycle are-we-there-yet@1.1.4~postinstall: are-we-there-yet@1.1.4
+1506 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/balanced-match
+1507 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/balanced-match
+1508 info lifecycle balanced-match@1.0.0~preinstall: balanced-match@1.0.0
+1509 info linkStuff balanced-match@1.0.0
+1510 silly linkStuff balanced-match@1.0.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1511 info lifecycle balanced-match@1.0.0~install: balanced-match@1.0.0
+1512 info lifecycle balanced-match@1.0.0~postinstall: balanced-match@1.0.0
+1513 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/brace-expansion
+1514 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/brace-expansion
+1515 info lifecycle brace-expansion@1.1.11~preinstall: brace-expansion@1.1.11
+1516 info linkStuff brace-expansion@1.1.11
+1517 silly linkStuff brace-expansion@1.1.11 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1518 info lifecycle brace-expansion@1.1.11~install: brace-expansion@1.1.11
+1519 info lifecycle brace-expansion@1.1.11~postinstall: brace-expansion@1.1.11
+1520 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/chownr
+1521 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/chownr
+1522 info lifecycle chownr@1.0.1~preinstall: chownr@1.0.1
+1523 info linkStuff chownr@1.0.1
+1524 silly linkStuff chownr@1.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1525 info lifecycle chownr@1.0.1~install: chownr@1.0.1
+1526 info lifecycle chownr@1.0.1~postinstall: chownr@1.0.1
+1527 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/code-point-at
+1528 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/code-point-at
+1529 info lifecycle code-point-at@1.1.0~preinstall: code-point-at@1.1.0
+1530 info linkStuff code-point-at@1.1.0
+1531 silly linkStuff code-point-at@1.1.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1532 info lifecycle code-point-at@1.1.0~install: code-point-at@1.1.0
+1533 info lifecycle code-point-at@1.1.0~postinstall: code-point-at@1.1.0
+1534 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/concat-map
+1535 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/concat-map
+1536 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+1537 info linkStuff concat-map@0.0.1
+1538 silly linkStuff concat-map@0.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1539 info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+1540 info lifecycle concat-map@0.0.1~postinstall: concat-map@0.0.1
+1541 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/console-control-strings
+1542 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/console-control-strings
+1543 info lifecycle console-control-strings@1.1.0~preinstall: console-control-strings@1.1.0
+1544 info linkStuff console-control-strings@1.1.0
+1545 silly linkStuff console-control-strings@1.1.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1546 info lifecycle console-control-strings@1.1.0~install: console-control-strings@1.1.0
+1547 info lifecycle console-control-strings@1.1.0~postinstall: console-control-strings@1.1.0
+1548 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/core-util-is
+1549 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/core-util-is
+1550 info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+1551 info linkStuff core-util-is@1.0.2
+1552 silly linkStuff core-util-is@1.0.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1553 info lifecycle core-util-is@1.0.2~install: core-util-is@1.0.2
+1554 info lifecycle core-util-is@1.0.2~postinstall: core-util-is@1.0.2
+1555 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/debug
+1556 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/debug
+1557 info lifecycle debug@2.6.9~preinstall: debug@2.6.9
+1558 info linkStuff debug@2.6.9
+1559 silly linkStuff debug@2.6.9 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1560 info lifecycle debug@2.6.9~install: debug@2.6.9
+1561 info lifecycle debug@2.6.9~postinstall: debug@2.6.9
+1562 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/deep-extend
+1563 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/deep-extend
+1564 info lifecycle deep-extend@0.5.1~preinstall: deep-extend@0.5.1
+1565 info linkStuff deep-extend@0.5.1
+1566 silly linkStuff deep-extend@0.5.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1567 info lifecycle deep-extend@0.5.1~install: deep-extend@0.5.1
+1568 info lifecycle deep-extend@0.5.1~postinstall: deep-extend@0.5.1
+1569 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/delegates
+1570 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/delegates
+1571 info lifecycle delegates@1.0.0~preinstall: delegates@1.0.0
+1572 info linkStuff delegates@1.0.0
+1573 silly linkStuff delegates@1.0.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1574 info lifecycle delegates@1.0.0~install: delegates@1.0.0
+1575 info lifecycle delegates@1.0.0~postinstall: delegates@1.0.0
+1576 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/detect-libc
+1577 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/detect-libc
+1578 info lifecycle detect-libc@1.0.3~preinstall: detect-libc@1.0.3
+1579 info linkStuff detect-libc@1.0.3
+1580 silly linkStuff detect-libc@1.0.3 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1581 verbose linkBins [ { 'detect-libc': './bin/detect-libc.js' },
+1581 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin',
+1581 verbose linkBins   false ]
+1582 info lifecycle detect-libc@1.0.3~install: detect-libc@1.0.3
+1583 info lifecycle detect-libc@1.0.3~postinstall: detect-libc@1.0.3
+1584 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/fs-minipass
+1585 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/fs-minipass
+1586 info lifecycle fs-minipass@1.2.5~preinstall: fs-minipass@1.2.5
+1587 info linkStuff fs-minipass@1.2.5
+1588 silly linkStuff fs-minipass@1.2.5 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1589 info lifecycle fs-minipass@1.2.5~install: fs-minipass@1.2.5
+1590 info lifecycle fs-minipass@1.2.5~postinstall: fs-minipass@1.2.5
+1591 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/fs.realpath
+1592 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/fs.realpath
+1593 info lifecycle fs.realpath@1.0.0~preinstall: fs.realpath@1.0.0
+1594 info linkStuff fs.realpath@1.0.0
+1595 silly linkStuff fs.realpath@1.0.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1596 info lifecycle fs.realpath@1.0.0~install: fs.realpath@1.0.0
+1597 info lifecycle fs.realpath@1.0.0~postinstall: fs.realpath@1.0.0
+1598 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/gauge
+1599 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/gauge
+1600 info lifecycle gauge@2.7.4~preinstall: gauge@2.7.4
+1601 info linkStuff gauge@2.7.4
+1602 silly linkStuff gauge@2.7.4 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1603 info lifecycle gauge@2.7.4~install: gauge@2.7.4
+1604 info lifecycle gauge@2.7.4~postinstall: gauge@2.7.4
+1605 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/glob
+1606 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/glob
+1607 info lifecycle glob@7.1.2~preinstall: glob@7.1.2
+1608 info linkStuff glob@7.1.2
+1609 silly linkStuff glob@7.1.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1610 info lifecycle glob@7.1.2~install: glob@7.1.2
+1611 info lifecycle glob@7.1.2~postinstall: glob@7.1.2
+1612 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/has-unicode
+1613 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/has-unicode
+1614 info lifecycle has-unicode@2.0.1~preinstall: has-unicode@2.0.1
+1615 info linkStuff has-unicode@2.0.1
+1616 silly linkStuff has-unicode@2.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1617 info lifecycle has-unicode@2.0.1~install: has-unicode@2.0.1
+1618 info lifecycle has-unicode@2.0.1~postinstall: has-unicode@2.0.1
+1619 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/iconv-lite
+1620 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/iconv-lite
+1621 info lifecycle iconv-lite@0.4.21~preinstall: iconv-lite@0.4.21
+1622 info linkStuff iconv-lite@0.4.21
+1623 silly linkStuff iconv-lite@0.4.21 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1624 info lifecycle iconv-lite@0.4.21~install: iconv-lite@0.4.21
+1625 info lifecycle iconv-lite@0.4.21~postinstall: iconv-lite@0.4.21
+1626 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ignore-walk
+1627 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ignore-walk
+1628 info lifecycle ignore-walk@3.0.1~preinstall: ignore-walk@3.0.1
+1629 info linkStuff ignore-walk@3.0.1
+1630 silly linkStuff ignore-walk@3.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1631 info lifecycle ignore-walk@3.0.1~install: ignore-walk@3.0.1
+1632 info lifecycle ignore-walk@3.0.1~postinstall: ignore-walk@3.0.1
+1633 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/inflight
+1634 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/inflight
+1635 info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+1636 info linkStuff inflight@1.0.6
+1637 silly linkStuff inflight@1.0.6 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1638 info lifecycle inflight@1.0.6~install: inflight@1.0.6
+1639 info lifecycle inflight@1.0.6~postinstall: inflight@1.0.6
+1640 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/inherits
+1641 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/inherits
+1642 info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+1643 info linkStuff inherits@2.0.3
+1644 silly linkStuff inherits@2.0.3 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1645 info lifecycle inherits@2.0.3~install: inherits@2.0.3
+1646 info lifecycle inherits@2.0.3~postinstall: inherits@2.0.3
+1647 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ini
+1648 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ini
+1649 info lifecycle ini@1.3.5~preinstall: ini@1.3.5
+1650 info linkStuff ini@1.3.5
+1651 silly linkStuff ini@1.3.5 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1652 info lifecycle ini@1.3.5~install: ini@1.3.5
+1653 info lifecycle ini@1.3.5~postinstall: ini@1.3.5
+1654 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/is-fullwidth-code-point
+1655 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/is-fullwidth-code-point
+1656 info lifecycle is-fullwidth-code-point@1.0.0~preinstall: is-fullwidth-code-point@1.0.0
+1657 info linkStuff is-fullwidth-code-point@1.0.0
+1658 silly linkStuff is-fullwidth-code-point@1.0.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1659 info lifecycle is-fullwidth-code-point@1.0.0~install: is-fullwidth-code-point@1.0.0
+1660 info lifecycle is-fullwidth-code-point@1.0.0~postinstall: is-fullwidth-code-point@1.0.0
+1661 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/isarray
+1662 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/isarray
+1663 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+1664 info linkStuff isarray@1.0.0
+1665 silly linkStuff isarray@1.0.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1666 info lifecycle isarray@1.0.0~install: isarray@1.0.0
+1667 info lifecycle isarray@1.0.0~postinstall: isarray@1.0.0
+1668 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minimatch
+1669 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minimatch
+1670 info lifecycle minimatch@3.0.4~preinstall: minimatch@3.0.4
+1671 info linkStuff minimatch@3.0.4
+1672 silly linkStuff minimatch@3.0.4 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1673 info lifecycle minimatch@3.0.4~install: minimatch@3.0.4
+1674 info lifecycle minimatch@3.0.4~postinstall: minimatch@3.0.4
+1675 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minimist
+1676 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minimist
+1677 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+1678 info linkStuff minimist@0.0.8
+1679 silly linkStuff minimist@0.0.8 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1680 info lifecycle minimist@0.0.8~install: minimist@0.0.8
+1681 info lifecycle minimist@0.0.8~postinstall: minimist@0.0.8
+1682 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minipass
+1683 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minipass
+1684 info lifecycle minipass@2.2.4~preinstall: minipass@2.2.4
+1685 info linkStuff minipass@2.2.4
+1686 silly linkStuff minipass@2.2.4 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1687 info lifecycle minipass@2.2.4~install: minipass@2.2.4
+1688 info lifecycle minipass@2.2.4~postinstall: minipass@2.2.4
+1689 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minizlib
+1690 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/minizlib
+1691 info lifecycle minizlib@1.1.0~preinstall: minizlib@1.1.0
+1692 info linkStuff minizlib@1.1.0
+1693 silly linkStuff minizlib@1.1.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1694 info lifecycle minizlib@1.1.0~install: minizlib@1.1.0
+1695 info lifecycle minizlib@1.1.0~postinstall: minizlib@1.1.0
+1696 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/mkdirp
+1697 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/mkdirp
+1698 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+1699 info linkStuff mkdirp@0.5.1
+1700 silly linkStuff mkdirp@0.5.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1701 verbose linkBins [ { mkdirp: 'bin/cmd.js' },
+1701 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin',
+1701 verbose linkBins   false ]
+1702 info lifecycle mkdirp@0.5.1~install: mkdirp@0.5.1
+1703 info lifecycle mkdirp@0.5.1~postinstall: mkdirp@0.5.1
+1704 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ms
+1705 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/ms
+1706 info lifecycle ms@2.0.0~preinstall: ms@2.0.0
+1707 info linkStuff ms@2.0.0
+1708 silly linkStuff ms@2.0.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1709 info lifecycle ms@2.0.0~install: ms@2.0.0
+1710 info lifecycle ms@2.0.0~postinstall: ms@2.0.0
+1711 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/needle
+1712 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/needle
+1713 info lifecycle needle@2.2.0~preinstall: needle@2.2.0
+1714 info linkStuff needle@2.2.0
+1715 silly linkStuff needle@2.2.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1716 verbose linkBins [ { needle: './bin/needle' },
+1716 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin',
+1716 verbose linkBins   false ]
+1717 info lifecycle needle@2.2.0~install: needle@2.2.0
+1718 info lifecycle needle@2.2.0~postinstall: needle@2.2.0
+1719 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/node-pre-gyp
+1720 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/node-pre-gyp
+1721 info lifecycle node-pre-gyp@0.10.0~preinstall: node-pre-gyp@0.10.0
+1722 info linkStuff node-pre-gyp@0.10.0
+1723 silly linkStuff node-pre-gyp@0.10.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1724 verbose linkBins [ { 'node-pre-gyp': './bin/node-pre-gyp' },
+1724 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin',
+1724 verbose linkBins   false ]
+1725 info lifecycle node-pre-gyp@0.10.0~install: node-pre-gyp@0.10.0
+1726 info lifecycle node-pre-gyp@0.10.0~postinstall: node-pre-gyp@0.10.0
+1727 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/nopt
+1728 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/nopt
+1729 info lifecycle nopt@4.0.1~preinstall: nopt@4.0.1
+1730 info linkStuff nopt@4.0.1
+1731 silly linkStuff nopt@4.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1732 verbose linkBins [ { nopt: './bin/nopt.js' },
+1732 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin',
+1732 verbose linkBins   false ]
+1733 info lifecycle nopt@4.0.1~install: nopt@4.0.1
+1734 info lifecycle nopt@4.0.1~postinstall: nopt@4.0.1
+1735 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npm-bundled
+1736 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npm-bundled
+1737 info lifecycle npm-bundled@1.0.3~preinstall: npm-bundled@1.0.3
+1738 info linkStuff npm-bundled@1.0.3
+1739 silly linkStuff npm-bundled@1.0.3 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1740 info lifecycle npm-bundled@1.0.3~install: npm-bundled@1.0.3
+1741 info lifecycle npm-bundled@1.0.3~postinstall: npm-bundled@1.0.3
+1742 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npm-packlist
+1743 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npm-packlist
+1744 info lifecycle npm-packlist@1.1.10~preinstall: npm-packlist@1.1.10
+1745 info linkStuff npm-packlist@1.1.10
+1746 silly linkStuff npm-packlist@1.1.10 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1747 info lifecycle npm-packlist@1.1.10~install: npm-packlist@1.1.10
+1748 info lifecycle npm-packlist@1.1.10~postinstall: npm-packlist@1.1.10
+1749 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npmlog
+1750 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/npmlog
+1751 info lifecycle npmlog@4.1.2~preinstall: npmlog@4.1.2
+1752 info linkStuff npmlog@4.1.2
+1753 silly linkStuff npmlog@4.1.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1754 info lifecycle npmlog@4.1.2~install: npmlog@4.1.2
+1755 info lifecycle npmlog@4.1.2~postinstall: npmlog@4.1.2
+1756 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/number-is-nan
+1757 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/number-is-nan
+1758 info lifecycle number-is-nan@1.0.1~preinstall: number-is-nan@1.0.1
+1759 info linkStuff number-is-nan@1.0.1
+1760 silly linkStuff number-is-nan@1.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1761 info lifecycle number-is-nan@1.0.1~install: number-is-nan@1.0.1
+1762 info lifecycle number-is-nan@1.0.1~postinstall: number-is-nan@1.0.1
+1763 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/object-assign
+1764 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/object-assign
+1765 info lifecycle object-assign@4.1.1~preinstall: object-assign@4.1.1
+1766 info linkStuff object-assign@4.1.1
+1767 silly linkStuff object-assign@4.1.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1768 info lifecycle object-assign@4.1.1~install: object-assign@4.1.1
+1769 info lifecycle object-assign@4.1.1~postinstall: object-assign@4.1.1
+1770 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/once
+1771 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/once
+1772 info lifecycle once@1.4.0~preinstall: once@1.4.0
+1773 info linkStuff once@1.4.0
+1774 silly linkStuff once@1.4.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1775 info lifecycle once@1.4.0~install: once@1.4.0
+1776 info lifecycle once@1.4.0~postinstall: once@1.4.0
+1777 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/os-homedir
+1778 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/os-homedir
+1779 info lifecycle os-homedir@1.0.2~preinstall: os-homedir@1.0.2
+1780 info linkStuff os-homedir@1.0.2
+1781 silly linkStuff os-homedir@1.0.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1782 info lifecycle os-homedir@1.0.2~install: os-homedir@1.0.2
+1783 info lifecycle os-homedir@1.0.2~postinstall: os-homedir@1.0.2
+1784 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/os-tmpdir
+1785 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/os-tmpdir
+1786 info lifecycle os-tmpdir@1.0.2~preinstall: os-tmpdir@1.0.2
+1787 info linkStuff os-tmpdir@1.0.2
+1788 silly linkStuff os-tmpdir@1.0.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1789 info lifecycle os-tmpdir@1.0.2~install: os-tmpdir@1.0.2
+1790 info lifecycle os-tmpdir@1.0.2~postinstall: os-tmpdir@1.0.2
+1791 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/osenv
+1792 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/osenv
+1793 info lifecycle osenv@0.1.5~preinstall: osenv@0.1.5
+1794 info linkStuff osenv@0.1.5
+1795 silly linkStuff osenv@0.1.5 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1796 info lifecycle osenv@0.1.5~install: osenv@0.1.5
+1797 info lifecycle osenv@0.1.5~postinstall: osenv@0.1.5
+1798 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/path-is-absolute
+1799 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/path-is-absolute
+1800 info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+1801 info linkStuff path-is-absolute@1.0.1
+1802 silly linkStuff path-is-absolute@1.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1803 info lifecycle path-is-absolute@1.0.1~install: path-is-absolute@1.0.1
+1804 info lifecycle path-is-absolute@1.0.1~postinstall: path-is-absolute@1.0.1
+1805 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/process-nextick-args
+1806 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/process-nextick-args
+1807 info lifecycle process-nextick-args@2.0.0~preinstall: process-nextick-args@2.0.0
+1808 info linkStuff process-nextick-args@2.0.0
+1809 silly linkStuff process-nextick-args@2.0.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1810 info lifecycle process-nextick-args@2.0.0~install: process-nextick-args@2.0.0
+1811 info lifecycle process-nextick-args@2.0.0~postinstall: process-nextick-args@2.0.0
+1812 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/rc
+1813 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/rc
+1814 info lifecycle rc@1.2.7~preinstall: rc@1.2.7
+1815 info linkStuff rc@1.2.7
+1816 silly linkStuff rc@1.2.7 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1817 verbose linkBins [ { rc: './cli.js' },
+1817 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin',
+1817 verbose linkBins   false ]
+1818 verbose rebuildBundles [ 'minimist' ]
+1819 info lifecycle rc@1.2.7~install: rc@1.2.7
+1820 info lifecycle rc@1.2.7~postinstall: rc@1.2.7
+1821 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/readable-stream
+1822 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/readable-stream
+1823 info lifecycle readable-stream@2.3.6~preinstall: readable-stream@2.3.6
+1824 info linkStuff readable-stream@2.3.6
+1825 silly linkStuff readable-stream@2.3.6 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1826 info lifecycle readable-stream@2.3.6~install: readable-stream@2.3.6
+1827 info lifecycle readable-stream@2.3.6~postinstall: readable-stream@2.3.6
+1828 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/rimraf
+1829 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/rimraf
+1830 info lifecycle rimraf@2.6.2~preinstall: rimraf@2.6.2
+1831 info linkStuff rimraf@2.6.2
+1832 silly linkStuff rimraf@2.6.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1833 verbose linkBins [ { rimraf: './bin.js' },
+1833 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin',
+1833 verbose linkBins   false ]
+1834 info lifecycle rimraf@2.6.2~install: rimraf@2.6.2
+1835 info lifecycle rimraf@2.6.2~postinstall: rimraf@2.6.2
+1836 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/safe-buffer
+1837 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/safe-buffer
+1838 info lifecycle safe-buffer@5.1.1~preinstall: safe-buffer@5.1.1
+1839 info linkStuff safe-buffer@5.1.1
+1840 silly linkStuff safe-buffer@5.1.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1841 info lifecycle safe-buffer@5.1.1~install: safe-buffer@5.1.1
+1842 info lifecycle safe-buffer@5.1.1~postinstall: safe-buffer@5.1.1
+1843 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/safer-buffer
+1844 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/safer-buffer
+1845 info lifecycle safer-buffer@2.1.2~preinstall: safer-buffer@2.1.2
+1846 info linkStuff safer-buffer@2.1.2
+1847 silly linkStuff safer-buffer@2.1.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1848 info lifecycle safer-buffer@2.1.2~install: safer-buffer@2.1.2
+1849 info lifecycle safer-buffer@2.1.2~postinstall: safer-buffer@2.1.2
+1850 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/sax
+1851 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/sax
+1852 info lifecycle sax@1.2.4~preinstall: sax@1.2.4
+1853 info linkStuff sax@1.2.4
+1854 silly linkStuff sax@1.2.4 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1855 info lifecycle sax@1.2.4~install: sax@1.2.4
+1856 info lifecycle sax@1.2.4~postinstall: sax@1.2.4
+1857 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/semver
+1858 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/semver
+1859 info lifecycle semver@5.5.0~preinstall: semver@5.5.0
+1860 info linkStuff semver@5.5.0
+1861 silly linkStuff semver@5.5.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1862 verbose linkBins [ { semver: './bin/semver' },
+1862 verbose linkBins   '/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin',
+1862 verbose linkBins   false ]
+1863 info lifecycle semver@5.5.0~install: semver@5.5.0
+1864 info lifecycle semver@5.5.0~postinstall: semver@5.5.0
+1865 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/set-blocking
+1866 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/set-blocking
+1867 info lifecycle set-blocking@2.0.0~preinstall: set-blocking@2.0.0
+1868 info linkStuff set-blocking@2.0.0
+1869 silly linkStuff set-blocking@2.0.0 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1870 info lifecycle set-blocking@2.0.0~install: set-blocking@2.0.0
+1871 info lifecycle set-blocking@2.0.0~postinstall: set-blocking@2.0.0
+1872 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/signal-exit
+1873 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/signal-exit
+1874 info lifecycle signal-exit@3.0.2~preinstall: signal-exit@3.0.2
+1875 info linkStuff signal-exit@3.0.2
+1876 silly linkStuff signal-exit@3.0.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1877 info lifecycle signal-exit@3.0.2~install: signal-exit@3.0.2
+1878 info lifecycle signal-exit@3.0.2~postinstall: signal-exit@3.0.2
+1879 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/string-width
+1880 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/string-width
+1881 info lifecycle string-width@1.0.2~preinstall: string-width@1.0.2
+1882 info linkStuff string-width@1.0.2
+1883 silly linkStuff string-width@1.0.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1884 info lifecycle string-width@1.0.2~install: string-width@1.0.2
+1885 info lifecycle string-width@1.0.2~postinstall: string-width@1.0.2
+1886 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/string_decoder
+1887 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/string_decoder
+1888 info lifecycle string_decoder@1.1.1~preinstall: string_decoder@1.1.1
+1889 info linkStuff string_decoder@1.1.1
+1890 silly linkStuff string_decoder@1.1.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1891 info lifecycle string_decoder@1.1.1~install: string_decoder@1.1.1
+1892 info lifecycle string_decoder@1.1.1~postinstall: string_decoder@1.1.1
+1893 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/strip-ansi
+1894 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/strip-ansi
+1895 info lifecycle strip-ansi@3.0.1~preinstall: strip-ansi@3.0.1
+1896 info linkStuff strip-ansi@3.0.1
+1897 silly linkStuff strip-ansi@3.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1898 info lifecycle strip-ansi@3.0.1~install: strip-ansi@3.0.1
+1899 info lifecycle strip-ansi@3.0.1~postinstall: strip-ansi@3.0.1
+1900 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/strip-json-comments
+1901 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/strip-json-comments
+1902 info lifecycle strip-json-comments@2.0.1~preinstall: strip-json-comments@2.0.1
+1903 info linkStuff strip-json-comments@2.0.1
+1904 silly linkStuff strip-json-comments@2.0.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1905 info lifecycle strip-json-comments@2.0.1~install: strip-json-comments@2.0.1
+1906 info lifecycle strip-json-comments@2.0.1~postinstall: strip-json-comments@2.0.1
+1907 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/tar
+1908 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/tar
+1909 info lifecycle tar@4.4.1~preinstall: tar@4.4.1
+1910 info linkStuff tar@4.4.1
+1911 silly linkStuff tar@4.4.1 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1912 info lifecycle tar@4.4.1~install: tar@4.4.1
+1913 info lifecycle tar@4.4.1~postinstall: tar@4.4.1
+1914 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/util-deprecate
+1915 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/util-deprecate
+1916 info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+1917 info linkStuff util-deprecate@1.0.2
+1918 silly linkStuff util-deprecate@1.0.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1919 info lifecycle util-deprecate@1.0.2~install: util-deprecate@1.0.2
+1920 info lifecycle util-deprecate@1.0.2~postinstall: util-deprecate@1.0.2
+1921 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/wide-align
+1922 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/wide-align
+1923 info lifecycle wide-align@1.1.2~preinstall: wide-align@1.1.2
+1924 info linkStuff wide-align@1.1.2
+1925 silly linkStuff wide-align@1.1.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1926 info lifecycle wide-align@1.1.2~install: wide-align@1.1.2
+1927 info lifecycle wide-align@1.1.2~postinstall: wide-align@1.1.2
+1928 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/wrappy
+1929 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/wrappy
+1930 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+1931 info linkStuff wrappy@1.0.2
+1932 silly linkStuff wrappy@1.0.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1933 info lifecycle wrappy@1.0.2~install: wrappy@1.0.2
+1934 info lifecycle wrappy@1.0.2~postinstall: wrappy@1.0.2
+1935 verbose rebuild bundle /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/yallist
+1936 info build /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/yallist
+1937 info lifecycle yallist@3.0.2~preinstall: yallist@3.0.2
+1938 info linkStuff yallist@3.0.2
+1939 silly linkStuff yallist@3.0.2 has /Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules as its parent node_modules
+1940 info lifecycle yallist@3.0.2~install: yallist@3.0.2
+1941 info lifecycle yallist@3.0.2~postinstall: yallist@3.0.2
+1942 info lifecycle fsevents@1.2.4~install: fsevents@1.2.4
+1943 verbose lifecycle fsevents@1.2.4~install: unsafe-perm in lifecycle true
+1944 verbose lifecycle fsevents@1.2.4~install: PATH: /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/tobias/.atom/packages/script/node_modules/fsevents/node_modules/.bin:/Users/tobias/.atom/packages/script/node_modules/.bin:/Applications/Atom.app/Contents/Resources/app/apm/bin:/Users/tobias/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin
+1945 verbose lifecycle fsevents@1.2.4~install: CWD: /Users/tobias/.atom/packages/script/node_modules/fsevents
+1946 silly lifecycle fsevents@1.2.4~install: Args: [ '-c', 'node install' ]
+1947 silly lifecycle fsevents@1.2.4~install: Returned: code: 1  signal: null
+1948 info lifecycle fsevents@1.2.4~install: Failed to exec install script
+1949 verbose stack Error: fsevents@1.2.4 install: `node install`
+1949 verbose stack Exit status 1
+1949 verbose stack     at EventEmitter.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/index.js:304:16)
+1949 verbose stack     at EventEmitter.emit (events.js:182:13)
+1949 verbose stack     at ChildProcess.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+1949 verbose stack     at ChildProcess.emit (events.js:182:13)
+1949 verbose stack     at maybeClose (internal/child_process.js:961:16)
+1949 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+1950 verbose pkgid fsevents@1.2.4
+1951 verbose cwd /Users/tobias/.atom/packages/script
+1952 verbose Darwin 19.0.0
+1953 verbose argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/Users/tobias/.atom/.apm/.apmrc" "--userconfig" "/Users/tobias/.atom/.apmrc" "rebuild" "--target=4.2.7" "--disturl=https://atom.io/download/electron" "--arch=x64"
+1954 verbose node v10.2.1
+1955 verbose npm  v6.2.0
+1956 error code ELIFECYCLE
+1957 error errno 1
+1958 error fsevents@1.2.4 install: `node install`
+1958 error Exit status 1
+1959 error Failed at the fsevents@1.2.4 install script.
+1959 error This is probably not a problem with npm. There is likely additional logging output above.
+1960 verbose exit [ 1, true ]

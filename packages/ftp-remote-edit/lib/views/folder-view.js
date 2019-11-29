@@ -2,7 +2,6 @@
 
 import { $, View } from 'atom-space-pen-views';
 import ServerView from './server-view.js';
-import { showMessage } from './../helper/helper.js';
 
 class FolderView extends View {
 
@@ -24,12 +23,28 @@ class FolderView extends View {
     });
   }
 
+  serialize() {
+    const self = this;
+
+    let children = [];
+    if ((self.isExpanded())) {
+      self.entries.children().each((index, child) => {
+        children.push($(child).view().serialize())
+      });
+    }
+
+    return {
+      type: 'folder',
+      id: self.id,
+      expanded: self.isExpanded(),
+      children: children
+    };
+  }
+
   initialize(config, parent) {
     const self = this;
 
-    self.onDidAddServer = (server) => { }
-    self.onDidAddFolder = (folder) => { }
-
+    self.state = {};
     self.config = config;
     self.parent = parent;
     self.expanded = false;
@@ -41,8 +56,11 @@ class FolderView extends View {
     self.label.text(self.name);
     self.label.addClass('icon-file-submodule');
 
-
     self.attr('id', self.id);
+
+    // Callbacks
+    self.onDidAddServer = (server) => { }
+    self.onDidAddFolder = (folder) => { }
 
     // Events
     self.on('click', (e) => {
@@ -56,6 +74,26 @@ class FolderView extends View {
     self.on('dragenter', (e) => { e.stopPropagation(); return false; });
     self.on('dragleave', (e) => { e.stopPropagation(); return false; });
 
+    // Restore state
+    if (self.state.expanded) {
+      self.expand();
+    }
+  }
+
+  restoreState(state) {
+    const self = this;
+
+    self.state = state;
+    if (self.state.expanded) {
+      self.expand();
+
+      // Restore previous state of children
+      self.entries.children().each((index, childNode) => {
+        let folderOrServer = $(childNode).view();
+        let foundState = self.state.children.find((item) => item.id == folderOrServer.id);
+        folderOrServer.restoreState((foundState !== undefined) ? foundState : {});
+      });
+    }
   }
 
   destroy() {
@@ -85,7 +123,6 @@ class FolderView extends View {
         self.addServer(config);
       }
     });
-
   }
 
   isExpanded() {

@@ -85,8 +85,10 @@
       "autocomplete-paths"
       "quick-highlight"
       "atom-bootstrap4"
-      "one-vibrancy"
       "run-command"
+      "script"
+      "ftp-remote-edit"
+      "one-vibrancy"
     ]
     ignoredNames: [
       ".git"
@@ -163,7 +165,8 @@
   "linter-scss-lint": {}
   "linter-twig": {}
   "linter-ui-default":
-    panelHeight: 300
+    panelHeight: 128.5
+    showPanel: true
   livereload:
     applyImageLive: true
   "markdown-preview": {}
@@ -296,8 +299,10 @@
     maximumWidth: 380
     minimumWidth: 260
     padding: 15
+  "tree-view-finder": {}
   "tree-view-git-status":
-    gitFlow: {}
+    gitFlow:
+      display_type: 2
   "vibrance-ui":
     vibrancy: true
   wakatime:

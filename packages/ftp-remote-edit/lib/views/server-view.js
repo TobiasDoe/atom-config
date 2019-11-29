@@ -11,7 +11,9 @@ import FileView from './file-view.js';
 const shortHash = require('short-hash');
 const md5 = require('md5');
 const Path = require('path');
+const Extend = require('util')._extend;
 const tempDirectory = require('os').tmpdir();
+const PromptPassDialog = require('./../dialogs/prompt-pass-dialog');
 
 class ServerView extends View {
 
@@ -36,18 +38,26 @@ class ServerView extends View {
   serialize() {
     const self = this;
 
+    let children = [];
+    if ((self.isExpanded())) {
+      self.entries.children().each((index, child) => {
+        children.push($(child).view().serialize())
+      });
+    }
+
     return {
+      type: 'server',
       id: self.id,
-      config: self.config,
-      name: self.name,
-      path: self.getPath(false),
+      expanded: self.isExpanded(),
+      children: children
     };
   }
 
   initialize(config) {
     const self = this;
 
-    self.config = config;
+    self.state = {};
+    self.config = Extend({}, config);
     self.expanded = false;
     self.finderItemsCache = null;
 
@@ -79,6 +89,22 @@ class ServerView extends View {
     self.on('dragstart', (e) => self.onDragStart(e));
     self.on('dragenter', (e) => self.onDragEnter(e));
     self.on('dragleave', (e) => self.onDragLeave(e));
+  }
+
+  restoreState(state) {
+    const self = this;
+
+    self.state = state;
+    if (self.state.expanded) {
+      self.expand().then(() => {
+        // Restore previous state of children
+        self.entries.children().each((index, childNode) => {
+          let directory = $(childNode).view();
+          let foundState = self.state.children.find((item) => item.id == directory.id);
+          directory.restoreState((foundState !== undefined) ? foundState : {});
+        });
+      }).catch(() => { });
+    }
   }
 
   destroy() {
@@ -151,7 +177,7 @@ class ServerView extends View {
     if (!element) element = self;
     if (!element.label) return;
 
-    element.label.addClass('icon-sync').addClass('spin');
+    element.label.addClass('icon-sync').addClass('loading-spin');
   }
 
   removeSyncIcon(element = null) {
@@ -160,7 +186,23 @@ class ServerView extends View {
     if (!element) element = self;
     if (!element.label) return;
 
-    element.label.removeClass('icon-sync').removeClass('spin');
+    element.label.removeClass('icon-sync').removeClass('loading-spin');
+  }
+
+  promptPassword() {
+    const self = this;
+    const dialog = new PromptPassDialog('Enter server password:');
+
+    let promise = new Promise((resolve, reject) => {
+      dialog.on('dialog-done', (e, password) => {
+        self.config.password = password;
+        dialog.close();
+        resolve(true);
+      });
+      dialog.attach();
+    });
+
+    return promise;
   }
 
   expand() {
@@ -168,6 +210,15 @@ class ServerView extends View {
 
     let promise = new Promise((resolve, reject) => {
       if (self.isExpanded()) return resolve(true);
+
+      if (self.config.logon == 'passwordprompt' && !self.config.password) {
+        self.promptPassword().then(() => {
+          return self.expand().catch((err) => {
+            self.config.password = "";
+          });
+        });
+        return resolve(false);
+      }
 
       self.addSyncIcon();
       self.getConnector().listDirectory(self.getPath()).then((list) => {
@@ -243,6 +294,9 @@ class ServerView extends View {
 
         resolve(true);
       }).catch((err) => {
+        if (self.config.logon == 'passwordprompt' && self.config.password) {
+          self.config.password = "";
+        }
         self.collapse();
         showMessage(err.message, 'error');
         reject(err);

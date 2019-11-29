@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
-  "_id": "wakatime@7.1.1",
+  "_from": "https://www.atom.io/api/packages/wakatime/versions/7.1.2/tarball",
+  "_id": "wakatime@7.1.2",
   "_inBundle": false,
-  "_integrity": "sha512-8Pnrs0Pmc0g1/Vd+eGtA7nI2qq8ZYNpULUqEkcTLWXx+hyO4qbCNxbrBpJ5Mh7pn/igQc1aOb+AR/+eSHgqtjw==",
+  "_integrity": "sha512-nIscG3W4hOSb3OCsFLQzdojqVEvz08ueenNOsrOTyDjz69JPtsCgzV4O0LU4sqnZkHnFcTi/tB9w7fEM3zbS7g==",
   "_location": "/wakatime",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball"
+    "raw": "https://www.atom.io/api/packages/wakatime/versions/7.1.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/wakatime/versions/7.1.2/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
-  "_shasum": "ca2efe0628eaa15d7118f1b2d6b0bc4062afec27",
-  "_spec": "https://www.atom.io/api/packages/wakatime/versions/7.1.1/tarball",
-  "_where": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-119421-71820-1gpouf0.v27q",
+  "_resolved": "https://www.atom.io/api/packages/wakatime/versions/7.1.2/tarball",
+  "_shasum": "8f37af750966a7842ee05c6cce709b2e60a0abd0",
+  "_spec": "https://www.atom.io/api/packages/wakatime/versions/7.1.2/tarball",
+  "_where": "/private/var/folders/wt/s3brrrrj6rx28yf9pk8vz5bc0000gn/T/apm-install-dir-119108-7928-1vudo9k.91ny",
   "author": {
     "name": "WakaTime",
     "email": "support@wakatime.com"
@@ -146,5 +146,5 @@
     "type": "git",
     "url": "git+https://github.com/wakatime/atom-wakatime.git"
   },
-  "version": "7.1.1"
+  "version": "7.1.2"
 }

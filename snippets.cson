@@ -22,8 +22,8 @@
     'prefix': 'span'
     'body': '<span class="$1">$0</span>'
 
-    
-    
+
+
 '.html.text.vue':
   'v-for->vue':
     'prefix': 'v-for'

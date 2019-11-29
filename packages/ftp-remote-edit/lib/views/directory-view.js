@@ -33,18 +33,25 @@ class DirectoryView extends View {
   serialize() {
     const self = this;
 
+    let children = [];
+    if ((self.isExpanded())) {
+      self.entries.children().each((index, child) => {
+        children.push($(child).view().serialize())
+      });
+    }
+
     return {
+      type: 'directory',
       id: self.id,
-      config: self.config,
-      name: self.name,
-      rights: self.rights,
-      path: self.getPath(false),
+      expanded: children.length > 0 && self.isExpanded(),
+      children: children
     };
   }
 
   initialize(parent, directory) {
     const self = this;
 
+    self.state = {};
     self.parent = parent;
     self.config = parent.config;
     self.expanded = false;
@@ -74,6 +81,22 @@ class DirectoryView extends View {
     self.on('dragstart', (e) => self.onDragStart(e));
     self.on('dragenter', (e) => self.onDragEnter(e));
     self.on('dragleave', (e) => self.onDragLeave(e));
+  }
+
+  restoreState(state) {
+    const self = this;
+
+    self.state = state;
+    if (self.state.expanded) {
+      self.expand().then(() => {
+        // Restore previous state of children
+        self.entries.children().each((index, childNode) => {
+          let directoryOrFile = $(childNode).view();
+          let foundState = self.state.children.find((item) => item.id == directoryOrFile.id);
+          directoryOrFile.restoreState((foundState !== undefined && foundState.type == 'directory') ? foundState : {});
+        });
+      }).catch(() => { });
+    }
   }
 
   destroy() {
@@ -118,7 +141,7 @@ class DirectoryView extends View {
     if (!element) element = self;
     if (!element.label) return;
 
-    element.label.addClass('icon-sync').addClass('spin');
+    element.label.addClass('icon-sync').addClass('loading-spin');
   }
 
   removeSyncIcon(element = null) {
@@ -127,7 +150,7 @@ class DirectoryView extends View {
     if (!element) element = self;
     if (!element.label) return;
 
-    element.label.removeClass('icon-sync').removeClass('spin');
+    element.label.removeClass('icon-sync').removeClass('loading-spin');
   }
 
   expand() {

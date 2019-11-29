@@ -1,3 +1,51 @@
+## 3.9.0
+
+### New font
+
+-   Office Code Pro D, the Office Code variant with dotted zero
+
+
+### Other
+
+-   Use more consistent order for fonts in font selection and package settings windows. 
+
+## 3.8.0
+
+### New font
+
+-   Victor Mono, with both oblique and true italic faces.
+
+### Maintenance
+
+-   Generator script became smarter. For one, it doesn't count
+    font variants as different fonts anymore. For two, defining
+    font families with a lot of variants became easier. See contribution
+    guide for a more or less comprehensive description.
+
+## 3.7.2
+
+-   Fix cascadia code style
+
+## 3.7.1
+
+-   Compress cascadia-code to woff2
+
+## 3.7.0
+
+-   Add Microsoft Cascadia Code
+
+## 3.6.0
+
+-   Bump FiraCode to v2, add FiraCode Retina
+
+## 3.5.0
+
+### New font
+
+With many thanks to [Sighery](https://github.com/Sighery)
+
+-   Fantasque Sans Mono variant without loop k
+
 ## 3.4.0
 
 ### New fonts

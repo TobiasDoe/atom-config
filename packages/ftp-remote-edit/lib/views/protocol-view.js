@@ -1,6 +1,6 @@
 'use babel';
 
-import { ScrollView } from 'atom-space-pen-views';
+import { $, ScrollView } from 'atom-space-pen-views';
 
 const FTP_REMOTE_EDIT_PROTOCOL_URI = 'h3imdall://ftp-remote-edit-protocol';
 const Queue = require('./../helper/queue.js');
@@ -26,19 +26,19 @@ class ProtocolView extends ScrollView {
     });
   }
 
+  serialize() {
+    return {};
+  }
+
   initialize(state) {
     super.initialize(state)
     const self = this;
 
-    atom.workspace.addOpener(uri => {
-      if (uri === FTP_REMOTE_EDIT_PROTOCOL_URI) {
-        return self;
-      }
-    });
-    atom.workspace.open(FTP_REMOTE_EDIT_PROTOCOL_URI, { activatePane: false, activateItem: false });
+    self.state = state;
 
     self.head.prepend(`<tr><th>Local file</th><th>Direction</th><th>Remote file</th><th>Size</th><th>Progress</th><th>Status</th></tr>`);
-
+    
+    // Events
     try {
       Queue.onDidAddFile = (item) => {
         self.list.prepend(item);
@@ -54,7 +54,7 @@ class ProtocolView extends ScrollView {
           // TODO
         };
 
-        item.onTransferring = () => {     
+        item.onTransferring = () => {
           // TODO
         };
 
@@ -63,11 +63,24 @@ class ProtocolView extends ScrollView {
         };
       };
     } catch (e) { console.log(e); }
+
+    // Show
+    atom.workspace.addOpener(uri => {
+      if (uri === FTP_REMOTE_EDIT_PROTOCOL_URI) {
+        return self;
+      }
+    });
+    atom.workspace.open(FTP_REMOTE_EDIT_PROTOCOL_URI, { activatePane: false, activateItem: false });
   }
 
   destroy() {
     const self = this;
 
+    if (self.list) {
+      if (self.list.children()) {
+        self.list.children().detach();
+      }
+    }
     self.remove();
   }
 
